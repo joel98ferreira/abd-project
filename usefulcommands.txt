@@ -1,3 +1,6 @@
+# Copiar pasta scripts para servidor na google cloud
+gcloud compute scp --recurse ./scripts/ server-100:
+
 # Backup da base de dados
 pg_dump -h server-joel -Fc tpcc > tpcc.dump
 

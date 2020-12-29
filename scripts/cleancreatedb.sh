@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# ---------------------------------------------------
+#    CLEAN DATABASE AND CREATE A NEW ONE BY A GIVEN 
+#             NUMBER OF WAREHOUSES SCRIPT
+#                     ABD UMINHO
+# ---------------------------------------------------
+
 helpFunction(){
    echo ""
    echo "Usage: $0 -s dbServerName -w nrWarehouses"
@@ -29,21 +35,6 @@ fi
 # Drop database
 dropdb -h $dbServerName tpcc
 
-# Create a new database
-createdb -h $dbServerName tpcc
+# Run the script to create the db again
+sh ~/scripts/auxiliary_scripts/createdb.sh $dbServerName $nrWarehouses
 
-# Load SQL scripts
-cd ~/tpc-c-0.1-SNAPSHOT
-psql -h $dbServerName tpcc < etc/sql/postgresql/createtable.sql
-psql -h $dbServerName tpcc < etc/sql/postgresql/createindex.sql
-for i in etc/sql/postgresql/*01; do psql -h $dbServerName tpcc < $i; done
-
-# Define the number of warehouses
-sed -i.bak "s/^tpcc.number.warehouses=.*/tpcc.number.warehouses=$nrWarehouses/g" etc/workload-config.properties
-
-# Execute load script
-./load.sh
-
-# Create extra tables
-cd ~/extra
-psql -h $dbServerName tpcc < createExtraTables.sql
