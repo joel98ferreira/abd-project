@@ -7,8 +7,8 @@ pg_restore -h server-joel -c -d tpcc < tpcc.dump
 # Correr carga transacional (pasta: ~/tpc-c-0.1-SNAPSHOT)
 ./run.sh
 
-# Copiar ficheiro resultante do run para máquina local (correr este comando dentro da pasta de benchmark/results/<nwarehouses>)
-gcloud compute scp bench-joel:~/tpc-c-0.1-SNAPSHOT/TPCC* .
+# Copiar ficheiro resultante do run para máquina local (correr este comando dentro da pasta de benchmark/results/<nclients>)
+gcloud compute scp bench-joel:~/tpc-c-0.1-SNAPSHOT/TPCC\* .
 
 # Ver resultados do benchmark na linha de comandos
 ./showtpc.py -bc TPCC.......dat
