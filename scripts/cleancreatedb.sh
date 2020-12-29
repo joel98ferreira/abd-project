@@ -39,10 +39,11 @@ psql -h $dbServerName tpcc < etc/sql/postgresql/createindex.sql
 for i in etc/sql/postgresql/*01; do psql -h $dbServerName tpcc < $i; done
 
 # Define the number of warehouses
-sed -i 's/^tpcc.number.warehouses=.*/tpcc.number.warehouses=$nrWarehouses' etc/workload-config.properties
+sed -i.bak "s/^tpcc.number.warehouses=.*/tpcc.number.warehouses=$nrWarehouses/g" etc/workload-config.properties
 
 # Execute load script
 ./load.sh
 
 # Create extra tables
-psql -h $dbServerName tpcc < ~/extra/createExtraTables.sql
+cd ~/extra
+psql -h $dbServerName tpcc < createExtraTables.sql
