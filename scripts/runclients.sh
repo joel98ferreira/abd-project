@@ -9,8 +9,8 @@
 helpFunction(){
    echo ""
    echo "Usage: $0 -w nrWarehouses -c nrClients"
-   echo -e "\t-w Define the Number of Clients"
-   echo -e "\t-c Define the Number of Warehouses"
+   echo -e "\t-w Define the Number of Warehouses"
+   echo -e "\t-c Define the Number of Clients"
    exit 1 # Exit script after printing help
 }
 
@@ -18,13 +18,13 @@ while getopts "c:w:" opt
 do
    case "$opt" in
       w ) nrWarehouses="$OPTARG" ;;
-      s ) dbServerName="$OPTARG" ;;
+      c ) nrClients="$OPTARG" ;;
       ? ) helpFunction ;; # Print helpFunction in case parameter is non-existent
    esac
 done
 
-# Print helpFunction in case number of warehouses or db server name was not provided
-if [ -z "$nrWarehouses" ] || [ -z "$dbServerName" ]
+# Print helpFunction in case number of warehouses or number of clients was not provided
+if [ -z "$nrWarehouses" ] || [ -z "$nrClients" ]
 then
    echo "Some or all of the parameters are empty.";
    helpFunction
@@ -32,9 +32,15 @@ fi
 
 # Begin script in case all parameters are correct
 
-# Drop database
-dropdb -h $dbServerName tpcc
+# Cd to the correct directory
+cd ~/tpc-c-0.1-SNAPSHOT
 
-# Run the script to create the db again
-sh ~/scripts/auxiliary_scripts/createdb.sh $dbServerName $nrWarehouses
+# Define the number of warehouses
+sed -i.bak "s/^tpcc.number.warehouses=.*/tpcc.number.warehouses=$nrWarehouses/g" etc/workload-config.properties
 
+# Define the number of clients
+sed -i.bak "s/^tpcc.numclients =.*/tpcc.numclients = $nrClients/g" etc/workload-config.properties
+
+# Run the transaction script
+echo ">>>>>>> Running the transaction script..."
+sh ~/tpc-c-0.1-SNAPSHOT/run.sh
