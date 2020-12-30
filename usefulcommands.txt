@@ -1,5 +1,42 @@
+##################################################################################
+#								 COMANDOS SCRIPTS 								 #
+##################################################################################
+
 # Copiar pasta scripts para servidor na google cloud
-gcloud compute scp --recurse ./scripts/ server-100:
+gcloud compute scp --recurse ./scripts/ server-joel:
+gcloud compute scp --recurse ./scripts/ bench-joel:
+
+----------------------------- Database Server Side Scripts
+
+# Opção -i é para configurar de início (clean install), -d é para usar discos locais da Google
+./scripts/dbserverconfiguration.sh -a server-joel -n 10.128.0.0 -d -i
+
+# Recuperação depois de dar Restart ao servidor na Google Cloud (só não tem a opção -i)
+./scripts/dbserverconfiguration.sh -a server-joel -n 10.128.0.0 -d
+
+# Apagar pasta data do PostgresSQL e criar uma nova e lançar server, caso se usem discos locais usar opção -d
+./scripts/dbservercleanpostgresdata.sh -a server-joel -n 10.128.0.0 -d
+
+----------------------------- Bench Server Side Scripts
+
+# Fazer clean install do servidor de benchmark, EXECUTA o load.sh
+./scripts/benchmarkconfiguration.sh -s server-joel -u Joel -w 80
+
+# Limpar base de dados previamente configurada (drop tpcc) e EXECUTA o load.sh
+./scripts/cleancreatedb.sh -s server-joel -u Joel -w 80
+
+# Restaurar a base de dados a partir de um ficheiro de backup
+./scripts/restoredb.sh -s server-joel -w 80 -b tpcc.dump
+
+# Correr o script de transações (run.sh) dado o numero de warehouses e clientes
+./scripts/runclients.sh -w 80 -c 20
+
+##################################################################################
+#						     ENF OF COMANDOS SCRIPTS 							 #
+##################################################################################
+
+# Ver tamanho da BD
+SELECT pg_size_pretty( pg_database_size('tpcc') );
 
 # Backup da base de dados
 pg_dump -h server-joel -Fc tpcc > tpcc.dump
