@@ -8,13 +8,13 @@
 
 helpFunction(){
    echo ""
-   echo "Usage: $0 -s dbServerName -w nrWarehouses"
-   echo -e "\t-s Define the PostgreSQL DB Server Name"
-   echo -e "\t-w Define the Number of Warehouses"
+   echo "Usage: $0 -w nrWarehouses -c nrClients"
+   echo -e "\t-w Define the Number of Clients"
+   echo -e "\t-c Define the Number of Warehouses"
    exit 1 # Exit script after printing help
 }
 
-while getopts "s:w:" opt
+while getopts "c:w:" opt
 do
    case "$opt" in
       w ) nrWarehouses="$OPTARG" ;;

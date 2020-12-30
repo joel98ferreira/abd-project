@@ -60,9 +60,6 @@ if [ -n "$LOCALDISKS" ]
       # Run the script to configure the local disks
       sh ~/scripts/auxiliary_scripts/localdisksconfiguration.sh
 
-      # Give ownership
-      sudo chown postgres /mnt/disks/postgresql/
-
       # Change to the install directory
       cd /mnt/disks/postgresql/
    else
