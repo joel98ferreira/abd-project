@@ -8,7 +8,7 @@
 
 helpFunction(){
    echo ""
-   echo "Usage: $0 -a listenAddress -n localNetwork -d"
+   echo "Usage: $0 -a listenAddress -n localNetwork -d(optional) -i(optional)"
    echo -e "\t-a Define the listen address (eg: server) at the postgresql.conf"
    echo -e "\t-n Define the local network (eg: 10.128.0.0) at the pg_hba.conf"
    echo -e "\t-d Option if we want to use local disks from Google Cloud"
@@ -97,8 +97,3 @@ echo -e "host    all             all             $localNetwork/24           trus
 
 # Initialize the server 
 /usr/lib/postgresql/12/bin/postgres -D data -k.
-
-
-
-
-
