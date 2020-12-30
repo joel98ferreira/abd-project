@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # -----------------------------------------------------
-#          BENCHMARK SERVER CONFIGURATION SCRIPT
+#       BENCHMARK SERVER CONFIGURATION - SCRIPT
 #                   ABD UMINHO
 # -----------------------------------------------------
 

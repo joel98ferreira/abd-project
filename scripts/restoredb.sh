@@ -2,7 +2,7 @@
 
 # ---------------------------------------------------
 #        DROP DATABASE AND RESTORE THE DB FROM
-#           A PREVIOUS BACKUP SCRIPT
+#           A PREVIOUS BACKUP - SCRIPT
 #                  ABD UMINHO
 # ---------------------------------------------------
 

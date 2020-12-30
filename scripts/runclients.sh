@@ -2,7 +2,7 @@
 
 # ---------------------------------------------------
 #    CLEAN DATABASE AND CREATE A NEW ONE BY A GIVEN 
-#             NUMBER OF WAREHOUSES - SCRIPT
+#             NUMBER OF WAREHOUSES SCRIPT
 #                     ABD UMINHO
 # ---------------------------------------------------
 

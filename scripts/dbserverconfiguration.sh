@@ -50,28 +50,6 @@ then
 
    # Disable postgres
    sudo systemctl disable postgresql
-
-   # Verify if the local disks option is active
-   if [ -n "$LOCALDISKS" ]
-   then
-      echo ">>>>>>>>>>> Using Google Cloud Local Disks In the Initial Configuration."
-      
-      # Run the script to configure the local disks
-      sh ~/scripts/auxiliary_scripts/localdisksconfiguration.sh
-      
-      # Change to the install directory
-      cd /mnt/disks/postgresql/
-   else
-      # Change to the install directory
-      cd 
-   fi
-else # Recover from reboot, where all data was lost
-   
-   # Give permissions to the mounted directory
-   sudo chmod a+rwx /mnt/disks/postgresql
-
-   # Last configuration
-   echo UUID=`sudo blkid -s UUID -o value /dev/disk/by-id/google-local-ssd-0` /mnt/disks/postgresql ext4 discard,defaults,nofail 0 2 | sudo tee -a /etc/fstab
 fi
 
 # Verify if the local disks option is active to change to the correct directory   
@@ -79,12 +57,15 @@ if [ -n "$LOCALDISKS" ]
    then
       echo ">>>>>>>>>>> Using Google Cloud Local Disks."
       
+      # Run the script to configure the local disks
+      sh ~/scripts/auxiliary_scripts/localdisksconfiguration.sh
+
       # Change to the install directory
       cd /mnt/disks/postgresql/
    else
       # Change to the install directory
       cd
-fi       
+fi
 
 # Create configuration data in the current dir
 /usr/lib/postgresql/12/bin/initdb -D data

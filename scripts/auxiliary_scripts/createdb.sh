@@ -39,4 +39,3 @@ else
     echo ">>>>>>>>> Restore initiated..."
     pg_restore -h $dbServerName -c -d tpcc < $backupFile
 fi
-
