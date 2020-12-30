@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ---------------------------------------------------
-#    CLEAN DATABASE AND CREATE A NEW ONE BY A GIVEN 
-#             NUMBER OF WAREHOUSES SCRIPT
+#    RUN THE TRANSACTION SCRIPT FOR A GIVEN NUMBER 
+#         OF CLIENTS AND WAREHOUSES - SCRIPT
 #                     ABD UMINHO
 # ---------------------------------------------------
 
