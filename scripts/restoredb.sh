@@ -8,7 +8,7 @@
 
 helpFunction(){
    echo ""
-   echo "Usage: $0 -s dbServerName -w nrWarehouses-b backupFile"
+   echo "Usage: $0 -s dbServerName -w nrWarehouses -b backupFile"
    echo -e "\t-s Define the PostgreSQL DB Server Name"
    echo -e "\t-w Define the Number of Warehouses"
    echo -e "\t-b Define the backup file path"

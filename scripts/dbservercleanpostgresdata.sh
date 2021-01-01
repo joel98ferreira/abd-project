@@ -48,6 +48,9 @@ if [ -n "$LOCALDISKS" ]
       cd
 fi
 
+# Stop postgres database
+/usr/lib/postgresql/12/bin/pg_ctl stop -D data
+
 # Remove data folder
 sudo rm -rf data
 
@@ -61,4 +64,4 @@ sed -i.bak "s/^#listen_addresses =.*/listen_addresses ='localhost,$listenAddress
 echo -e "host    all             all             $localNetwork/24           trust" >> data/pg_hba.conf
 
 # Initialize the server 
-/usr/lib/postgresql/12/bin/postgres -D data -k.
+/usr/lib/postgresql/12/bin/postgres -D data -k. </dev/null &>/dev/null &

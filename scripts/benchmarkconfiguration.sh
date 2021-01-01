@@ -7,7 +7,7 @@
 
 helpFunction(){
    echo ""
-   echo "Usage: $0 -s dbServerName -u dbUser"
+   echo "Usage: $0 -s dbServerName -u dbUser -w nrWarehouses"
    echo -e "\t-s Define the server name"
    echo -e "\t-u Define the database user"
    echo -e "\t-w Define the Number of Warehouses"
