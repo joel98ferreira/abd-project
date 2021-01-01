@@ -19,6 +19,8 @@ gcloud compute scp --recurse ./scripts/ bench-joel:
 
 ----------------------------- Bench Server Side Scripts
 
+# IMPORTANTE: Para os scripts de teste automáticos (autotest_*) verificar sempre os parâmetros antes de correr
+
 # Fazer clean install do servidor de benchmark, EXECUTA o load.sh
 ./scripts/benchmarkconfiguration.sh -s server-joel -u Joel -w 80
 
@@ -28,8 +30,9 @@ gcloud compute scp --recurse ./scripts/ bench-joel:
 # Restaurar a base de dados a partir de um ficheiro de backup
 ./scripts/restoredb.sh -s server-joel -w 80 -b tpcc.dump
 
-# Correr o script de transações (run.sh) dado o numero de warehouses e clientes
-./scripts/runclients.sh -w 80 -c 100
+# Correr o script de transações (run.sh) dado servidor, user da base de dados e o numero de warehouses e clientes
+# Vai alterar o database.properties do tpcc, antes não o fazia e quando queríamos testar num server diferente do inicial foi necessário isto.
+./scripts/runclients.sh -s server-joel -u Joel -w 80 -c 100
 
 ##################################################################################
 #						     ENF OF COMANDOS SCRIPTS 							 #
