@@ -6,7 +6,7 @@
 
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh server-archiving Joel 80 dump.file 100 "#archive_mode =" "archive_mode = off" ~/results/archiving/archive_mode archive_mode_off
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh server-archiving Joel 80 dump.file 100 "#archive_mode =" "archive_mode = on" ~/results/archiving/archive_mode archive_mode_on.dat
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-archiving Joel 80 dump.file 100 "#archive_mode =" "archive_mode = on" ~/results/archiving/archive_mode archive_mode_on
 
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh server-archiving Joel 80 dump.file 100 "#archive_mode =" "archive_mode = always" ~/results/archiving/archive_mode archive_mode_always
 
