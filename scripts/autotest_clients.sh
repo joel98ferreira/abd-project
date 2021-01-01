@@ -1,25 +1,30 @@
 #!/bin/bash
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 10 ~/results/clients 80warehouses_10clients
+dbServerName = $1
+dbUser = $2
+nrWarehouses = $3
+backupFile = $4
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 20 ~/results/clients 80warehouses_20clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 10 ~/results/clients $nrWarehouseswarehouses_10clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 30 ~/results/clients 80warehouses_30clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 20 ~/results/clients $nrWarehouseswarehouses_20clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 40 ~/results/clients 80warehouses_40clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 30 ~/results/clients $nrWarehouseswarehouses_30clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 50 ~/results/clients 80warehouses_50clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 40 ~/results/clients $nrWarehouseswarehouses_40clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 60 ~/results/clients 80warehouses_60clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 50 ~/results/clients $nrWarehouseswarehouses_50clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 70 ~/results/clients 80warehouses_70clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 60 ~/results/clients $nrWarehouseswarehouses_60clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 80 ~/results/clients 80warehouses_80clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 70 ~/results/clients $nrWarehouseswarehouses_70clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 90 ~/results/clients 80warehouses_90clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 80 ~/results/clients $nrWarehouseswarehouses_80clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 100 ~/results/clients 80warehouses_100clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 90 ~/results/clients $nrWarehouseswarehouses_90clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 110 ~/results/clients 80warehouses_110clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 100 ~/results/clients $nrWarehouseswarehouses_100clients
 
-~/scripts/auxiliary_scripts/autorun_clients.sh server-settings Joel 80 ~/tpcc80_joel.dump 120 ~/results/clients 80warehouses_120clients
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 110 ~/results/clients $nrWarehouseswarehouses_110clients
+
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 120 ~/results/clients $nrWarehouseswarehouses_120clients

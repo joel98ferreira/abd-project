@@ -6,6 +6,20 @@
 gcloud compute scp --recurse ./scripts/ server-joel:
 gcloud compute scp --recurse ./scripts/ bench-joel:
 
+----------------------------- Testes Automáticos (Bench Server Side)
+
+# Teste automático para os clientes (80 warehouses), dump.file precisa de ser o path completo 
+./autotest_clients.sh server-joel Joel 80 dump.file
+
+# Teste automático para as settings (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
+./autotest_settings.sh server-joel Joel 80 dump.file 100
+
+# Teste automático para o archiving (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
+./autotest_archiving.sh server-joel Joel 80 dump.file 100
+
+# Teste automático para o checkpoint (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
+./autotest_checkpoint.sh server-joel Joel 80 dump.file 100
+
 ----------------------------- Database Server Side Scripts
 
 # Opção -i é para configurar de início (clean install), -d é para usar discos locais da Google
@@ -18,8 +32,6 @@ gcloud compute scp --recurse ./scripts/ bench-joel:
 ./scripts/dbservercleanpostgresdata.sh -a server-joel -n 10.128.0.0 -d
 
 ----------------------------- Bench Server Side Scripts
-
-# IMPORTANTE: Para os scripts de teste automáticos (autotest_*) verificar sempre os parâmetros antes de correr
 
 # Fazer clean install do servidor de benchmark, EXECUTA o load.sh
 ./scripts/benchmarkconfiguration.sh -s server-joel -u Joel -w 80

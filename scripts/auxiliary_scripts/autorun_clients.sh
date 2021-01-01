@@ -16,5 +16,5 @@ echo ">>>>>>>>>>>>> Run transactional script."
 ~/scripts/runclients.sh -s $1 -u $2 -w $4 -c $5
 
 echo ">>>>>>>>>>>>> Changing file name."
-mkdir -p $5 && cd $6
+mkdir -p $6 && cd $6
 mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat ./$7.dat
