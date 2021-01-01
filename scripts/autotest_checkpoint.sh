@@ -4,73 +4,62 @@
 #                  CHECKPOINT TIMEOUT                #
 ######################################################
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint 80 ~/tpcc80_joel.dump 100 "#fsync =" "fsync = off"  ~/results/clients 80warehouses_10clients
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_timeout =" "checkpoint_timeout = 1min" ~/results/settings/checkpoint_timeout checkpoint_timeout_1min
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_timeout =" "checkpoint_timeout = 2min" ~/results/settings/checkpoint_timeout checkpoint_timeout_2min
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_timeout =" "checkpoint_timeout = 5min" ~/results/settings/checkpoint_timeout checkpoint_timeout_5min
 
 ######################################################
-#                  SYNCHRONOUS COMMIT                #
+#                     MAX WAL SIZE                   #
 ######################################################
 
-~/scripts/autorun_optimizations.sh "#synchronous_commit =" "synchronous_commit = off" ~/results/settings/synchronous_commit synchronous_commit_off
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "max_wal_size =" "max_wal_size = 2GB" ~/results/settings/max_wal_size max_wal_size_2GB
 
-~/scripts/autorun_optimizations.sh "#synchronous_commit =" "synchronous_commit = remote_write" ~/results/settings/synchronous_commit synchronous_commit_remote_write
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "max_wal_size =" "max_wal_size = 3GB" ~/results/settings/max_wal_size max_wal_size_3GB
 
-~/scripts/autorun_optimizations.sh "#synchronous_commit =" "synchronous_commit = local" ~/results/settings/synchronous_commit synchronous_commit_local
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "max_wal_size =" "max_wal_size = 4GB" ~/results/settings/max_wal_size max_wal_size_4GB
 
-~/scripts/autorun_optimizations.sh "#synchronous_commit =" "synchronous_commit = remote_apply" ~/results/settings/synchronous_commit synchronous_commit_remote_apply
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "max_wal_size =" "max_wal_size = 5GB" ~/results/settings/max_wal_size max_wal_size_5GB
 
-######################################################
-#                     WAL SYNC METHOD                #
-######################################################
-
-~/scripts/autorun_optimizations.sh "#wal_sync_method =" "wal_sync_method = fsync" ~/results/settings/wal_sync_method wal_sync_method_fsync
-
-~/scripts/autorun_optimizations.sh "#wal_sync_method =" "wal_sync_method = open_datasync" ~/results/settings/wal_sync_method wal_sync_method_open_datasync
-
-~/scripts/autorun_optimizations.sh "#wal_sync_method =" "wal_sync_method = open_sync" ~/results/settings/wal_sync_method wal_sync_method_open_sync
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "max_wal_size =" "max_wal_size = 6GB" ~/results/settings/max_wal_size max_wal_size_6GB
 
 ######################################################
-#                    FULL PAGE WRITES                #
+#                     MIN WAL SIZE                   #
 ######################################################
 
-~/scripts/autorun_optimizations.sh "#full_page_writes =" "full_page_writes = off" ~/results/settings/full_page_writes full_page_writes_off
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "min_wal_size =" "min_wal_size = 80MB" ~/results/settings/min_wal_size min_wal_size_80MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "min_wal_size =" "min_wal_size = 160MB" ~/results/settings/min_wal_size min_wal_size_160MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "min_wal_size =" "min_wal_size = 320MB" ~/results/settings/min_wal_size min_wal_size_320MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "min_wal_size =" "min_wal_size = 640MB" ~/results/settings/min_wal_size min_wal_size_640MB
 
 ######################################################
-#                       WAL BUFFERS                  #
+#            CHECKPOINT COMPLETION TARGET            #
 ######################################################
 
-~/scripts/autorun_optimizations.sh "#wal_buffers =" "wal_buffers = 2MB" ~/results/settings/wal_buffers wal_buffers_2MB
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_completion_target =" "checkpoint_completion_target = 0.0" ~/results/settings/checkpoint_completion_target checpoint_completion_target_00
 
-~/scripts/autorun_optimizations.sh "#wal_buffers =" "wal_buffers = 4MB" ~/results/settings/wal_buffers wal_buffers_4MB
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_completion_target =" "checkpoint_completion_target = 0.2" ~/results/settings/checkpoint_completion_target checpoint_completion_target_02
 
-~/scripts/autorun_optimizations.sh "#wal_buffers =" "wal_buffers = 8MB" ~/results/settings/wal_buffers wal_buffers_8MB
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_completion_target =" "checkpoint_completion_target = 0.5" ~/results/settings/checkpoint_completion_target checpoint_completion_target_05
 
-~/scripts/autorun_optimizations.sh "#wal_buffers =" "wal_buffers = 16MB" ~/results/settings/wal_buffers wal_buffers_16MB
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_completion_target =" "checkpoint_completion_target = 0.8" ~/results/settings/checkpoint_completion_target checpoint_completion_target_08
 
-~/scripts/autorun_optimizations.sh "#wal_buffers =" "wal_buffers = 32MB" ~/results/settings/wal_buffers wal_buffers_32MB
-
-######################################################
-#                       COMMIT DELAY                 #
-######################################################
-
-~/scripts/autorun_optimizations.sh "#commit_delay =" "commit_delay = 10" ~/results/settings/commit_delay commit_delay_10
-
-~/scripts/autorun_optimizations.sh "#commit_delay =" "commit_delay = 200" ~/results/settings/commit_delay commit_delay_200
-
-~/scripts/autorun_optimizations.sh "#commit_delay =" "commit_delay = 500" ~/results/settings/commit_delay commit_delay_500
-
-~/scripts/autorun_optimizations.sh "#commit_delay =" "commit_delay = 1000" ~/results/settings/commit_delay commit_delay_1000
-
-~/scripts/autorun_optimizations.sh "#commit_delay =" "commit_delay = 1500" ~/results/settings/commit_delay commit_delay_1500
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "#checkpoint_completion_target =" "checkpoint_completion_target = 1.0" ~/results/settings/checkpoint_completion_target checpoint_completion_target_10
 
 ######################################################
-#                       COMMIT SIBLINGS              #
+#                    CHECKPOINT WARNING              #
 ######################################################
 
-~/scripts/autorun_optimizations.sh "#commit_siblings =" "commit_siblings = 2" ~/results/settings/commit_siblings commit_siblings_2
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "checkpoint_warning =" "checkpoint_warning = 0" ~/results/settings/checkpoint_warning checkpoint_warning_0
 
-~/scripts/autorun_optimizations.sh "#commit_siblings =" "commit_siblings = 4" ~/results/settings/commit_siblings commit_siblings_4
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "checkpoint_warning =" "checkpoint_warning = 10s" ~/results/settings/checkpoint_warning checkpoint_warning_10
 
-~/scripts/autorun_optimizations.sh "#commit_siblings =" "commit_siblings = 8" ~/results/settings/commit_siblings commit_siblings_8
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "checkpoint_warning =" "checkpoint_warning = 30s" ~/results/settings/checkpoint_warning checkpoint_warning_30s
 
-~/scripts/autorun_optimizations.sh "#commit_siblings =" "commit_siblings = 16" ~/results/settings/commit_siblings commit_siblings_16
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "checkpoint_warning =" "checkpoint_warning = 60s" ~/results/settings/checkpoint_warning checkpoint_warning_60s
 
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint Joel 80 dump.file 100 "checkpoint_warning =" "checkpoint_warning = 120s" ~/results/settings/checkpoint_warning checkpoint_warning_120s

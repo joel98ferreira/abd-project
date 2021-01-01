@@ -9,12 +9,12 @@ sleep 30s
 
 # Execute the restore script
 echo ">>>>>>>>>>>>> Restoring started."
-~/scripts/restoredb.sh -s $1 -w $2 -b $3
+~/scripts/restoredb.sh -s $1 -w $4 -b $4
 
 # Run the transaction script
 echo ">>>>>>>>>>>>> Run transactional script."
-~/scripts/runclients.sh -w $2 -c $4
+~/scripts/runclients.sh -s $1 -u $2 -w $4 -c $5
 
 echo ">>>>>>>>>>>>> Changing file name."
-mkdir -p $5 && cd $5
-mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat ./$6.dat
+mkdir -p $5 && cd $6
+mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat ./$7.dat
