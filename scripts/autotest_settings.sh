@@ -4,7 +4,7 @@
 #                         FSYNC                      #
 ######################################################
 
-~/scripts/autorun_optimizations.sh "#fsync =" "fsync = off" ~/results/settings/fsync fsync.dat
+~/scripts/autorun_optimizations.sh "#fsync =" "fsync = off" ~/results/settings/fsync fsync
 
 ######################################################
 #                  SYNCHRONOUS COMMIT                #

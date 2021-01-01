@@ -1,10 +1,10 @@
 #!/bin/bash
 
 ######################################################
-#                         FSYNC                      #
+#                  CHECKPOINT TIMEOUT                #
 ######################################################
 
-~/scripts/autorun_optimizations.sh "#fsync =" "fsync = off" ~/results/settings/fsync fsync.dat
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint 80 ~/tpcc80_joel.dump 100 "#fsync =" "fsync = off"  ~/results/clients 80warehouses_10clients
 
 ######################################################
 #                  SYNCHRONOUS COMMIT                #
