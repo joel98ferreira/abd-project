@@ -11,14 +11,14 @@ sleep 30s
 echo ">>>>>>>>>>>>> Restoring started."
 ~/scripts/restoredb.sh -s server-joel -w 80 -b tpcc80_joel.dump
 
-# Stop the postgresql server
-gcloud compute ssh --zone us-central1-a server-joel --command '~/scripts/dbservercleanpostgresdata.sh -a server-joel -n 10.128.0.0 -d'
+# Stop the postgresql server & execute the optimization
+gcloud compute ssh --zone us-central1-a server-joel --command '/usr/lib/postgresql/12/bin/pg_ctl stop -D /mnt/disks/postgresql/data'
 
-# Execute the optimization
-sed -i.bak "s/^$1.*/$2/g" data/postgresql.conf
+# Edit the postgresql.conf with the optimization
+gcloud compute ssh --zone us-central1-a server-joel --command "sed -i.bak "s/^$1.*/$2/g" /mnt/disks/postgresql/data/postgresql.conf"
 
 # Start the postgresql server
-gcloud compute ssh --zone us-central1-a server-joel --command '~/scripts/dbservercleanpostgresdata.sh -a server-joel -n 10.128.0.0 -d'
+gcloud compute ssh --zone us-central1-a server-joel --command '/usr/lib/postgresql/12/bin/postgres -D /mnt/disks/postgresql/data -k. </dev/null &>/dev/null &'
 
 # Run the transaction script
 echo ">>>>>>>>>>>>> Run transactional script."

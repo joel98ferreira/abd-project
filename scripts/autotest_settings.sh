@@ -73,4 +73,3 @@
 ~/scripts/autorun_optimizations.sh "#commit_siblings =" "commit_siblings = 8" ~/results/settings/commit_siblings commit_siblings_8
 
 ~/scripts/autorun_optimizations.sh "#commit_siblings =" "commit_siblings = 16" ~/results/settings/commit_siblings commit_siblings_16
-
