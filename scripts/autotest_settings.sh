@@ -1,10 +1,10 @@
 #!/bin/bash
 
-dbServerName = $1
-dbUser = $2
-nrWarehouses = $3
-backupFile = $4
-nrClients = $5
+dbServerName=$1
+dbUser=$2
+nrWarehouses=$3
+backupFile=$4
+nrClients=$5
 
 ######################################################
 #                         FSYNC                      #

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-dbServerName = $1
-dbUser = $2
-nrWarehouses = $3
-backupFile = $4
+dbServerName=$1
+dbUser=$2
+nrWarehouses=$3
+backupFile=$4
 
 ~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 10 ~/results/clients $nrWarehouseswarehouses_10clients
 
