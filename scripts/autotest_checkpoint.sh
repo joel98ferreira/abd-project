@@ -4,7 +4,7 @@
 #                  CHECKPOINT TIMEOUT                #
 ######################################################
 
-~/scripts/autorun_optimizations.sh server-settings 80 dump.file 100 "#checkpoint_timeout =" "checkpoint_timeout = 20s" ~/results/settings/checkpoint_timeout checkpoint_timeout_20s
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint 80 ~/tpcc80_joel.dump 100 "#fsync =" "fsync = off"  ~/results/clients 80warehouses_10clients
 
 ~/scripts/autorun_optimizations.sh server-settings 80 dump.file 100 "#checkpoint_timeout =" "checkpoint_timeout = 1min" ~/results/settings/checkpoint_timeout checkpoint_timeout_1min
 
