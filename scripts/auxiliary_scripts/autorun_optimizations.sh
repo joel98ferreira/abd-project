@@ -27,4 +27,4 @@ echo ">>>>>>>>>>>>> Run transactional script."
 # Create results directory and change file name
 echo ">>>>>>>>>>>>> Changing file name."
 mkdir -p $7 && cd $7
-mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat $8.dat
+mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat ./$8.dat
