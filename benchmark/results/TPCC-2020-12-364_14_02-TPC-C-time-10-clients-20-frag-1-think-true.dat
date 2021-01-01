@@ -1,0 +1,4361 @@
+StartTime:Replica:FinishTime:OperationTime:Result:Access:Type
+995:0:1048:53:beginning:w:tx neworder
+999:0:1051:52:beginning:r:tx orderstatus 02
+1051:0:1065:14:processing:r:tx orderstatus 02
+1065:0:1066:1:committing:r:tx orderstatus 02
+837:0:1067:230:commit:r:tx orderstatus 02
+1048:0:1074:26:processing:w:tx neworder
+1074:0:1075:1:beginning:w:tx neworder
+1074:0:1078:4:committing:w:tx neworder
+786:0:1079:293:commit:w:tx neworder
+1075:0:1083:8:processing:w:tx neworder
+1083:0:1087:4:committing:w:tx neworder
+1074:0:1087:13:commit:w:tx neworder
+1173:0:1173:0:beginning:w:tx neworder
+1174:0:1178:4:processing:w:tx neworder
+1178:0:1182:4:committing:w:tx neworder
+1173:0:1182:9:commit:w:tx neworder
+1330:0:1331:1:beginning:w:tx neworder
+1331:0:1335:4:processing:w:tx neworder
+1335:0:1339:4:committing:w:tx neworder
+1330:0:1339:9:commit:w:tx neworder
+1490:0:1492:2:beginning:w:tx payment 02
+1492:0:1496:4:processing:w:tx payment 02
+1496:0:1498:2:committing:w:tx payment 02
+1490:0:1498:8:commit:w:tx payment 02
+2220:0:2224:4:beginning:w:tx payment 02
+2224:0:2227:3:processing:w:tx payment 02
+2227:0:2229:2:committing:w:tx payment 02
+2220:0:2229:9:commit:w:tx payment 02
+2493:0:2494:1:beginning:r:tx stocklevel
+2499:0:2499:0:beginning:w:tx payment 02
+2494:0:2499:5:processing:r:tx stocklevel
+2499:0:2500:1:committing:r:tx stocklevel
+2493:0:2500:7:commit:r:tx stocklevel
+2499:0:2501:2:processing:w:tx payment 02
+2501:0:2502:1:committing:w:tx payment 02
+2499:0:2502:3:commit:w:tx payment 02
+2513:0:2514:1:beginning:r:tx orderstatus 02
+2514:0:2515:1:processing:r:tx orderstatus 02
+2515:0:2516:1:committing:r:tx orderstatus 02
+2513:0:2516:3:commit:r:tx orderstatus 02
+2535:0:2536:1:beginning:w:tx payment 02
+2536:0:2538:2:processing:w:tx payment 02
+2538:0:2539:1:committing:w:tx payment 02
+2535:0:2539:4:commit:w:tx payment 02
+2630:0:2631:1:beginning:w:tx payment 02
+2631:0:2633:2:processing:w:tx payment 02
+2633:0:2634:1:committing:w:tx payment 02
+2630:0:2634:4:commit:w:tx payment 02
+3066:0:3067:1:beginning:w:tx neworder
+3067:0:3069:2:processing:w:tx neworder
+3070:0:3072:2:committing:w:tx neworder
+3066:0:3072:6:commit:w:tx neworder
+4548:0:4549:1:beginning:r:tx stocklevel
+4549:0:4553:4:processing:r:tx stocklevel
+4553:0:4553:0:committing:r:tx stocklevel
+4548:0:4553:5:commit:r:tx stocklevel
+4972:0:4972:0:beginning:w:tx payment 02
+4972:0:4974:2:processing:w:tx payment 02
+4974:0:4975:1:committing:w:tx payment 02
+4972:0:4975:3:commit:w:tx payment 02
+6622:0:6623:1:beginning:w:tx neworder
+6623:0:6626:3:processing:w:tx neworder
+6626:0:6629:3:committing:w:tx neworder
+6622:0:6629:7:commit:w:tx neworder
+7344:0:7345:1:beginning:w:tx neworder
+7345:0:7348:3:processing:w:tx neworder
+7348:0:7351:3:committing:w:tx neworder
+7344:0:7351:7:commit:w:tx neworder
+8014:0:8015:1:beginning:w:tx payment 02
+8015:0:8017:2:processing:w:tx payment 02
+8017:0:8018:1:committing:w:tx payment 02
+8014:0:8018:4:commit:w:tx payment 02
+10701:0:10702:1:beginning:w:tx neworder
+10703:0:10707:4:processing:w:tx neworder
+10707:0:10711:4:committing:w:tx neworder
+10701:0:10711:10:commit:w:tx neworder
+11021:0:11022:1:beginning:w:tx payment 02
+11022:0:11024:2:processing:w:tx payment 02
+11024:0:11025:1:committing:w:tx payment 02
+11021:0:11025:4:commit:w:tx payment 02
+11229:0:11230:1:beginning:w:tx neworder
+11230:0:11233:3:processing:w:tx neworder
+11233:0:11237:4:committing:w:tx neworder
+11229:0:11237:8:commit:w:tx neworder
+11707:0:11708:1:beginning:w:tx neworder
+11708:0:11711:3:processing:w:tx neworder
+11711:0:11713:2:committing:w:tx neworder
+11707:0:11713:6:commit:w:tx neworder
+12842:0:12843:1:beginning:w:tx neworder
+12843:0:12845:2:processing:w:tx neworder
+12845:0:12848:3:committing:w:tx neworder
+12842:0:12848:6:commit:w:tx neworder
+13037:0:13038:1:beginning:w:tx payment 02
+13038:0:13040:2:processing:w:tx payment 02
+13040:0:13041:1:committing:w:tx payment 02
+13037:0:13041:4:commit:w:tx payment 02
+13074:0:13075:1:beginning:w:tx neworder
+13075:0:13079:4:processing:w:tx neworder
+13079:0:13083:4:committing:w:tx neworder
+13074:0:13083:9:commit:w:tx neworder
+13217:0:13217:0:beginning:r:tx stocklevel
+13217:0:13221:4:processing:r:tx stocklevel
+13221:0:13221:0:committing:r:tx stocklevel
+13217:0:13221:4:commit:r:tx stocklevel
+13453:0:13454:1:beginning:w:tx payment 02
+13454:0:13455:1:processing:w:tx payment 02
+13455:0:13457:2:committing:w:tx payment 02
+13453:0:13457:4:commit:w:tx payment 02
+13995:0:13996:1:beginning:w:tx neworder
+13996:0:13999:3:processing:w:tx neworder
+13999:0:14003:4:committing:w:tx neworder
+13995:0:14003:8:commit:w:tx neworder
+14032:0:14033:1:beginning:w:tx payment 02
+14033:0:14035:2:processing:w:tx payment 02
+14035:0:14036:1:committing:w:tx payment 02
+14032:0:14036:4:commit:w:tx payment 02
+14271:0:14272:1:beginning:w:tx payment 02
+14272:0:14274:2:processing:w:tx payment 02
+14274:0:14275:1:committing:w:tx payment 02
+14271:0:14275:4:commit:w:tx payment 02
+14331:0:14332:1:beginning:w:tx payment 02
+14332:0:14333:1:processing:w:tx payment 02
+14333:0:14334:1:committing:w:tx payment 02
+14331:0:14334:3:commit:w:tx payment 02
+14726:0:14726:0:beginning:w:tx neworder
+14727:0:14730:3:processing:w:tx neworder
+14730:0:14732:2:committing:w:tx neworder
+14726:0:14732:6:commit:w:tx neworder
+15384:0:15385:1:beginning:w:tx neworder
+15385:0:15388:3:processing:w:tx neworder
+15388:0:15391:3:committing:w:tx neworder
+15384:0:15391:7:commit:w:tx neworder
+16032:0:16033:1:beginning:w:tx neworder
+16033:0:16035:2:processing:w:tx neworder
+16035:0:16038:3:committing:w:tx neworder
+16032:0:16038:6:commit:w:tx neworder
+16267:0:16268:1:beginning:w:tx payment 02
+16268:0:16269:1:processing:w:tx payment 02
+16269:0:16271:2:committing:w:tx payment 02
+16267:0:16271:4:commit:w:tx payment 02
+16579:0:16580:1:beginning:w:tx payment 02
+16580:0:16582:2:processing:w:tx payment 02
+16582:0:16583:1:committing:w:tx payment 02
+16579:0:16583:4:commit:w:tx payment 02
+16718:0:16718:0:beginning:w:tx payment 02
+16718:0:16720:2:processing:w:tx payment 02
+16720:0:16721:1:committing:w:tx payment 02
+16718:0:16721:3:commit:w:tx payment 02
+17863:0:17864:1:beginning:w:tx payment 02
+17864:0:17868:4:processing:w:tx payment 02
+17868:0:17870:2:committing:w:tx payment 02
+17863:0:17870:7:commit:w:tx payment 02
+18029:0:18030:1:beginning:w:tx payment 02
+18030:0:18031:1:processing:w:tx payment 02
+18032:0:18033:1:committing:w:tx payment 02
+18029:0:18033:4:commit:w:tx payment 02
+18452:0:18453:1:beginning:w:tx neworder
+18453:0:18456:3:processing:w:tx neworder
+18456:0:18459:3:committing:w:tx neworder
+18452:0:18459:7:commit:w:tx neworder
+19667:0:19668:1:beginning:w:tx neworder
+19668:0:19671:3:processing:w:tx neworder
+19671:0:19673:2:committing:w:tx neworder
+19667:0:19673:6:commit:w:tx neworder
+20075:0:20076:1:beginning:w:tx neworder
+20076:0:20079:3:processing:w:tx neworder
+20079:0:20081:2:committing:w:tx neworder
+20075:0:20081:6:commit:w:tx neworder
+20509:0:20510:1:beginning:w:tx neworder
+20510:0:20512:2:processing:w:tx neworder
+20512:0:20516:4:committing:w:tx neworder
+20509:0:20516:7:commit:w:tx neworder
+21527:0:21528:1:beginning:w:tx payment 02
+21528:0:21529:1:processing:w:tx payment 02
+21529:0:21531:2:committing:w:tx payment 02
+21527:0:21531:4:commit:w:tx payment 02
+22234:0:22235:1:beginning:w:tx neworder
+22235:0:22237:2:processing:w:tx neworder
+22237:0:22240:3:committing:w:tx neworder
+22234:0:22240:6:commit:w:tx neworder
+22959:0:22960:1:beginning:w:tx neworder
+22960:0:22962:2:processing:w:tx neworder
+22962:0:22965:3:committing:w:tx neworder
+22959:0:22965:6:commit:w:tx neworder
+23559:0:23560:1:beginning:w:tx neworder
+23560:0:23562:2:processing:w:tx neworder
+23562:0:23565:3:committing:w:tx neworder
+23559:0:23565:6:commit:w:tx neworder
+23784:0:23785:1:beginning:w:tx payment 02
+23785:0:23786:1:processing:w:tx payment 02
+23786:0:23787:1:committing:w:tx payment 02
+23784:0:23788:4:commit:w:tx payment 02
+24255:0:24256:1:beginning:w:tx neworder
+24256:0:24258:2:processing:w:tx neworder
+24258:0:24261:3:committing:w:tx neworder
+24255:0:24261:6:commit:w:tx neworder
+24671:0:24672:1:beginning:w:tx neworder
+24672:0:24674:2:processing:w:tx neworder
+24674:0:24678:4:committing:w:tx neworder
+24671:0:24678:7:commit:w:tx neworder
+25567:0:25568:1:beginning:w:tx neworder
+25570:0:25573:3:beginning:w:tx neworder
+25568:0:25574:6:processing:w:tx neworder
+25573:0:25576:3:processing:w:tx neworder
+25574:0:25577:3:committing:w:tx neworder
+25567:0:25577:10:commit:w:tx neworder
+25576:0:25580:4:committing:w:tx neworder
+25570:0:25580:10:commit:w:tx neworder
+25820:0:25821:1:beginning:w:tx payment 02
+25822:0:25823:1:processing:w:tx payment 02
+25823:0:25824:1:committing:w:tx payment 02
+25820:0:25824:4:commit:w:tx payment 02
+26685:0:26686:1:beginning:w:tx payment 02
+26686:0:26689:3:processing:w:tx payment 02
+26689:0:26691:2:committing:w:tx payment 02
+26685:0:26691:6:commit:w:tx payment 02
+27253:0:27253:0:beginning:w:tx payment 02
+27255:0:27256:1:processing:w:tx payment 02
+27256:0:27258:2:committing:w:tx payment 02
+27253:0:27258:5:commit:w:tx payment 02
+27280:0:27281:1:beginning:w:tx neworder
+27281:0:27283:2:processing:w:tx neworder
+27283:0:27285:2:committing:w:tx neworder
+27280:0:27285:5:commit:w:tx neworder
+28200:0:28201:1:beginning:w:tx neworder
+28201:0:28203:2:processing:w:tx neworder
+28203:0:28205:2:committing:w:tx neworder
+28200:0:28205:5:commit:w:tx neworder
+28914:0:28915:1:beginning:w:tx neworder
+28915:0:28918:3:processing:w:tx neworder
+28918:0:28922:4:committing:w:tx neworder
+28914:0:28922:8:commit:w:tx neworder
+29960:0:29961:1:beginning:w:tx neworder
+29961:0:29963:2:processing:w:tx neworder
+29963:0:29966:3:committing:w:tx neworder
+29960:0:29966:6:commit:w:tx neworder
+30326:0:30327:1:beginning:w:tx neworder
+30328:0:30329:1:processing:w:tx neworder
+30329:0:30331:2:committing:w:tx neworder
+30326:0:30331:5:commit:w:tx neworder
+30801:0:30802:1:beginning:w:tx neworder
+30802:0:30804:2:processing:w:tx neworder
+30804:0:30806:2:committing:w:tx neworder
+30801:0:30806:5:commit:w:tx neworder
+31216:0:31217:1:beginning:w:tx neworder
+31217:0:31219:2:processing:w:tx neworder
+31219:0:31221:2:committing:w:tx neworder
+31216:0:31221:5:commit:w:tx neworder
+32075:0:32075:0:beginning:w:tx payment 02
+32076:0:32077:1:processing:w:tx payment 02
+32077:0:32078:1:committing:w:tx payment 02
+32075:0:32078:3:commit:w:tx payment 02
+32140:0:32141:1:beginning:w:tx neworder
+32141:0:32143:2:processing:w:tx neworder
+32143:0:32145:2:committing:w:tx neworder
+32140:0:32145:5:commit:w:tx neworder
+32706:0:32707:1:beginning:w:tx neworder
+32708:0:32711:3:processing:w:tx neworder
+32711:0:32714:3:committing:w:tx neworder
+32706:0:32714:8:commit:w:tx neworder
+32844:0:32844:0:beginning:w:tx neworder
+32844:0:32847:3:processing:w:tx neworder
+32847:0:32850:3:committing:w:tx neworder
+32844:0:32851:7:commit:w:tx neworder
+33739:0:33740:1:beginning:w:tx neworder
+33740:0:33742:2:processing:w:tx neworder
+33742:0:33744:2:committing:w:tx neworder
+33739:0:33744:5:commit:w:tx neworder
+37855:0:37855:0:beginning:w:tx neworder
+37857:0:37861:4:processing:w:tx neworder
+37861:0:37863:2:committing:w:tx neworder
+37854:0:37863:9:commit:w:tx neworder
+38082:0:38085:3:beginning:w:tx neworder
+38085:0:38087:2:processing:w:tx neworder
+38087:0:38089:2:committing:w:tx neworder
+38082:0:38089:7:commit:w:tx neworder
+38112:0:38112:0:beginning:r:tx stocklevel
+38113:0:38114:1:processing:r:tx stocklevel
+38114:0:38115:1:committing:r:tx stocklevel
+38112:0:38115:3:commit:r:tx stocklevel
+39450:0:39456:6:beginning:w:tx payment 02
+39456:0:39457:1:processing:w:tx payment 02
+39457:0:39459:2:committing:w:tx payment 02
+39450:0:39459:9:commit:w:tx payment 02
+40433:0:40434:1:beginning:w:tx payment 02
+40434:0:40435:1:processing:w:tx payment 02
+40435:0:40437:2:committing:w:tx payment 02
+40433:0:40437:4:commit:w:tx payment 02
+41532:0:41533:1:beginning:w:tx payment 02
+41533:0:41534:1:processing:w:tx payment 02
+41534:0:41536:2:committing:w:tx payment 02
+41532:0:41536:4:commit:w:tx payment 02
+41814:0:41815:1:beginning:w:tx neworder
+41815:0:41821:6:processing:w:tx neworder
+41821:0:41824:3:committing:w:tx neworder
+41814:0:41824:10:commit:w:tx neworder
+42123:0:42123:0:beginning:w:tx payment 02
+42123:0:42125:2:processing:w:tx payment 02
+42125:0:42126:1:committing:w:tx payment 02
+42123:0:42126:3:commit:w:tx payment 02
+42792:0:42794:2:beginning:w:tx neworder
+42794:0:42796:2:processing:w:tx neworder
+42796:0:42798:2:committing:w:tx neworder
+42792:0:42798:6:commit:w:tx neworder
+43699:0:43700:1:beginning:w:tx payment 02
+43701:0:43702:1:processing:w:tx payment 02
+43702:0:43704:2:committing:w:tx payment 02
+43699:0:43704:5:commit:w:tx payment 02
+44094:0:44094:0:beginning:w:tx payment 02
+44094:0:44096:2:processing:w:tx payment 02
+44096:0:44097:1:committing:w:tx payment 02
+44094:0:44097:3:commit:w:tx payment 02
+44471:0:44472:1:beginning:w:tx neworder
+44472:0:44474:2:processing:w:tx neworder
+44474:0:44476:2:committing:w:tx neworder
+44471:0:44476:5:commit:w:tx neworder
+46263:0:46264:1:beginning:w:tx payment 02
+46264:0:46265:1:processing:w:tx payment 02
+46265:0:46266:1:committing:w:tx payment 02
+46263:0:46266:3:commit:w:tx payment 02
+46671:0:46671:0:beginning:w:tx payment 02
+46671:0:46672:1:processing:w:tx payment 02
+46672:0:46674:2:committing:w:tx payment 02
+46671:0:46674:3:commit:w:tx payment 02
+47223:0:47223:0:beginning:w:tx delivery
+47224:0:47232:8:processing:w:tx delivery
+47232:0:47239:7:committing:w:tx delivery
+47223:0:47239:16:commit:w:tx delivery
+48443:0:48444:1:beginning:w:tx neworder
+48444:0:48447:3:processing:w:tx neworder
+48447:0:48449:2:committing:w:tx neworder
+48443:0:48449:6:commit:w:tx neworder
+49909:0:49910:1:beginning:w:tx payment 02
+49910:0:49911:1:processing:w:tx payment 02
+49911:0:49912:1:committing:w:tx payment 02
+49909:0:49912:3:commit:w:tx payment 02
+50276:0:50277:1:beginning:w:tx payment 02
+50277:0:50278:1:processing:w:tx payment 02
+50278:0:50280:2:committing:w:tx payment 02
+50276:0:50280:4:commit:w:tx payment 02
+50340:0:50340:0:beginning:w:tx neworder
+50341:0:50343:2:processing:w:tx neworder
+50343:0:50345:2:committing:w:tx neworder
+50340:0:50345:5:commit:w:tx neworder
+50951:0:50952:1:beginning:w:tx neworder
+50952:0:50955:3:processing:w:tx neworder
+50955:0:50958:3:committing:w:tx neworder
+50951:0:50958:7:commit:w:tx neworder
+50968:0:50968:0:beginning:w:tx delivery
+50968:0:50971:3:processing:w:tx delivery
+50971:0:50973:2:committing:w:tx delivery
+50968:0:50973:5:commit:w:tx delivery
+52096:0:52097:1:beginning:w:tx payment 02
+52097:0:52098:1:processing:w:tx payment 02
+52098:0:52100:2:committing:w:tx payment 02
+52096:0:52100:4:commit:w:tx payment 02
+52152:0:52153:1:beginning:w:tx payment 02
+52153:0:52154:1:processing:w:tx payment 02
+52154:0:52156:2:committing:w:tx payment 02
+52152:0:52156:4:commit:w:tx payment 02
+52187:0:52188:1:beginning:w:tx neworder
+52188:0:52191:3:processing:w:tx neworder
+52191:0:52193:2:committing:w:tx neworder
+52187:0:52193:6:commit:w:tx neworder
+52384:0:52385:1:beginning:w:tx neworder
+52385:0:52388:3:processing:w:tx neworder
+52388:0:52390:2:committing:w:tx neworder
+52384:0:52390:6:commit:w:tx neworder
+52758:0:52758:0:beginning:w:tx payment 02
+52758:0:52759:1:processing:w:tx payment 02
+52759:0:52761:2:committing:w:tx payment 02
+52758:0:52761:3:commit:w:tx payment 02
+53255:0:53255:0:beginning:w:tx neworder
+53255:0:53258:3:processing:w:tx neworder
+53258:0:53261:3:committing:w:tx neworder
+53255:0:53261:6:commit:w:tx neworder
+53746:0:53747:1:beginning:w:tx neworder
+53747:0:53750:3:processing:w:tx neworder
+53750:0:53754:4:committing:w:tx neworder
+53746:0:53754:8:commit:w:tx neworder
+53767:0:53768:1:beginning:w:tx payment 02
+53768:0:53769:1:processing:w:tx payment 02
+53769:0:53770:1:committing:w:tx payment 02
+53767:0:53770:3:commit:w:tx payment 02
+54743:0:54744:1:beginning:w:tx neworder
+54745:0:54748:3:processing:w:tx neworder
+54748:0:54750:2:committing:w:tx neworder
+54743:0:54751:8:commit:w:tx neworder
+56034:0:56035:1:beginning:w:tx neworder
+56035:0:56037:2:processing:w:tx neworder
+56037:0:56040:3:committing:w:tx neworder
+56034:0:56040:6:commit:w:tx neworder
+56331:0:56332:1:beginning:w:tx payment 02
+56332:0:56333:1:processing:w:tx payment 02
+56333:0:56335:2:committing:w:tx payment 02
+56331:0:56335:4:commit:w:tx payment 02
+57060:0:57061:1:beginning:w:tx neworder
+57061:0:57063:2:processing:w:tx neworder
+57063:0:57066:3:committing:w:tx neworder
+57060:0:57066:6:commit:w:tx neworder
+58688:0:58688:0:beginning:w:tx payment 02
+58688:0:58690:2:processing:w:tx payment 02
+58690:0:58691:1:committing:w:tx payment 02
+58688:0:58691:3:commit:w:tx payment 02
+58882:0:58885:3:beginning:w:tx neworder
+58885:0:58887:2:processing:w:tx neworder
+58887:0:58889:2:committing:w:tx neworder
+58882:0:58890:8:commit:w:tx neworder
+59121:0:59122:1:beginning:w:tx neworder
+59122:0:59125:3:processing:w:tx neworder
+59125:0:59127:2:committing:w:tx neworder
+59121:0:59127:6:commit:w:tx neworder
+59577:0:59578:1:beginning:r:tx stocklevel
+59578:0:59581:3:processing:r:tx stocklevel
+59581:0:59581:0:committing:r:tx stocklevel
+59577:0:59581:4:commit:r:tx stocklevel
+59754:0:59754:0:beginning:w:tx neworder
+59756:0:59757:1:processing:w:tx neworder
+59757:0:59759:2:committing:w:tx neworder
+59754:0:59759:5:commit:w:tx neworder
+60175:0:60176:1:beginning:w:tx neworder
+60176:0:60179:3:processing:w:tx neworder
+60179:0:60181:2:committing:w:tx neworder
+60175:0:60181:6:commit:w:tx neworder
+60232:0:60233:1:beginning:w:tx payment 02
+60234:0:60235:1:processing:w:tx payment 02
+60235:0:60236:1:committing:w:tx payment 02
+60232:0:60236:4:commit:w:tx payment 02
+62583:0:62584:1:beginning:w:tx neworder
+62584:0:62586:2:processing:w:tx neworder
+62586:0:62588:2:committing:w:tx neworder
+62583:0:62588:5:commit:w:tx neworder
+63267:0:63267:0:beginning:w:tx payment 02
+63267:0:63268:1:processing:w:tx payment 02
+63268:0:63270:2:committing:w:tx payment 02
+63267:0:63270:3:commit:w:tx payment 02
+63271:0:63272:1:beginning:w:tx neworder
+63272:0:63274:2:processing:w:tx neworder
+63274:0:63278:4:committing:w:tx neworder
+63271:0:63278:7:commit:w:tx neworder
+63333:0:63334:1:beginning:w:tx neworder
+63334:0:63341:7:processing:w:tx neworder
+63341:0:63343:2:committing:w:tx neworder
+63333:0:63343:10:commit:w:tx neworder
+63494:0:63495:1:beginning:w:tx neworder
+63495:0:63497:2:processing:w:tx neworder
+63498:0:63500:2:committing:w:tx neworder
+63494:0:63501:7:commit:w:tx neworder
+63823:0:63824:1:beginning:w:tx payment 02
+63824:0:63825:1:processing:w:tx payment 02
+63825:0:63826:1:committing:w:tx payment 02
+63823:0:63826:3:commit:w:tx payment 02
+64092:0:64092:0:beginning:w:tx neworder
+64093:0:64095:2:processing:w:tx neworder
+64095:0:64098:3:committing:w:tx neworder
+64092:0:64098:6:commit:w:tx neworder
+64764:0:64765:1:beginning:w:tx neworder
+64766:0:64768:2:processing:w:tx neworder
+64768:0:64770:2:committing:w:tx neworder
+64764:0:64771:7:commit:w:tx neworder
+65298:0:65298:0:beginning:w:tx neworder
+65298:0:65300:2:processing:w:tx neworder
+65300:0:65302:2:committing:w:tx neworder
+65298:0:65302:4:commit:w:tx neworder
+65519:0:65519:0:beginning:w:tx payment 02
+65519:0:65520:1:processing:w:tx payment 02
+65520:0:65522:2:committing:w:tx payment 02
+65519:0:65522:3:commit:w:tx payment 02
+66199:0:66199:0:beginning:r:tx stocklevel
+66199:0:66202:3:processing:r:tx stocklevel
+66202:0:66203:1:committing:r:tx stocklevel
+66199:0:66203:4:commit:r:tx stocklevel
+66824:0:66825:1:beginning:w:tx payment 02
+66825:0:66826:1:processing:w:tx payment 02
+66826:0:66827:1:committing:w:tx payment 02
+66824:0:66827:3:commit:w:tx payment 02
+68004:0:68007:3:beginning:w:tx payment 02
+68007:0:68008:1:processing:w:tx payment 02
+68008:0:68009:1:committing:w:tx payment 02
+68004:0:68009:5:commit:w:tx payment 02
+68158:0:68158:0:beginning:w:tx neworder
+68158:0:68161:3:processing:w:tx neworder
+68161:0:68163:2:committing:w:tx neworder
+68158:0:68163:5:commit:w:tx neworder
+68694:0:68694:0:beginning:w:tx payment 02
+68694:0:68695:1:processing:w:tx payment 02
+68696:0:68697:1:committing:w:tx payment 02
+68694:0:68697:3:commit:w:tx payment 02
+69930:0:69931:1:beginning:w:tx payment 02
+69932:0:69933:1:processing:w:tx payment 02
+69933:0:69935:2:committing:w:tx payment 02
+69930:0:69935:5:commit:w:tx payment 02
+70156:0:70157:1:beginning:w:tx neworder
+70157:0:70159:2:processing:w:tx neworder
+70159:0:70162:3:committing:w:tx neworder
+70156:0:70162:6:commit:w:tx neworder
+70162:0:70162:0:beginning:w:tx payment 02
+70162:0:70163:1:processing:w:tx payment 02
+70163:0:70168:5:committing:w:tx payment 02
+70161:0:70168:7:commit:w:tx payment 02
+70217:0:70218:1:beginning:w:tx delivery
+70218:0:70220:2:processing:w:tx delivery
+70220:0:70221:1:committing:w:tx delivery
+70217:0:70221:4:commit:w:tx delivery
+70439:0:70440:1:beginning:w:tx payment 02
+70440:0:70441:1:processing:w:tx payment 02
+70441:0:70442:1:committing:w:tx payment 02
+70439:0:70442:3:commit:w:tx payment 02
+71845:0:71846:1:beginning:w:tx payment 02
+71846:0:71847:1:processing:w:tx payment 02
+71847:0:71849:2:committing:w:tx payment 02
+71845:0:71849:4:commit:w:tx payment 02
+72443:0:72444:1:beginning:w:tx payment 02
+72444:0:72445:1:processing:w:tx payment 02
+72445:0:72447:2:committing:w:tx payment 02
+72443:0:72447:4:commit:w:tx payment 02
+73296:0:73297:1:beginning:w:tx payment 02
+73297:0:73298:1:processing:w:tx payment 02
+73298:0:73300:2:committing:w:tx payment 02
+73296:0:73300:4:commit:w:tx payment 02
+73622:0:73623:1:beginning:w:tx delivery
+73623:0:73631:8:processing:w:tx delivery
+73631:0:73638:7:committing:w:tx delivery
+73622:0:73638:16:commit:w:tx delivery
+77394:0:77395:1:beginning:w:tx neworder
+77395:0:77397:2:processing:w:tx neworder
+77397:0:77399:2:committing:w:tx neworder
+77394:0:77399:5:commit:w:tx neworder
+78318:0:78319:1:beginning:w:tx neworder
+78319:0:78321:2:processing:w:tx neworder
+78321:0:78323:2:committing:w:tx neworder
+78318:0:78323:5:commit:w:tx neworder
+79151:0:79152:1:beginning:w:tx payment 02
+79152:0:79154:2:processing:w:tx payment 02
+79154:0:79156:2:committing:w:tx payment 02
+79151:0:79156:5:commit:w:tx payment 02
+79496:0:79498:2:beginning:w:tx neworder
+79498:0:79500:2:processing:w:tx neworder
+79500:0:79502:2:committing:w:tx neworder
+79496:0:79502:6:commit:w:tx neworder
+81966:0:81966:0:beginning:r:tx orderstatus 02
+81966:0:81967:1:processing:r:tx orderstatus 02
+81967:0:81968:1:committing:r:tx orderstatus 02
+81966:0:81968:2:commit:r:tx orderstatus 02
+82527:0:82528:1:beginning:w:tx payment 02
+82529:0:82532:3:processing:w:tx payment 02
+82532:0:82533:1:committing:w:tx payment 02
+82527:0:82533:6:commit:w:tx payment 02
+84621:0:84625:4:beginning:w:tx payment 02
+84625:0:84626:1:processing:w:tx payment 02
+84626:0:84628:2:committing:w:tx payment 02
+84621:0:84628:7:commit:w:tx payment 02
+84874:0:84874:0:beginning:w:tx neworder
+84874:0:84877:3:processing:w:tx neworder
+84877:0:84879:2:committing:w:tx neworder
+84873:0:84879:6:commit:w:tx neworder
+84958:0:84959:1:beginning:w:tx neworder
+84959:0:84961:2:processing:w:tx neworder
+84961:0:84963:2:committing:w:tx neworder
+84958:0:84963:5:commit:w:tx neworder
+85803:0:85804:1:beginning:w:tx payment 02
+85804:0:85805:1:processing:w:tx payment 02
+85805:0:85807:2:committing:w:tx payment 02
+85803:0:85807:4:commit:w:tx payment 02
+85836:0:85836:0:beginning:w:tx payment 02
+85836:0:85838:2:processing:w:tx payment 02
+85838:0:85839:1:committing:w:tx payment 02
+85836:0:85839:3:commit:w:tx payment 02
+85998:0:85998:0:beginning:w:tx neworder
+85998:0:86001:3:processing:w:tx neworder
+86001:0:86002:1:committing:w:tx neworder
+85998:0:86003:5:commit:w:tx neworder
+86507:0:86507:0:beginning:w:tx payment 02
+86507:0:86508:1:processing:w:tx payment 02
+86508:0:86510:2:committing:w:tx payment 02
+86507:0:86510:3:commit:w:tx payment 02
+86738:0:86739:1:beginning:r:tx stocklevel
+86739:0:86743:4:processing:r:tx stocklevel
+86743:0:86743:0:committing:r:tx stocklevel
+86738:0:86743:5:commit:r:tx stocklevel
+87890:0:87892:2:beginning:w:tx payment 02
+87892:0:87893:1:processing:w:tx payment 02
+87893:0:87894:1:committing:w:tx payment 02
+87890:0:87894:4:commit:w:tx payment 02
+87921:0:87921:0:beginning:w:tx neworder
+87921:0:87924:3:processing:w:tx neworder
+87924:0:87926:2:committing:w:tx neworder
+87921:0:87926:5:commit:w:tx neworder
+87971:0:87971:0:beginning:w:tx neworder
+87971:0:87973:2:processing:w:tx neworder
+87973:0:87975:2:committing:w:tx neworder
+87971:0:87975:4:commit:w:tx neworder
+88869:0:88869:0:beginning:w:tx payment 02
+88870:0:88871:1:processing:w:tx payment 02
+88871:0:88872:1:committing:w:tx payment 02
+88869:0:88872:3:commit:w:tx payment 02
+89112:0:89113:1:beginning:w:tx payment 02
+89113:0:89114:1:processing:w:tx payment 02
+89114:0:89115:1:committing:w:tx payment 02
+89112:0:89115:3:commit:w:tx payment 02
+89277:0:89278:1:beginning:w:tx payment 02
+89278:0:89280:2:processing:w:tx payment 02
+89280:0:89281:1:committing:w:tx payment 02
+89277:0:89281:4:commit:w:tx payment 02
+89371:0:89372:1:beginning:r:tx stocklevel
+89372:0:89374:2:processing:r:tx stocklevel
+89374:0:89375:1:committing:r:tx stocklevel
+89371:0:89375:4:commit:r:tx stocklevel
+89957:0:89958:1:beginning:w:tx payment 02
+89958:0:89959:1:processing:w:tx payment 02
+89959:0:89961:2:committing:w:tx payment 02
+89957:0:89961:4:commit:w:tx payment 02
+90639:0:90639:0:beginning:w:tx payment 02
+90639:0:90640:1:processing:w:tx payment 02
+90640:0:90642:2:committing:w:tx payment 02
+90639:0:90642:3:commit:w:tx payment 02
+90782:0:90782:0:beginning:w:tx payment 02
+90782:0:90784:2:processing:w:tx payment 02
+90784:0:90785:1:committing:w:tx payment 02
+90782:0:90785:3:commit:w:tx payment 02
+91714:0:91715:1:beginning:w:tx neworder
+91715:0:91717:2:processing:w:tx neworder
+91717:0:91719:2:committing:w:tx neworder
+91714:0:91719:5:commit:w:tx neworder
+92404:0:92405:1:beginning:w:tx neworder
+92405:0:92407:2:processing:w:tx neworder
+92407:0:92409:2:committing:w:tx neworder
+92404:0:92409:5:commit:w:tx neworder
+92516:0:92516:0:beginning:w:tx payment 02
+92516:0:92518:2:processing:w:tx payment 02
+92518:0:92519:1:committing:w:tx payment 02
+92516:0:92519:3:commit:w:tx payment 02
+92718:0:92719:1:beginning:w:tx delivery
+92719:0:92723:4:processing:w:tx delivery
+92723:0:92725:2:committing:w:tx delivery
+92718:0:92725:7:commit:w:tx delivery
+92865:0:92865:0:beginning:w:tx payment 02
+92865:0:92866:1:processing:w:tx payment 02
+92866:0:92867:1:committing:w:tx payment 02
+92865:0:92867:2:commit:w:tx payment 02
+95219:0:95220:1:beginning:w:tx payment 02
+95220:0:95221:1:processing:w:tx payment 02
+95221:0:95223:2:committing:w:tx payment 02
+95219:0:95223:4:commit:w:tx payment 02
+95812:0:95812:0:beginning:w:tx payment 02
+95812:0:95817:5:processing:w:tx payment 02
+95817:0:95818:1:committing:w:tx payment 02
+95812:0:95819:7:commit:w:tx payment 02
+95996:0:95996:0:beginning:w:tx neworder
+95996:0:95999:3:processing:w:tx neworder
+95999:0:96002:3:committing:w:tx neworder
+95996:0:96002:6:commit:w:tx neworder
+96578:0:96579:1:beginning:w:tx payment 02
+96579:0:96580:1:processing:w:tx payment 02
+96580:0:96584:4:committing:w:tx payment 02
+96578:0:96584:6:commit:w:tx payment 02
+97616:0:97617:1:beginning:w:tx payment 02
+97617:0:97618:1:processing:w:tx payment 02
+97618:0:97619:1:committing:w:tx payment 02
+97616:0:97619:3:commit:w:tx payment 02
+97956:0:97957:1:beginning:w:tx neworder
+97957:0:97959:2:processing:w:tx neworder
+97959:0:97962:3:committing:w:tx neworder
+97956:0:97962:6:commit:w:tx neworder
+99003:0:99004:1:beginning:w:tx neworder
+99004:0:99007:3:processing:w:tx neworder
+99007:0:99010:3:committing:w:tx neworder
+99003:0:99010:7:commit:w:tx neworder
+99446:0:99446:0:beginning:w:tx payment 02
+99446:0:99447:1:processing:w:tx payment 02
+99447:0:99449:2:committing:w:tx payment 02
+99446:0:99449:3:commit:w:tx payment 02
+99546:0:99546:0:beginning:w:tx neworder
+99546:0:99549:3:processing:w:tx neworder
+99549:0:99552:3:committing:w:tx neworder
+99546:0:99552:6:commit:w:tx neworder
+100193:0:100193:0:beginning:w:tx payment 02
+100194:0:100195:1:processing:w:tx payment 02
+100195:0:100196:1:committing:w:tx payment 02
+100193:0:100196:3:commit:w:tx payment 02
+100752:0:100757:5:beginning:w:tx neworder
+100758:0:100761:3:processing:w:tx neworder
+100761:0:100763:2:committing:w:tx neworder
+100752:0:100763:11:commit:w:tx neworder
+101021:0:101021:0:beginning:w:tx neworder
+101021:0:101023:2:processing:w:tx neworder
+101023:0:101025:2:committing:w:tx neworder
+101021:0:101025:4:commit:w:tx neworder
+101055:0:101056:1:beginning:w:tx neworder
+101056:0:101058:2:processing:w:tx neworder
+101058:0:101060:2:committing:w:tx neworder
+101055:0:101060:5:commit:w:tx neworder
+101699:0:101699:0:beginning:w:tx payment 02
+101699:0:101700:1:processing:w:tx payment 02
+101700:0:101702:2:committing:w:tx payment 02
+101699:0:101702:3:commit:w:tx payment 02
+101862:0:101862:0:beginning:w:tx payment 02
+101862:0:101863:1:processing:w:tx payment 02
+101863:0:101865:2:committing:w:tx payment 02
+101862:0:101865:3:commit:w:tx payment 02
+102830:0:102831:1:beginning:w:tx neworder
+102831:0:102834:3:processing:w:tx neworder
+102834:0:102836:2:committing:w:tx neworder
+102830:0:102836:6:commit:w:tx neworder
+102880:0:102880:0:beginning:r:tx stocklevel
+102881:0:102883:2:processing:r:tx stocklevel
+102883:0:102883:0:committing:r:tx stocklevel
+102880:0:102883:3:commit:r:tx stocklevel
+103068:0:103069:1:beginning:w:tx payment 02
+103069:0:103070:1:processing:w:tx payment 02
+103070:0:103071:1:committing:w:tx payment 02
+103068:0:103071:3:commit:w:tx payment 02
+103389:0:103389:0:beginning:r:tx stocklevel
+103390:0:103391:1:processing:r:tx stocklevel
+103391:0:103392:1:committing:r:tx stocklevel
+103389:0:103392:3:commit:r:tx stocklevel
+103808:0:103808:0:beginning:w:tx payment 02
+103808:0:103809:1:processing:w:tx payment 02
+103809:0:103811:2:committing:w:tx payment 02
+103808:0:103811:3:commit:w:tx payment 02
+104074:0:104075:1:beginning:w:tx neworder
+104075:0:104078:3:processing:w:tx neworder
+104078:0:104080:2:committing:w:tx neworder
+104074:0:104080:6:commit:w:tx neworder
+104199:0:104200:1:beginning:w:tx neworder
+104200:0:104202:2:processing:w:tx neworder
+104202:0:104204:2:committing:w:tx neworder
+104199:0:104204:5:commit:w:tx neworder
+104978:0:104979:1:beginning:w:tx neworder
+104979:0:104981:2:processing:w:tx neworder
+104981:0:104983:2:committing:w:tx neworder
+104978:0:104983:5:commit:w:tx neworder
+105194:0:105194:0:beginning:w:tx neworder
+105194:0:105196:2:processing:w:tx neworder
+105196:0:105198:2:committing:w:tx neworder
+105194:0:105198:4:commit:w:tx neworder
+105597:0:105598:1:beginning:w:tx neworder
+105598:0:105600:2:processing:w:tx neworder
+105600:0:105602:2:committing:w:tx neworder
+105597:0:105602:5:commit:w:tx neworder
+105653:0:105654:1:beginning:w:tx neworder
+105654:0:105656:2:processing:w:tx neworder
+105656:0:105658:2:committing:w:tx neworder
+105653:0:105658:5:commit:w:tx neworder
+106226:0:106226:0:beginning:w:tx neworder
+106228:0:106230:2:processing:w:tx neworder
+106230:0:106236:6:committing:w:tx neworder
+106226:0:106236:10:commit:w:tx neworder
+106430:0:106431:1:beginning:w:tx payment 02
+106431:0:106432:1:processing:w:tx payment 02
+106432:0:106433:1:committing:w:tx payment 02
+106430:0:106433:3:commit:w:tx payment 02
+107720:0:107721:1:beginning:w:tx payment 02
+107721:0:107722:1:processing:w:tx payment 02
+107722:0:107723:1:committing:w:tx payment 02
+107720:0:107723:3:commit:w:tx payment 02
+108193:0:108194:1:beginning:w:tx neworder
+108194:0:108196:2:processing:w:tx neworder
+108196:0:108199:3:committing:w:tx neworder
+108193:0:108199:6:commit:w:tx neworder
+109300:0:109301:1:beginning:r:tx stocklevel
+109301:0:109304:3:processing:r:tx stocklevel
+109304:0:109305:1:committing:r:tx stocklevel
+109300:0:109305:5:commit:r:tx stocklevel
+109760:0:109761:1:beginning:w:tx neworder
+109761:0:109763:2:processing:w:tx neworder
+109763:0:109767:4:committing:w:tx neworder
+109760:0:109767:7:commit:w:tx neworder
+110149:0:110150:1:beginning:w:tx payment 02
+110150:0:110151:1:processing:w:tx payment 02
+110151:0:110152:1:committing:w:tx payment 02
+110149:0:110153:4:commit:w:tx payment 02
+111329:0:111330:1:beginning:w:tx neworder
+111331:0:111333:2:processing:w:tx neworder
+111333:0:111336:3:committing:w:tx neworder
+111329:0:111336:7:commit:w:tx neworder
+112150:0:112151:1:beginning:w:tx neworder
+112151:0:112155:4:processing:w:tx neworder
+112155:0:112158:3:committing:w:tx neworder
+112150:0:112158:8:commit:w:tx neworder
+112506:0:112507:1:beginning:w:tx payment 02
+112507:0:112508:1:processing:w:tx payment 02
+112508:0:112510:2:committing:w:tx payment 02
+112506:0:112510:4:commit:w:tx payment 02
+112885:0:112885:0:beginning:w:tx payment 02
+112885:0:112886:1:processing:w:tx payment 02
+112886:0:112888:2:committing:w:tx payment 02
+112885:0:112888:3:commit:w:tx payment 02
+113034:0:113034:0:beginning:w:tx neworder
+113034:0:113036:2:processing:w:tx neworder
+113036:0:113039:3:committing:w:tx neworder
+113034:0:113039:5:commit:w:tx neworder
+113284:0:113285:1:beginning:w:tx payment 02
+113285:0:113286:1:processing:w:tx payment 02
+113286:0:113287:1:committing:w:tx payment 02
+113284:0:113287:3:commit:w:tx payment 02
+113385:0:113385:0:beginning:w:tx payment 02
+113385:0:113386:1:processing:w:tx payment 02
+113386:0:113388:2:committing:w:tx payment 02
+113385:0:113388:3:commit:w:tx payment 02
+114018:0:114019:1:beginning:w:tx payment 02
+114019:0:114020:1:processing:w:tx payment 02
+114020:0:114021:1:committing:w:tx payment 02
+114018:0:114021:3:commit:w:tx payment 02
+115552:0:115553:1:beginning:w:tx neworder
+115553:0:115555:2:processing:w:tx neworder
+115555:0:115558:3:committing:w:tx neworder
+115552:0:115558:6:commit:w:tx neworder
+115686:0:115687:1:beginning:w:tx neworder
+115687:0:115689:2:processing:w:tx neworder
+115689:0:115692:3:committing:w:tx neworder
+115686:0:115692:6:commit:w:tx neworder
+115711:0:115711:0:beginning:w:tx neworder
+115711:0:115713:2:processing:w:tx neworder
+115713:0:115715:2:committing:w:tx neworder
+115711:0:115715:4:commit:w:tx neworder
+116056:0:116057:1:beginning:w:tx payment 02
+116057:0:116060:3:processing:w:tx payment 02
+116061:0:116062:1:committing:w:tx payment 02
+116056:0:116062:6:commit:w:tx payment 02
+118269:0:118270:1:beginning:w:tx neworder
+118270:0:118273:3:processing:w:tx neworder
+118273:0:118277:4:committing:w:tx neworder
+118269:0:118277:8:commit:w:tx neworder
+118300:0:118301:1:beginning:w:tx payment 02
+118301:0:118302:1:processing:w:tx payment 02
+118302:0:118303:1:committing:w:tx payment 02
+118300:0:118303:3:commit:w:tx payment 02
+118401:0:118402:1:beginning:w:tx payment 02
+118402:0:118403:1:processing:w:tx payment 02
+118403:0:118404:1:committing:w:tx payment 02
+118401:0:118404:3:commit:w:tx payment 02
+119426:0:119426:0:beginning:w:tx neworder
+119426:0:119428:2:processing:w:tx neworder
+119428:0:119431:3:committing:w:tx neworder
+119426:0:119431:5:commit:w:tx neworder
+119565:0:119565:0:beginning:w:tx payment 02
+119565:0:119566:1:processing:w:tx payment 02
+119566:0:119568:2:committing:w:tx payment 02
+119565:0:119568:3:commit:w:tx payment 02
+119613:0:119614:1:beginning:w:tx neworder
+119614:0:119615:1:processing:w:tx neworder
+119615:0:119618:3:committing:w:tx neworder
+119613:0:119618:5:commit:w:tx neworder
+120737:0:120741:4:beginning:w:tx neworder
+120736:0:120741:5:beginning:w:tx payment 02
+120741:0:120742:1:processing:w:tx payment 02
+120741:0:120743:2:processing:w:tx neworder
+120742:0:120744:2:committing:w:tx payment 02
+120736:0:120744:8:commit:w:tx payment 02
+120743:0:120745:2:committing:w:tx neworder
+120737:0:120745:8:commit:w:tx neworder
+122621:0:122621:0:beginning:w:tx payment 02
+122621:0:122623:2:processing:w:tx payment 02
+122623:0:122624:1:committing:w:tx payment 02
+122621:0:122624:3:commit:w:tx payment 02
+123224:0:123224:0:beginning:w:tx payment 02
+123224:0:123226:2:processing:w:tx payment 02
+123226:0:123227:1:committing:w:tx payment 02
+123224:0:123227:3:commit:w:tx payment 02
+124052:0:124053:1:beginning:w:tx neworder
+124053:0:124055:2:processing:w:tx neworder
+124056:0:124059:3:committing:w:tx neworder
+124052:0:124059:7:commit:w:tx neworder
+124641:0:124642:1:beginning:w:tx payment 02
+124642:0:124643:1:processing:w:tx payment 02
+124643:0:124644:1:committing:w:tx payment 02
+124641:0:124644:3:commit:w:tx payment 02
+125415:0:125416:1:beginning:w:tx neworder
+125416:0:125418:2:processing:w:tx neworder
+125418:0:125420:2:committing:w:tx neworder
+125415:0:125420:5:commit:w:tx neworder
+125654:0:125655:1:beginning:w:tx neworder
+125655:0:125657:2:processing:w:tx neworder
+125657:0:125660:3:committing:w:tx neworder
+125654:0:125660:6:commit:w:tx neworder
+125811:0:125811:0:beginning:w:tx neworder
+125811:0:125813:2:processing:w:tx neworder
+125814:0:125816:2:committing:w:tx neworder
+125811:0:125816:5:commit:w:tx neworder
+125837:0:125837:0:beginning:w:tx neworder
+125837:0:125840:3:processing:w:tx neworder
+125840:0:125843:3:committing:w:tx neworder
+125837:0:125843:6:commit:w:tx neworder
+125911:0:125912:1:beginning:w:tx delivery
+125912:0:125914:2:processing:w:tx delivery
+125914:0:125919:5:committing:w:tx delivery
+125911:0:125919:8:commit:w:tx delivery
+126187:0:126188:1:beginning:w:tx neworder
+126188:0:126190:2:processing:w:tx neworder
+126190:0:126192:2:committing:w:tx neworder
+126187:0:126192:5:commit:w:tx neworder
+126911:0:126911:0:beginning:w:tx payment 02
+126911:0:126912:1:processing:w:tx payment 02
+126913:0:126914:1:committing:w:tx payment 02
+126911:0:126914:3:commit:w:tx payment 02
+127669:0:127669:0:beginning:w:tx payment 02
+127669:0:127670:1:processing:w:tx payment 02
+127670:0:127672:2:committing:w:tx payment 02
+127669:0:127672:3:commit:w:tx payment 02
+127961:0:127962:1:beginning:w:tx payment 02
+127962:0:127963:1:processing:w:tx payment 02
+127963:0:127967:4:committing:w:tx payment 02
+127961:0:127967:6:commit:w:tx payment 02
+128451:0:128452:1:beginning:w:tx payment 02
+128452:0:128453:1:processing:w:tx payment 02
+128453:0:128455:2:committing:w:tx payment 02
+128451:0:128455:4:commit:w:tx payment 02
+128857:0:128858:1:beginning:r:tx orderstatus 02
+128858:0:128859:1:processing:r:tx orderstatus 02
+128859:0:128859:0:committing:r:tx orderstatus 02
+128857:0:128859:2:commit:r:tx orderstatus 02
+129189:0:129189:0:beginning:w:tx payment 02
+129190:0:129191:1:processing:w:tx payment 02
+129191:0:129193:2:committing:w:tx payment 02
+129189:0:129193:4:commit:w:tx payment 02
+130159:0:130159:0:beginning:w:tx neworder
+130159:0:130162:3:processing:w:tx neworder
+130162:0:130166:4:committing:w:tx neworder
+130159:0:130166:7:commit:w:tx neworder
+130450:0:130451:1:beginning:w:tx payment 02
+130451:0:130452:1:processing:w:tx payment 02
+130452:0:130453:1:committing:w:tx payment 02
+130450:0:130453:3:commit:w:tx payment 02
+131052:0:131053:1:beginning:w:tx payment 02
+131053:0:131054:1:processing:w:tx payment 02
+131054:0:131056:2:committing:w:tx payment 02
+131052:0:131056:4:commit:w:tx payment 02
+131640:0:131640:0:beginning:w:tx neworder
+131640:0:131643:3:processing:w:tx neworder
+131643:0:131646:3:committing:w:tx neworder
+131640:0:131646:6:commit:w:tx neworder
+131928:0:131928:0:beginning:w:tx payment 02
+131928:0:131929:1:processing:w:tx payment 02
+131929:0:131931:2:committing:w:tx payment 02
+131928:0:131931:3:commit:w:tx payment 02
+132556:0:132557:1:beginning:w:tx payment 02
+132557:0:132558:1:processing:w:tx payment 02
+132558:0:132560:2:committing:w:tx payment 02
+132556:0:132560:4:commit:w:tx payment 02
+132764:0:132764:0:beginning:w:tx neworder
+132764:0:132766:2:processing:w:tx neworder
+132766:0:132769:3:committing:w:tx neworder
+132764:0:132769:5:commit:w:tx neworder
+133580:0:133580:0:beginning:w:tx payment 02
+133580:0:133581:1:processing:w:tx payment 02
+133581:0:133583:2:committing:w:tx payment 02
+133580:0:133583:3:commit:w:tx payment 02
+133709:0:133710:1:beginning:w:tx payment 02
+133710:0:133711:1:processing:w:tx payment 02
+133711:0:133713:2:committing:w:tx payment 02
+133709:0:133713:4:commit:w:tx payment 02
+134733:0:134733:0:beginning:w:tx neworder
+134734:0:134734:0:beginning:w:tx payment 02
+134735:0:134736:1:processing:w:tx payment 02
+134735:0:134737:2:processing:w:tx neworder
+134736:0:134738:2:committing:w:tx payment 02
+134734:0:134738:4:commit:w:tx payment 02
+134737:0:134739:2:committing:w:tx neworder
+134733:0:134739:6:commit:w:tx neworder
+134760:0:134761:1:beginning:w:tx payment 02
+134761:0:134762:1:processing:w:tx payment 02
+134762:0:134763:1:committing:w:tx payment 02
+134760:0:134763:3:commit:w:tx payment 02
+134850:0:134851:1:beginning:w:tx payment 02
+134851:0:134852:1:processing:w:tx payment 02
+134852:0:134854:2:committing:w:tx payment 02
+134850:0:134854:4:commit:w:tx payment 02
+135533:0:135533:0:beginning:w:tx payment 02
+135533:0:135534:1:processing:w:tx payment 02
+135534:0:135536:2:committing:w:tx payment 02
+135533:0:135536:3:commit:w:tx payment 02
+137794:0:137795:1:beginning:w:tx payment 02
+137795:0:137796:1:processing:w:tx payment 02
+137796:0:137798:2:committing:w:tx payment 02
+137794:0:137798:4:commit:w:tx payment 02
+138245:0:138245:0:beginning:w:tx neworder
+138245:0:138248:3:processing:w:tx neworder
+138248:0:138251:3:committing:w:tx neworder
+138245:0:138251:6:commit:w:tx neworder
+138450:0:138451:1:beginning:w:tx payment 02
+138451:0:138452:1:processing:w:tx payment 02
+138452:0:138453:1:committing:w:tx payment 02
+138450:0:138453:3:commit:w:tx payment 02
+138661:0:138661:0:beginning:w:tx payment 02
+138661:0:138662:1:processing:w:tx payment 02
+138662:0:138664:2:committing:w:tx payment 02
+138661:0:138664:3:commit:w:tx payment 02
+139410:0:139410:0:beginning:w:tx payment 02
+139410:0:139411:1:processing:w:tx payment 02
+139411:0:139413:2:committing:w:tx payment 02
+139410:0:139413:3:commit:w:tx payment 02
+140273:0:140273:0:beginning:w:tx neworder
+140273:0:140275:2:processing:w:tx neworder
+140275:0:140277:2:committing:w:tx neworder
+140273:0:140277:4:commit:w:tx neworder
+141953:0:141954:1:beginning:w:tx payment 02
+141954:0:141955:1:processing:w:tx payment 02
+141955:0:141956:1:committing:w:tx payment 02
+141953:0:141956:3:commit:w:tx payment 02
+142563:0:142563:0:beginning:w:tx payment 02
+142564:0:142564:0:processing:w:tx payment 02
+142564:0:142566:2:committing:w:tx payment 02
+142563:0:142566:3:commit:w:tx payment 02
+143481:0:143481:0:beginning:w:tx neworder
+143481:0:143484:3:processing:w:tx neworder
+143484:0:143487:3:committing:w:tx neworder
+143481:0:143487:6:commit:w:tx neworder
+144561:0:144565:4:beginning:w:tx neworder
+144565:0:144567:2:processing:w:tx neworder
+144567:0:144570:3:committing:w:tx neworder
+144561:0:144570:9:commit:w:tx neworder
+145241:0:145242:1:beginning:w:tx neworder
+145242:0:145245:3:processing:w:tx neworder
+145245:0:145249:4:committing:w:tx neworder
+145241:0:145249:8:commit:w:tx neworder
+145751:0:145751:0:beginning:w:tx payment 02
+145751:0:145752:1:processing:w:tx payment 02
+145752:0:145754:2:committing:w:tx payment 02
+145751:0:145754:3:commit:w:tx payment 02
+146302:0:146302:0:beginning:w:tx neworder
+146302:0:146305:3:processing:w:tx neworder
+146305:0:146307:2:committing:w:tx neworder
+146302:0:146307:5:commit:w:tx neworder
+147114:0:147115:1:beginning:w:tx neworder
+147117:0:147120:3:processing:w:tx neworder
+147120:0:147124:4:committing:w:tx neworder
+147114:0:147124:10:commit:w:tx neworder
+147366:0:147366:0:beginning:w:tx neworder
+147366:0:147368:2:processing:w:tx neworder
+147368:0:147370:2:committing:w:tx neworder
+147366:0:147370:4:commit:w:tx neworder
+147397:0:147397:0:beginning:w:tx payment 02
+147397:0:147398:1:processing:w:tx payment 02
+147398:0:147399:1:committing:w:tx payment 02
+147397:0:147400:3:commit:w:tx payment 02
+147500:0:147500:0:beginning:w:tx payment 02
+147500:0:147501:1:processing:w:tx payment 02
+147501:0:147503:2:committing:w:tx payment 02
+147500:0:147503:3:commit:w:tx payment 02
+148332:0:148333:1:beginning:r:tx stocklevel
+148333:0:148334:1:processing:r:tx stocklevel
+148334:0:148335:1:committing:r:tx stocklevel
+148332:0:148335:3:commit:r:tx stocklevel
+149131:0:149132:1:beginning:w:tx payment 02
+149132:0:149133:1:processing:w:tx payment 02
+149133:0:149135:2:committing:w:tx payment 02
+149131:0:149135:4:commit:w:tx payment 02
+149217:0:149217:0:beginning:w:tx payment 02
+149217:0:149218:1:processing:w:tx payment 02
+149218:0:149220:2:committing:w:tx payment 02
+149217:0:149220:3:commit:w:tx payment 02
+149344:0:149344:0:beginning:w:tx neworder
+149344:0:149347:3:processing:w:tx neworder
+149347:0:149350:3:committing:w:tx neworder
+149344:0:149350:6:commit:w:tx neworder
+150327:0:150327:0:beginning:w:tx neworder
+150327:0:150330:3:processing:w:tx neworder
+150330:0:150333:3:committing:w:tx neworder
+150327:0:150333:6:commit:w:tx neworder
+150566:0:150567:1:beginning:w:tx neworder
+150567:0:150569:2:processing:w:tx neworder
+150569:0:150572:3:committing:w:tx neworder
+150566:0:150572:6:commit:w:tx neworder
+151386:0:151386:0:beginning:w:tx payment 02
+151386:0:151388:2:processing:w:tx payment 02
+151388:0:151389:1:committing:w:tx payment 02
+151386:0:151389:3:commit:w:tx payment 02
+151458:0:151459:1:beginning:w:tx neworder
+151459:0:151461:2:processing:w:tx neworder
+151461:0:151463:2:committing:w:tx neworder
+151458:0:151463:5:commit:w:tx neworder
+152701:0:152703:2:beginning:w:tx neworder
+152704:0:152706:2:processing:w:tx neworder
+152706:0:152708:2:committing:w:tx neworder
+152701:0:152708:7:commit:w:tx neworder
+152792:0:152792:0:beginning:w:tx payment 02
+152792:0:152794:2:processing:w:tx payment 02
+152794:0:152795:1:committing:w:tx payment 02
+152792:0:152795:3:commit:w:tx payment 02
+153301:0:153301:0:beginning:w:tx neworder
+153301:0:153304:3:processing:w:tx neworder
+153304:0:153306:2:committing:w:tx neworder
+153301:0:153307:6:commit:w:tx neworder
+153393:0:153393:0:beginning:w:tx payment 02
+153393:0:153394:1:processing:w:tx payment 02
+153394:0:153396:2:committing:w:tx payment 02
+153393:0:153396:3:commit:w:tx payment 02
+155249:0:155250:1:beginning:w:tx neworder
+155250:0:155252:2:processing:w:tx neworder
+155253:0:155255:2:committing:w:tx neworder
+155249:0:155255:6:commit:w:tx neworder
+155408:0:155408:0:beginning:w:tx payment 02
+155408:0:155409:1:processing:w:tx payment 02
+155409:0:155411:2:committing:w:tx payment 02
+155408:0:155411:3:commit:w:tx payment 02
+157624:0:157625:1:beginning:w:tx neworder
+157625:0:157627:2:processing:w:tx neworder
+157627:0:157630:3:committing:w:tx neworder
+157624:0:157630:6:commit:w:tx neworder
+157693:0:157694:1:beginning:w:tx neworder
+157694:0:157696:2:processing:w:tx neworder
+157696:0:157699:3:committing:w:tx neworder
+157693:0:157699:6:commit:w:tx neworder
+158369:0:158370:1:beginning:w:tx payment 02
+158370:0:158371:1:processing:w:tx payment 02
+158371:0:158372:1:committing:w:tx payment 02
+158369:0:158372:3:commit:w:tx payment 02
+158711:0:158712:1:beginning:w:tx payment 02
+158712:0:158713:1:processing:w:tx payment 02
+158713:0:158714:1:committing:w:tx payment 02
+158711:0:158714:3:commit:w:tx payment 02
+159469:0:159470:1:beginning:w:tx payment 02
+159470:0:159471:1:processing:w:tx payment 02
+159471:0:159472:1:committing:w:tx payment 02
+159469:0:159472:3:commit:w:tx payment 02
+159509:0:159509:0:beginning:r:tx stocklevel
+159509:0:159512:3:processing:r:tx stocklevel
+159512:0:159512:0:committing:r:tx stocklevel
+159508:0:159512:4:commit:r:tx stocklevel
+159653:0:159654:1:beginning:w:tx payment 02
+159654:0:159655:1:processing:w:tx payment 02
+159655:0:159656:1:committing:w:tx payment 02
+159653:0:159656:3:commit:w:tx payment 02
+160381:0:160382:1:beginning:w:tx payment 02
+160382:0:160383:1:processing:w:tx payment 02
+160383:0:160384:1:committing:w:tx payment 02
+160381:0:160384:3:commit:w:tx payment 02
+160657:0:160657:0:beginning:w:tx payment 02
+160657:0:160658:1:processing:w:tx payment 02
+160658:0:160659:1:committing:w:tx payment 02
+160657:0:160659:2:commit:w:tx payment 02
+160665:0:160665:0:beginning:r:tx stocklevel
+160665:0:160668:3:processing:r:tx stocklevel
+160668:0:160668:0:committing:r:tx stocklevel
+160665:0:160668:3:commit:r:tx stocklevel
+160931:0:160932:1:beginning:w:tx neworder
+160932:0:160934:2:processing:w:tx neworder
+160935:0:160936:1:beginning:w:tx payment 02
+160936:0:160937:1:processing:w:tx payment 02
+160934:0:160937:3:committing:w:tx neworder
+160931:0:160937:6:commit:w:tx neworder
+160937:0:160938:1:committing:w:tx payment 02
+160935:0:160938:3:commit:w:tx payment 02
+160959:0:160959:0:beginning:w:tx payment 02
+160959:0:160960:1:processing:w:tx payment 02
+160960:0:160961:1:committing:w:tx payment 02
+160959:0:160961:2:commit:w:tx payment 02
+160994:0:160994:0:beginning:w:tx payment 02
+160994:0:160995:1:processing:w:tx payment 02
+160995:0:160996:1:committing:w:tx payment 02
+160994:0:160996:2:commit:w:tx payment 02
+162707:0:162707:0:beginning:w:tx delivery
+162707:0:162710:3:processing:w:tx delivery
+162710:0:162716:6:committing:w:tx delivery
+162707:0:162716:9:commit:w:tx delivery
+162979:0:162980:1:beginning:w:tx neworder
+162980:0:162982:2:processing:w:tx neworder
+162982:0:162984:2:committing:w:tx neworder
+162979:0:162984:5:commit:w:tx neworder
+164169:0:164170:1:beginning:w:tx neworder
+164170:0:164172:2:processing:w:tx neworder
+164172:0:164174:2:committing:w:tx neworder
+164169:0:164174:5:commit:w:tx neworder
+164342:0:164343:1:beginning:w:tx neworder
+164343:0:164345:2:processing:w:tx neworder
+164345:0:164348:3:committing:w:tx neworder
+164342:0:164348:6:commit:w:tx neworder
+165102:0:165103:1:beginning:w:tx neworder
+165103:0:165105:2:processing:w:tx neworder
+165105:0:165108:3:committing:w:tx neworder
+165102:0:165108:6:commit:w:tx neworder
+165998:0:165998:0:beginning:w:tx neworder
+165999:0:166000:1:processing:w:tx neworder
+166000:0:166002:2:committing:w:tx neworder
+165998:0:166002:4:commit:w:tx neworder
+166134:0:166135:1:beginning:w:tx payment 02
+166135:0:166136:1:processing:w:tx payment 02
+166136:0:166137:1:committing:w:tx payment 02
+166134:0:166137:3:commit:w:tx payment 02
+167114:0:167114:0:beginning:w:tx neworder
+167114:0:167117:3:processing:w:tx neworder
+167117:0:167119:2:committing:w:tx neworder
+167114:0:167119:5:commit:w:tx neworder
+168727:0:168728:1:beginning:w:tx payment 02
+168728:0:168729:1:processing:w:tx payment 02
+168729:0:168730:1:committing:w:tx payment 02
+168727:0:168730:3:commit:w:tx payment 02
+169155:0:169156:1:beginning:w:tx neworder
+169156:0:169158:2:processing:w:tx neworder
+169158:0:169159:1:committing:w:tx neworder
+169155:0:169159:4:commit:w:tx neworder
+169558:0:169559:1:beginning:w:tx neworder
+169560:0:169563:3:processing:w:tx neworder
+169563:0:169566:3:committing:w:tx neworder
+169558:0:169566:8:commit:w:tx neworder
+169907:0:169908:1:beginning:w:tx neworder
+169908:0:169910:2:processing:w:tx neworder
+169910:0:169911:1:committing:w:tx neworder
+169907:0:169911:4:commit:w:tx neworder
+170267:0:170267:0:beginning:w:tx payment 02
+170267:0:170268:1:processing:w:tx payment 02
+170268:0:170270:2:committing:w:tx payment 02
+170267:0:170270:3:commit:w:tx payment 02
+171016:0:171017:1:beginning:w:tx payment 02
+171017:0:171018:1:processing:w:tx payment 02
+171018:0:171019:1:committing:w:tx payment 02
+171016:0:171019:3:commit:w:tx payment 02
+171650:0:171653:3:beginning:r:tx stocklevel
+171653:0:171655:2:processing:r:tx stocklevel
+171655:0:171655:0:committing:r:tx stocklevel
+171650:0:171655:5:commit:r:tx stocklevel
+172270:0:172270:0:beginning:w:tx neworder
+172270:0:172273:3:processing:w:tx neworder
+172273:0:172276:3:committing:w:tx neworder
+172270:0:172276:6:commit:w:tx neworder
+172867:0:172868:1:beginning:w:tx payment 02
+172868:0:172869:1:processing:w:tx payment 02
+172869:0:172870:1:committing:w:tx payment 02
+172867:0:172870:3:commit:w:tx payment 02
+172955:0:172956:1:beginning:w:tx neworder
+172956:0:172958:2:processing:w:tx neworder
+172958:0:172960:2:committing:w:tx neworder
+172955:0:172960:5:commit:w:tx neworder
+173074:0:173074:0:beginning:w:tx delivery
+173074:0:173077:3:processing:w:tx delivery
+173077:0:173080:3:committing:w:tx delivery
+173074:0:173080:6:commit:w:tx delivery
+175099:0:175099:0:beginning:w:tx neworder
+175099:0:175102:3:processing:w:tx neworder
+175102:0:175104:2:committing:w:tx neworder
+175099:0:175104:5:commit:w:tx neworder
+175192:0:175192:0:beginning:w:tx payment 02
+175192:0:175193:1:processing:w:tx payment 02
+175193:0:175194:1:committing:w:tx payment 02
+175192:0:175194:2:commit:w:tx payment 02
+176037:0:176038:1:beginning:w:tx neworder
+176038:0:176040:2:processing:w:tx neworder
+176040:0:176042:2:committing:w:tx neworder
+176037:0:176042:5:commit:w:tx neworder
+176242:0:176243:1:beginning:w:tx neworder
+176243:0:176244:1:processing:w:tx neworder
+176244:0:176246:2:committing:w:tx neworder
+176242:0:176246:4:commit:w:tx neworder
+177012:0:177013:1:beginning:r:tx stocklevel
+177013:0:177015:2:processing:r:tx stocklevel
+177015:0:177015:0:committing:r:tx stocklevel
+177011:0:177015:4:commit:r:tx stocklevel
+177187:0:177187:0:beginning:w:tx payment 02
+177187:0:177188:1:processing:w:tx payment 02
+177188:0:177190:2:committing:w:tx payment 02
+177187:0:177190:3:commit:w:tx payment 02
+177675:0:177675:0:beginning:w:tx neworder
+177675:0:177677:2:processing:w:tx neworder
+177677:0:177680:3:committing:w:tx neworder
+177675:0:177680:5:commit:w:tx neworder
+178056:0:178056:0:beginning:w:tx payment 02
+178056:0:178057:1:processing:w:tx payment 02
+178057:0:178059:2:committing:w:tx payment 02
+178056:0:178059:3:commit:w:tx payment 02
+178117:0:178117:0:beginning:w:tx neworder
+178117:0:178119:2:processing:w:tx neworder
+178119:0:178122:3:committing:w:tx neworder
+178117:0:178122:5:commit:w:tx neworder
+178620:0:178621:1:beginning:w:tx payment 02
+178621:0:178622:1:processing:w:tx payment 02
+178622:0:178623:1:committing:w:tx payment 02
+178620:0:178623:3:commit:w:tx payment 02
+179317:0:179318:1:beginning:w:tx neworder
+179318:0:179320:2:processing:w:tx neworder
+179320:0:179322:2:committing:w:tx neworder
+179317:0:179323:6:commit:w:tx neworder
+180200:0:180201:1:beginning:w:tx neworder
+180202:0:180205:3:processing:w:tx neworder
+180205:0:180207:2:committing:w:tx neworder
+180200:0:180207:7:commit:w:tx neworder
+181885:0:181886:1:beginning:w:tx payment 02
+181886:0:181887:1:processing:w:tx payment 02
+181887:0:181889:2:committing:w:tx payment 02
+181885:0:181889:4:commit:w:tx payment 02
+182905:0:182905:0:beginning:w:tx payment 02
+182906:0:182907:1:processing:w:tx payment 02
+182907:0:182908:1:committing:w:tx payment 02
+182905:0:182908:3:commit:w:tx payment 02
+183485:0:183486:1:beginning:w:tx neworder
+183486:0:183488:2:processing:w:tx neworder
+183488:0:183491:3:committing:w:tx neworder
+183485:0:183491:6:commit:w:tx neworder
+183657:0:183658:1:beginning:w:tx payment 02
+183658:0:183659:1:processing:w:tx payment 02
+183659:0:183660:1:committing:w:tx payment 02
+183657:0:183660:3:commit:w:tx payment 02
+184336:0:184336:0:beginning:w:tx neworder
+184336:0:184339:3:processing:w:tx neworder
+184339:0:184340:1:committing:w:tx neworder
+184336:0:184340:4:commit:w:tx neworder
+184369:0:184370:1:beginning:w:tx payment 02
+184370:0:184371:1:processing:w:tx payment 02
+184371:0:184372:1:committing:w:tx payment 02
+184369:0:184372:3:commit:w:tx payment 02
+184702:0:184703:1:beginning:w:tx payment 02
+184703:0:184704:1:processing:w:tx payment 02
+184704:0:184706:2:committing:w:tx payment 02
+184702:0:184706:4:commit:w:tx payment 02
+185482:0:185482:0:beginning:w:tx neworder
+185483:0:185486:3:processing:w:tx neworder
+185486:0:185488:2:committing:w:tx neworder
+185482:0:185488:6:commit:w:tx neworder
+186404:0:186405:1:beginning:w:tx neworder
+186405:0:186407:2:processing:w:tx neworder
+186407:0:186410:3:committing:w:tx neworder
+186404:0:186410:6:commit:w:tx neworder
+186629:0:186630:1:beginning:w:tx neworder
+186630:0:186631:1:processing:w:tx neworder
+186631:0:186634:3:committing:w:tx neworder
+186629:0:186634:5:commit:w:tx neworder
+186827:0:186827:0:beginning:w:tx payment 02
+186827:0:186828:1:processing:w:tx payment 02
+186828:0:186830:2:committing:w:tx payment 02
+186827:0:186830:3:commit:w:tx payment 02
+187059:0:187059:0:beginning:w:tx neworder
+187059:0:187061:2:processing:w:tx neworder
+187061:0:187064:3:committing:w:tx neworder
+187059:0:187064:5:commit:w:tx neworder
+187157:0:187158:1:beginning:w:tx neworder
+187158:0:187160:2:processing:w:tx neworder
+187160:0:187163:3:committing:w:tx neworder
+187157:0:187163:6:commit:w:tx neworder
+187344:0:187345:1:beginning:w:tx neworder
+187345:0:187347:2:processing:w:tx neworder
+187347:0:187348:1:committing:w:tx neworder
+187344:0:187348:4:commit:w:tx neworder
+187761:0:187761:0:beginning:w:tx neworder
+187761:0:187764:3:processing:w:tx neworder
+187764:0:187767:3:committing:w:tx neworder
+187761:0:187767:6:commit:w:tx neworder
+188197:0:188198:1:beginning:w:tx neworder
+188198:0:188199:1:processing:w:tx neworder
+188199:0:188201:2:committing:w:tx neworder
+188197:0:188201:4:commit:w:tx neworder
+188361:0:188362:1:beginning:w:tx neworder
+188362:0:188364:2:processing:w:tx neworder
+188364:0:188366:2:committing:w:tx neworder
+188361:0:188366:5:commit:w:tx neworder
+188779:0:188779:0:beginning:r:tx orderstatus 02
+188780:0:188780:0:processing:r:tx orderstatus 02
+188780:0:188781:1:committing:r:tx orderstatus 02
+188779:0:188781:2:commit:r:tx orderstatus 02
+189051:0:189052:1:beginning:w:tx payment 02
+189052:0:189053:1:processing:w:tx payment 02
+189053:0:189055:2:committing:w:tx payment 02
+189051:0:189055:4:commit:w:tx payment 02
+189957:0:189958:1:beginning:w:tx neworder
+189958:0:189960:2:processing:w:tx neworder
+189960:0:189963:3:committing:w:tx neworder
+189957:0:189963:6:commit:w:tx neworder
+190371:0:190373:2:beginning:w:tx neworder
+190373:0:190375:2:processing:w:tx neworder
+190375:0:190377:2:committing:w:tx neworder
+190371:0:190377:6:commit:w:tx neworder
+192019:0:192020:1:beginning:w:tx neworder
+192020:0:192022:2:processing:w:tx neworder
+192022:0:192025:3:committing:w:tx neworder
+192019:0:192025:6:commit:w:tx neworder
+192173:0:192174:1:beginning:w:tx payment 02
+192174:0:192175:1:processing:w:tx payment 02
+192175:0:192177:2:committing:w:tx payment 02
+192173:0:192177:4:commit:w:tx payment 02
+192857:0:192858:1:beginning:w:tx payment 02
+192858:0:192859:1:processing:w:tx payment 02
+192859:0:192860:1:committing:w:tx payment 02
+192857:0:192860:3:commit:w:tx payment 02
+193399:0:193400:1:beginning:w:tx neworder
+193400:0:193402:2:processing:w:tx neworder
+193402:0:193404:2:committing:w:tx neworder
+193399:0:193404:5:commit:w:tx neworder
+193461:0:193462:1:beginning:r:tx orderstatus 02
+193462:0:193463:1:processing:r:tx orderstatus 02
+193463:0:193463:0:committing:r:tx orderstatus 02
+193461:0:193463:2:commit:r:tx orderstatus 02
+193571:0:193571:0:beginning:w:tx neworder
+193571:0:193574:3:processing:w:tx neworder
+193574:0:193576:2:committing:w:tx neworder
+193571:0:193576:5:commit:w:tx neworder
+194254:0:194254:0:beginning:r:tx stocklevel
+194254:0:194257:3:processing:r:tx stocklevel
+194257:0:194257:0:committing:r:tx stocklevel
+194254:0:194257:3:commit:r:tx stocklevel
+194573:0:194574:1:beginning:w:tx neworder
+194574:0:194576:2:processing:w:tx neworder
+194576:0:194578:2:committing:w:tx neworder
+194573:0:194578:5:commit:w:tx neworder
+195085:0:195086:1:beginning:w:tx payment 02
+195086:0:195087:1:processing:w:tx payment 02
+195087:0:195088:1:committing:w:tx payment 02
+195085:0:195088:3:commit:w:tx payment 02
+195348:0:195348:0:beginning:w:tx neworder
+195348:0:195350:2:processing:w:tx neworder
+195350:0:195352:2:committing:w:tx neworder
+195348:0:195352:4:commit:w:tx neworder
+195377:0:195378:1:beginning:w:tx payment 02
+195378:0:195379:1:processing:w:tx payment 02
+195379:0:195380:1:committing:w:tx payment 02
+195377:0:195380:3:commit:w:tx payment 02
+195419:0:195420:1:beginning:w:tx delivery
+195420:0:195422:2:processing:w:tx delivery
+195422:0:195424:2:committing:w:tx delivery
+195419:0:195424:5:commit:w:tx delivery
+196196:0:196197:1:beginning:w:tx payment 02
+196197:0:196198:1:processing:w:tx payment 02
+196198:0:196199:1:committing:w:tx payment 02
+196196:0:196199:3:commit:w:tx payment 02
+196907:0:196907:0:beginning:w:tx payment 02
+196907:0:196908:1:processing:w:tx payment 02
+196908:0:196910:2:committing:w:tx payment 02
+196907:0:196910:3:commit:w:tx payment 02
+196938:0:196939:1:beginning:w:tx neworder
+196939:0:196941:2:processing:w:tx neworder
+196941:0:196943:2:committing:w:tx neworder
+196938:0:196943:5:commit:w:tx neworder
+197427:0:197428:1:beginning:w:tx neworder
+197429:0:197432:3:processing:w:tx neworder
+197432:0:197434:2:committing:w:tx neworder
+197427:0:197434:7:commit:w:tx neworder
+198302:0:198302:0:beginning:w:tx payment 02
+198302:0:198303:1:processing:w:tx payment 02
+198303:0:198304:1:committing:w:tx payment 02
+198302:0:198304:2:commit:w:tx payment 02
+198834:0:198835:1:beginning:w:tx neworder
+198835:0:198837:2:processing:w:tx neworder
+198837:0:198840:3:committing:w:tx neworder
+198834:0:198840:6:commit:w:tx neworder
+199120:0:199121:1:beginning:w:tx payment 02
+199121:0:199122:1:processing:w:tx payment 02
+199122:0:199123:1:committing:w:tx payment 02
+199120:0:199123:3:commit:w:tx payment 02
+199656:0:199657:1:beginning:w:tx payment 02
+199657:0:199658:1:processing:w:tx payment 02
+199658:0:199659:1:committing:w:tx payment 02
+199656:0:199659:3:commit:w:tx payment 02
+200890:0:200891:1:beginning:w:tx neworder
+200891:0:200893:2:processing:w:tx neworder
+200893:0:200896:3:committing:w:tx neworder
+200890:0:200896:6:commit:w:tx neworder
+200920:0:200921:1:beginning:w:tx payment 02
+200921:0:200922:1:processing:w:tx payment 02
+200922:0:200923:1:committing:w:tx payment 02
+200920:0:200923:3:commit:w:tx payment 02
+200944:0:200944:0:beginning:w:tx neworder
+200944:0:200946:2:processing:w:tx neworder
+200946:0:200949:3:committing:w:tx neworder
+200944:0:200949:5:commit:w:tx neworder
+201089:0:201089:0:beginning:w:tx neworder
+201089:0:201091:2:processing:w:tx neworder
+201091:0:201093:2:committing:w:tx neworder
+201089:0:201093:4:commit:w:tx neworder
+201970:0:201970:0:beginning:w:tx neworder
+201970:0:201972:2:processing:w:tx neworder
+201972:0:201975:3:committing:w:tx neworder
+201970:0:201975:5:commit:w:tx neworder
+202156:0:202156:0:beginning:w:tx payment 02
+202156:0:202157:1:processing:w:tx payment 02
+202157:0:202159:2:committing:w:tx payment 02
+202156:0:202159:3:commit:w:tx payment 02
+202386:0:202387:1:beginning:w:tx neworder
+202387:0:202390:3:processing:w:tx neworder
+202390:0:202392:2:committing:w:tx neworder
+202386:0:202392:6:commit:w:tx neworder
+203156:0:203157:1:beginning:w:tx payment 02
+203157:0:203158:1:processing:w:tx payment 02
+203158:0:203159:1:committing:w:tx payment 02
+203156:0:203159:3:commit:w:tx payment 02
+203343:0:203343:0:beginning:w:tx payment 02
+203343:0:203344:1:processing:w:tx payment 02
+203344:0:203346:2:committing:w:tx payment 02
+203343:0:203346:3:commit:w:tx payment 02
+203368:0:203368:0:beginning:w:tx payment 02
+203368:0:203369:1:processing:w:tx payment 02
+203369:0:203370:1:committing:w:tx payment 02
+203368:0:203370:2:commit:w:tx payment 02
+203989:0:203990:1:beginning:w:tx neworder
+203990:0:203992:2:processing:w:tx neworder
+203992:0:203994:2:committing:w:tx neworder
+203989:0:203994:5:commit:w:tx neworder
+205187:0:205187:0:beginning:w:tx payment 02
+205187:0:205193:6:processing:w:tx payment 02
+205193:0:205194:1:committing:w:tx payment 02
+205187:0:205194:7:commit:w:tx payment 02
+205278:0:205278:0:beginning:w:tx payment 02
+205278:0:205279:1:processing:w:tx payment 02
+205279:0:205280:1:committing:w:tx payment 02
+205278:0:205280:2:commit:w:tx payment 02
+205321:0:205322:1:beginning:w:tx neworder
+205322:0:205324:2:processing:w:tx neworder
+205324:0:205326:2:committing:w:tx neworder
+205321:0:205326:5:commit:w:tx neworder
+205384:0:205385:1:beginning:w:tx payment 02
+205385:0:205386:1:processing:w:tx payment 02
+205386:0:205387:1:committing:w:tx payment 02
+205384:0:205387:3:commit:w:tx payment 02
+205972:0:205972:0:beginning:w:tx payment 02
+205972:0:205973:1:processing:w:tx payment 02
+205973:0:205975:2:committing:w:tx payment 02
+205972:0:205975:3:commit:w:tx payment 02
+206002:0:206002:0:beginning:w:tx payment 02
+206002:0:206003:1:processing:w:tx payment 02
+206003:0:206005:2:committing:w:tx payment 02
+206002:0:206005:3:commit:w:tx payment 02
+206085:0:206085:0:beginning:w:tx neworder
+206085:0:206088:3:processing:w:tx neworder
+206088:0:206090:2:committing:w:tx neworder
+206085:0:206090:5:commit:w:tx neworder
+206901:0:206902:1:beginning:w:tx neworder
+206902:0:206904:2:processing:w:tx neworder
+206904:0:206906:2:committing:w:tx neworder
+206901:0:206906:5:commit:w:tx neworder
+207405:0:207406:1:beginning:r:tx stocklevel
+207406:0:207408:2:processing:r:tx stocklevel
+207408:0:207408:0:committing:r:tx stocklevel
+207405:0:207408:3:commit:r:tx stocklevel
+208777:0:208778:1:beginning:w:tx neworder
+208779:0:208781:2:processing:w:tx neworder
+208781:0:208783:2:committing:w:tx neworder
+208777:0:208783:6:commit:w:tx neworder
+209591:0:209593:2:beginning:w:tx payment 02
+209593:0:209594:1:processing:w:tx payment 02
+209594:0:209596:2:committing:w:tx payment 02
+209591:0:209596:5:commit:w:tx payment 02
+209597:0:209597:0:beginning:r:tx orderstatus 02
+209597:0:209598:1:processing:r:tx orderstatus 02
+209598:0:209598:0:committing:r:tx orderstatus 02
+209597:0:209598:1:commit:r:tx orderstatus 02
+211657:0:211658:1:beginning:w:tx neworder
+211658:0:211659:1:processing:w:tx neworder
+211659:0:211661:2:committing:w:tx neworder
+211657:0:211661:4:commit:w:tx neworder
+213121:0:213121:0:beginning:w:tx neworder
+213121:0:213124:3:processing:w:tx neworder
+213124:0:213125:1:committing:w:tx neworder
+213121:0:213126:5:commit:w:tx neworder
+213490:0:213490:0:beginning:w:tx delivery
+213490:0:213496:6:processing:w:tx delivery
+213496:0:213498:2:committing:w:tx delivery
+213490:0:213498:8:commit:w:tx delivery
+214203:0:214203:0:beginning:w:tx neworder
+214205:0:214207:2:processing:w:tx neworder
+214207:0:214209:2:committing:w:tx neworder
+214203:0:214209:6:commit:w:tx neworder
+215582:0:215582:0:beginning:w:tx neworder
+215582:0:215584:2:processing:w:tx neworder
+215584:0:215586:2:committing:w:tx neworder
+215582:0:215586:4:commit:w:tx neworder
+216989:0:216989:0:beginning:w:tx payment 02
+216989:0:216990:1:processing:w:tx payment 02
+216990:0:216992:2:committing:w:tx payment 02
+216989:0:216992:3:commit:w:tx payment 02
+219175:0:219175:0:beginning:w:tx payment 02
+219175:0:219177:2:processing:w:tx payment 02
+219177:0:219178:1:committing:w:tx payment 02
+219175:0:219178:3:commit:w:tx payment 02
+219184:0:219184:0:beginning:w:tx neworder
+219184:0:219186:2:processing:w:tx neworder
+219187:0:219188:1:committing:w:tx neworder
+219184:0:219188:4:commit:w:tx neworder
+220167:0:220168:1:beginning:w:tx payment 02
+220168:0:220169:1:processing:w:tx payment 02
+220169:0:220170:1:committing:w:tx payment 02
+220167:0:220170:3:commit:w:tx payment 02
+221072:0:221072:0:beginning:r:tx orderstatus 02
+221072:0:221073:1:processing:r:tx orderstatus 02
+221073:0:221073:0:committing:r:tx orderstatus 02
+221072:0:221073:1:commit:r:tx orderstatus 02
+224029:0:224030:1:beginning:w:tx payment 02
+224030:0:224031:1:processing:w:tx payment 02
+224031:0:224032:1:committing:w:tx payment 02
+224029:0:224032:3:commit:w:tx payment 02
+224276:0:224276:0:beginning:w:tx neworder
+224278:0:224280:2:processing:w:tx neworder
+224280:0:224282:2:committing:w:tx neworder
+224276:0:224282:6:commit:w:tx neworder
+224474:0:224474:0:beginning:w:tx neworder
+224474:0:224476:2:processing:w:tx neworder
+224476:0:224478:2:committing:w:tx neworder
+224474:0:224478:4:commit:w:tx neworder
+224621:0:224621:0:beginning:w:tx payment 02
+224621:0:224622:1:processing:w:tx payment 02
+224622:0:224624:2:committing:w:tx payment 02
+224621:0:224624:3:commit:w:tx payment 02
+224787:0:224788:1:beginning:w:tx payment 02
+224788:0:224789:1:processing:w:tx payment 02
+224789:0:224790:1:committing:w:tx payment 02
+224787:0:224790:3:commit:w:tx payment 02
+225724:0:225724:0:beginning:w:tx payment 02
+225725:0:225726:1:processing:w:tx payment 02
+225726:0:225727:1:committing:w:tx payment 02
+225723:0:225727:4:commit:w:tx payment 02
+225861:0:225862:1:beginning:w:tx neworder
+225862:0:225864:2:processing:w:tx neworder
+225864:0:225865:1:committing:w:tx neworder
+225861:0:225865:4:commit:w:tx neworder
+225923:0:225923:0:beginning:w:tx neworder
+225923:0:225926:3:processing:w:tx neworder
+225926:0:225929:3:committing:w:tx neworder
+225923:0:225929:6:commit:w:tx neworder
+226459:0:226460:1:beginning:w:tx neworder
+226460:0:226462:2:processing:w:tx neworder
+226462:0:226465:3:committing:w:tx neworder
+226459:0:226465:6:commit:w:tx neworder
+226959:0:226959:0:beginning:w:tx neworder
+226960:0:226962:2:processing:w:tx neworder
+226962:0:226965:3:committing:w:tx neworder
+226959:0:226965:6:commit:w:tx neworder
+227476:0:227476:0:beginning:w:tx neworder
+227476:0:227478:2:processing:w:tx neworder
+227478:0:227479:1:committing:w:tx neworder
+227476:0:227480:4:commit:w:tx neworder
+227723:0:227723:0:beginning:w:tx neworder
+227724:0:227725:1:processing:w:tx neworder
+227725:0:227727:2:committing:w:tx neworder
+227723:0:227727:4:commit:w:tx neworder
+227844:0:227845:1:beginning:w:tx payment 02
+227845:0:227846:1:processing:w:tx payment 02
+227846:0:227847:1:committing:w:tx payment 02
+227844:0:227847:3:commit:w:tx payment 02
+227995:0:227996:1:beginning:w:tx neworder
+227996:0:227998:2:processing:w:tx neworder
+227998:0:228002:4:committing:w:tx neworder
+227995:0:228002:7:commit:w:tx neworder
+228995:0:228995:0:beginning:w:tx neworder
+228995:0:228998:3:processing:w:tx neworder
+228998:0:229001:3:committing:w:tx neworder
+228995:0:229001:6:commit:w:tx neworder
+229632:0:229632:0:beginning:w:tx payment 02
+229632:0:229633:1:processing:w:tx payment 02
+229633:0:229637:4:committing:w:tx payment 02
+229632:0:229637:5:commit:w:tx payment 02
+230791:0:230791:0:beginning:w:tx payment 02
+230793:0:230794:1:processing:w:tx payment 02
+230794:0:230795:1:committing:w:tx payment 02
+230791:0:230795:4:commit:w:tx payment 02
+231107:0:231107:0:beginning:w:tx payment 02
+231107:0:231108:1:processing:w:tx payment 02
+231108:0:231109:1:committing:w:tx payment 02
+231107:0:231109:2:commit:w:tx payment 02
+231579:0:231579:0:beginning:w:tx neworder
+231579:0:231581:2:processing:w:tx neworder
+231581:0:231583:2:committing:w:tx neworder
+231579:0:231583:4:commit:w:tx neworder
+232337:0:232337:0:beginning:w:tx payment 02
+232337:0:232339:2:processing:w:tx payment 02
+232339:0:232340:1:committing:w:tx payment 02
+232337:0:232340:3:commit:w:tx payment 02
+232945:0:232946:1:beginning:w:tx payment 02
+232946:0:232947:1:processing:w:tx payment 02
+232947:0:232948:1:committing:w:tx payment 02
+232945:0:232948:3:commit:w:tx payment 02
+234192:0:234192:0:beginning:w:tx payment 02
+234192:0:234193:1:processing:w:tx payment 02
+234193:0:234195:2:committing:w:tx payment 02
+234192:0:234195:3:commit:w:tx payment 02
+234383:0:234384:1:beginning:w:tx payment 02
+234384:0:234385:1:processing:w:tx payment 02
+234385:0:234386:1:committing:w:tx payment 02
+234383:0:234386:3:commit:w:tx payment 02
+237402:0:237402:0:beginning:w:tx payment 02
+237402:0:237403:1:processing:w:tx payment 02
+237403:0:237405:2:committing:w:tx payment 02
+237402:0:237405:3:commit:w:tx payment 02
+237950:0:237951:1:beginning:w:tx neworder
+237951:0:237953:2:processing:w:tx neworder
+237953:0:237955:2:committing:w:tx neworder
+237950:0:237955:5:commit:w:tx neworder
+238479:0:238480:1:beginning:w:tx neworder
+238480:0:238482:2:processing:w:tx neworder
+238482:0:238484:2:committing:w:tx neworder
+238479:0:238484:5:commit:w:tx neworder
+239136:0:239137:1:beginning:w:tx payment 02
+239137:0:239138:1:processing:w:tx payment 02
+239138:0:239139:1:committing:w:tx payment 02
+239136:0:239139:3:commit:w:tx payment 02
+239290:0:239290:0:beginning:w:tx payment 02
+239290:0:239291:1:processing:w:tx payment 02
+239291:0:239293:2:committing:w:tx payment 02
+239290:0:239293:3:commit:w:tx payment 02
+239424:0:239424:0:beginning:w:tx neworder
+239424:0:239427:3:processing:w:tx neworder
+239427:0:239428:1:committing:w:tx neworder
+239424:0:239428:4:commit:w:tx neworder
+240067:0:240067:0:beginning:w:tx neworder
+240067:0:240070:3:processing:w:tx neworder
+240070:0:240072:2:committing:w:tx neworder
+240067:0:240072:5:commit:w:tx neworder
+240481:0:240482:1:beginning:w:tx payment 02
+240482:0:240483:1:processing:w:tx payment 02
+240483:0:240484:1:committing:w:tx payment 02
+240481:0:240484:3:commit:w:tx payment 02
+240699:0:240700:1:beginning:w:tx neworder
+240700:0:240702:2:processing:w:tx neworder
+240702:0:240705:3:committing:w:tx neworder
+240699:0:240705:6:commit:w:tx neworder
+242377:0:242377:0:beginning:w:tx neworder
+242377:0:242379:2:processing:w:tx neworder
+242379:0:242381:2:committing:w:tx neworder
+242377:0:242381:4:commit:w:tx neworder
+243137:0:243137:0:beginning:w:tx neworder
+243137:0:243140:3:processing:w:tx neworder
+243140:0:243143:3:committing:w:tx neworder
+243137:0:243143:6:commit:w:tx neworder
+243312:0:243312:0:beginning:w:tx payment 02
+243312:0:243313:1:processing:w:tx payment 02
+243313:0:243315:2:committing:w:tx payment 02
+243312:0:243315:3:commit:w:tx payment 02
+243425:0:243426:1:beginning:r:tx orderstatus 02
+243426:0:243426:0:processing:r:tx orderstatus 02
+243426:0:243427:1:committing:r:tx orderstatus 02
+243425:0:243427:2:commit:r:tx orderstatus 02
+243673:0:243673:0:beginning:w:tx neworder
+243673:0:243675:2:processing:w:tx neworder
+243675:0:243677:2:committing:w:tx neworder
+243673:0:243677:4:commit:w:tx neworder
+244016:0:244016:0:beginning:w:tx payment 02
+244016:0:244017:1:processing:w:tx payment 02
+244017:0:244019:2:committing:w:tx payment 02
+244016:0:244019:3:commit:w:tx payment 02
+244590:0:244591:1:beginning:w:tx neworder
+244591:0:244593:2:processing:w:tx neworder
+244593:0:244595:2:committing:w:tx neworder
+244590:0:244595:5:commit:w:tx neworder
+244769:0:244770:1:beginning:w:tx payment 02
+244770:0:244771:1:processing:w:tx payment 02
+244771:0:244772:1:committing:w:tx payment 02
+244769:0:244772:3:commit:w:tx payment 02
+244892:0:244893:1:beginning:w:tx payment 02
+244893:0:244894:1:processing:w:tx payment 02
+244894:0:244895:1:committing:w:tx payment 02
+244892:0:244895:3:commit:w:tx payment 02
+245426:0:245426:0:beginning:w:tx payment 02
+245426:0:245428:2:processing:w:tx payment 02
+245428:0:245429:1:committing:w:tx payment 02
+245426:0:245429:3:commit:w:tx payment 02
+245491:0:245491:0:beginning:w:tx neworder
+245491:0:245495:4:processing:w:tx neworder
+245495:0:245498:3:committing:w:tx neworder
+245491:0:245498:7:commit:w:tx neworder
+246714:0:246714:0:beginning:w:tx neworder
+246714:0:246717:3:processing:w:tx neworder
+246717:0:246719:2:committing:w:tx neworder
+246714:0:246719:5:commit:w:tx neworder
+246845:0:246845:0:beginning:w:tx payment 02
+246845:0:246846:1:processing:w:tx payment 02
+246846:0:246848:2:committing:w:tx payment 02
+246845:0:246848:3:commit:w:tx payment 02
+247052:0:247053:1:beginning:w:tx neworder
+247053:0:247055:2:processing:w:tx neworder
+247055:0:247057:2:committing:w:tx neworder
+247052:0:247057:5:commit:w:tx neworder
+247451:0:247452:1:beginning:w:tx neworder
+247452:0:247454:2:processing:w:tx neworder
+247454:0:247456:2:committing:w:tx neworder
+247451:0:247456:5:commit:w:tx neworder
+247680:0:247680:0:beginning:w:tx payment 02
+247681:0:247681:0:processing:w:tx payment 02
+247681:0:247683:2:committing:w:tx payment 02
+247680:0:247683:3:commit:w:tx payment 02
+247889:0:247889:0:beginning:w:tx neworder
+247889:0:247891:2:processing:w:tx neworder
+247891:0:247893:2:committing:w:tx neworder
+247889:0:247893:4:commit:w:tx neworder
+248358:0:248359:1:beginning:w:tx neworder
+248360:0:248363:3:processing:w:tx neworder
+248363:0:248365:2:committing:w:tx neworder
+248358:0:248365:7:commit:w:tx neworder
+249548:0:249549:1:beginning:w:tx payment 02
+249549:0:249550:1:processing:w:tx payment 02
+249550:0:249551:1:committing:w:tx payment 02
+249548:0:249551:3:commit:w:tx payment 02
+250082:0:250083:1:beginning:w:tx neworder
+250083:0:250085:2:processing:w:tx neworder
+250085:0:250088:3:committing:w:tx neworder
+250082:0:250088:6:commit:w:tx neworder
+250143:0:250144:1:beginning:r:tx stocklevel
+250144:0:250146:2:processing:r:tx stocklevel
+250146:0:250146:0:committing:r:tx stocklevel
+250143:0:250146:3:commit:r:tx stocklevel
+250154:0:250154:0:beginning:w:tx payment 02
+250154:0:250156:2:processing:w:tx payment 02
+250156:0:250157:1:committing:w:tx payment 02
+250154:0:250157:3:commit:w:tx payment 02
+250418:0:250418:0:beginning:w:tx neworder
+250419:0:250420:1:processing:w:tx neworder
+250420:0:250422:2:committing:w:tx neworder
+250418:0:250422:4:commit:w:tx neworder
+250735:0:250736:1:beginning:w:tx neworder
+250736:0:250738:2:processing:w:tx neworder
+250738:0:250741:3:committing:w:tx neworder
+250735:0:250741:6:commit:w:tx neworder
+251559:0:251560:1:beginning:w:tx neworder
+251560:0:251562:2:processing:w:tx neworder
+251562:0:251564:2:committing:w:tx neworder
+251559:0:251564:5:commit:w:tx neworder
+252342:0:252342:0:beginning:w:tx payment 02
+252342:0:252343:1:processing:w:tx payment 02
+252343:0:252345:2:committing:w:tx payment 02
+252342:0:252345:3:commit:w:tx payment 02
+252839:0:252840:1:beginning:w:tx payment 02
+252840:0:252841:1:processing:w:tx payment 02
+252841:0:252842:1:committing:w:tx payment 02
+252839:0:252842:3:commit:w:tx payment 02
+253124:0:253125:1:beginning:w:tx neworder
+253125:0:253127:2:processing:w:tx neworder
+253127:0:253129:2:committing:w:tx neworder
+253124:0:253129:5:commit:w:tx neworder
+253389:0:253389:0:beginning:w:tx payment 02
+253390:0:253391:1:processing:w:tx payment 02
+253391:0:253393:2:committing:w:tx payment 02
+253389:0:253393:4:commit:w:tx payment 02
+253849:0:253849:0:beginning:w:tx neworder
+253849:0:253851:2:processing:w:tx neworder
+253851:0:253854:3:committing:w:tx neworder
+253849:0:253854:5:commit:w:tx neworder
+254550:0:254550:0:beginning:r:tx stocklevel
+254550:0:254552:2:processing:r:tx stocklevel
+254553:0:254553:0:committing:r:tx stocklevel
+254550:0:254553:3:commit:r:tx stocklevel
+255072:0:255073:1:beginning:w:tx payment 02
+255073:0:255074:1:processing:w:tx payment 02
+255074:0:255075:1:committing:w:tx payment 02
+255072:0:255076:4:commit:w:tx payment 02
+258066:0:258066:0:beginning:w:tx payment 02
+258066:0:258067:1:processing:w:tx payment 02
+258067:0:258068:1:committing:w:tx payment 02
+258066:0:258069:3:commit:w:tx payment 02
+258161:0:258162:1:beginning:w:tx payment 02
+258162:0:258163:1:processing:w:tx payment 02
+258163:0:258165:2:committing:w:tx payment 02
+258161:0:258165:4:commit:w:tx payment 02
+258501:0:258502:1:beginning:w:tx neworder
+258503:0:258505:2:processing:w:tx neworder
+258505:0:258507:2:committing:w:tx neworder
+258501:0:258507:6:commit:w:tx neworder
+258875:0:258875:0:beginning:w:tx neworder
+258875:0:258877:2:processing:w:tx neworder
+258877:0:258879:2:committing:w:tx neworder
+258875:0:258879:4:commit:w:tx neworder
+260242:0:260243:1:beginning:w:tx neworder
+260243:0:260245:2:processing:w:tx neworder
+260245:0:260246:1:committing:w:tx neworder
+260242:0:260246:4:commit:w:tx neworder
+260455:0:260455:0:beginning:w:tx payment 02
+260455:0:260456:1:processing:w:tx payment 02
+260456:0:260458:2:committing:w:tx payment 02
+260455:0:260458:3:commit:w:tx payment 02
+261253:0:261253:0:beginning:w:tx payment 02
+261253:0:261254:1:processing:w:tx payment 02
+261254:0:261255:1:committing:w:tx payment 02
+261253:0:261255:2:commit:w:tx payment 02
+262040:0:262040:0:beginning:w:tx payment 02
+262040:0:262041:1:processing:w:tx payment 02
+262042:0:262043:1:committing:w:tx payment 02
+262040:0:262043:3:commit:w:tx payment 02
+262810:0:262810:0:beginning:w:tx neworder
+262810:0:262812:2:processing:w:tx neworder
+262812:0:262813:1:committing:w:tx neworder
+262809:0:262813:4:commit:w:tx neworder
+262959:0:262959:0:beginning:w:tx neworder
+262959:0:262961:2:processing:w:tx neworder
+262961:0:262963:2:committing:w:tx neworder
+262959:0:262963:4:commit:w:tx neworder
+263061:0:263061:0:beginning:w:tx payment 02
+263061:0:263062:1:processing:w:tx payment 02
+263062:0:263063:1:committing:w:tx payment 02
+263061:0:263064:3:commit:w:tx payment 02
+263080:0:263081:1:beginning:r:tx stocklevel
+263081:0:263082:1:processing:r:tx stocklevel
+263082:0:263083:1:committing:r:tx stocklevel
+263080:0:263083:3:commit:r:tx stocklevel
+263886:0:263887:1:beginning:w:tx payment 02
+263888:0:263889:1:processing:w:tx payment 02
+263889:0:263891:2:committing:w:tx payment 02
+263886:0:263891:5:commit:w:tx payment 02
+264294:0:264295:1:beginning:w:tx neworder
+264295:0:264297:2:processing:w:tx neworder
+264297:0:264299:2:committing:w:tx neworder
+264294:0:264299:5:commit:w:tx neworder
+265023:0:265024:1:beginning:w:tx neworder
+265024:0:265026:2:processing:w:tx neworder
+265026:0:265028:2:committing:w:tx neworder
+265023:0:265028:5:commit:w:tx neworder
+265438:0:265439:1:beginning:w:tx payment 02
+265439:0:265440:1:processing:w:tx payment 02
+265440:0:265441:1:committing:w:tx payment 02
+265438:0:265441:3:commit:w:tx payment 02
+265985:0:265985:0:beginning:w:tx neworder
+265986:0:265988:2:processing:w:tx neworder
+265988:0:265989:1:committing:w:tx neworder
+265985:0:265990:5:commit:w:tx neworder
+266120:0:266120:0:beginning:w:tx payment 02
+266120:0:266121:1:processing:w:tx payment 02
+266121:0:266123:2:committing:w:tx payment 02
+266120:0:266123:3:commit:w:tx payment 02
+267018:0:267019:1:beginning:w:tx neworder
+267019:0:267021:2:processing:w:tx neworder
+267021:0:267023:2:committing:w:tx neworder
+267018:0:267023:5:commit:w:tx neworder
+268406:0:268407:1:beginning:w:tx neworder
+268407:0:268410:3:processing:w:tx neworder
+268410:0:268411:1:committing:w:tx neworder
+268406:0:268412:6:commit:w:tx neworder
+268513:0:268513:0:beginning:w:tx neworder
+268513:0:268515:2:processing:w:tx neworder
+268515:0:268518:3:committing:w:tx neworder
+268513:0:268518:5:commit:w:tx neworder
+268561:0:268561:0:beginning:w:tx neworder
+268561:0:268564:3:processing:w:tx neworder
+268564:0:268565:1:committing:w:tx neworder
+268561:0:268565:4:commit:w:tx neworder
+269383:0:269384:1:beginning:w:tx payment 02
+269385:0:269386:1:processing:w:tx payment 02
+269386:0:269387:1:committing:w:tx payment 02
+269383:0:269387:4:commit:w:tx payment 02
+270236:0:270237:1:beginning:w:tx neworder
+270237:0:270240:3:processing:w:tx neworder
+270240:0:270242:2:committing:w:tx neworder
+270236:0:270242:6:commit:w:tx neworder
+270465:0:270465:0:beginning:w:tx neworder
+270465:0:270468:3:processing:w:tx neworder
+270468:0:270470:2:committing:w:tx neworder
+270465:0:270470:5:commit:w:tx neworder
+271209:0:271209:0:beginning:w:tx neworder
+271209:0:271212:3:processing:w:tx neworder
+271212:0:271214:2:committing:w:tx neworder
+271209:0:271214:5:commit:w:tx neworder
+271320:0:271320:0:beginning:w:tx payment 02
+271320:0:271321:1:processing:w:tx payment 02
+271321:0:271323:2:committing:w:tx payment 02
+271320:0:271323:3:commit:w:tx payment 02
+272487:0:272487:0:beginning:w:tx neworder
+272487:0:272489:2:processing:w:tx neworder
+272489:0:272491:2:committing:w:tx neworder
+272487:0:272491:4:commit:w:tx neworder
+272915:0:272916:1:beginning:w:tx neworder
+272916:0:272918:2:processing:w:tx neworder
+272918:0:272920:2:committing:w:tx neworder
+272915:0:272920:5:commit:w:tx neworder
+272982:0:272983:1:beginning:w:tx payment 02
+272983:0:272984:1:processing:w:tx payment 02
+272984:0:272985:1:committing:w:tx payment 02
+272982:0:272985:3:commit:w:tx payment 02
+274059:0:274060:1:beginning:w:tx neworder
+274060:0:274061:1:processing:w:tx neworder
+274061:0:274063:2:committing:w:tx neworder
+274059:0:274063:4:commit:w:tx neworder
+274400:0:274400:0:beginning:w:tx payment 02
+274402:0:274403:1:processing:w:tx payment 02
+274403:0:274404:1:committing:w:tx payment 02
+274400:0:274404:4:commit:w:tx payment 02
+274461:0:274462:1:beginning:w:tx neworder
+274462:0:274464:2:processing:w:tx neworder
+274464:0:274467:3:committing:w:tx neworder
+274461:0:274467:6:commit:w:tx neworder
+274551:0:274552:1:beginning:w:tx payment 02
+274552:0:274553:1:processing:w:tx payment 02
+274553:0:274554:1:committing:w:tx payment 02
+274551:0:274554:3:commit:w:tx payment 02
+274790:0:274790:0:beginning:w:tx neworder
+274790:0:274792:2:processing:w:tx neworder
+274792:0:274794:2:committing:w:tx neworder
+274790:0:274794:4:commit:w:tx neworder
+275949:0:275950:1:beginning:w:tx neworder
+275950:0:275952:2:processing:w:tx neworder
+275953:0:275954:1:committing:w:tx neworder
+275949:0:275954:5:commit:w:tx neworder
+276007:0:276008:1:beginning:w:tx neworder
+276008:0:276010:2:processing:w:tx neworder
+276010:0:276012:2:committing:w:tx neworder
+276007:0:276012:5:commit:w:tx neworder
+276347:0:276348:1:beginning:w:tx neworder
+276348:0:276350:2:processing:w:tx neworder
+276350:0:276352:2:committing:w:tx neworder
+276347:0:276352:5:commit:w:tx neworder
+278320:0:278321:1:beginning:w:tx payment 02
+278321:0:278322:1:processing:w:tx payment 02
+278322:0:278323:1:committing:w:tx payment 02
+278320:0:278323:3:commit:w:tx payment 02
+278784:0:278784:0:beginning:w:tx neworder
+278784:0:278786:2:processing:w:tx neworder
+278786:0:278788:2:committing:w:tx neworder
+278784:0:278788:4:commit:w:tx neworder
+279480:0:279481:1:beginning:w:tx payment 02
+279482:0:279483:1:processing:w:tx payment 02
+279483:0:279484:1:committing:w:tx payment 02
+279480:0:279484:4:commit:w:tx payment 02
+279524:0:279524:0:beginning:w:tx neworder
+279524:0:279527:3:processing:w:tx neworder
+279527:0:279528:1:committing:w:tx neworder
+279524:0:279528:4:commit:w:tx neworder
+279672:0:279672:0:beginning:w:tx neworder
+279672:0:279675:3:processing:w:tx neworder
+279675:0:279677:2:committing:w:tx neworder
+279672:0:279677:5:commit:w:tx neworder
+281854:0:281856:2:beginning:w:tx payment 02
+281856:0:281857:1:processing:w:tx payment 02
+281857:0:281859:2:committing:w:tx payment 02
+281854:0:281859:5:commit:w:tx payment 02
+282061:0:282062:1:beginning:w:tx payment 02
+282062:0:282063:1:processing:w:tx payment 02
+282063:0:282064:1:committing:w:tx payment 02
+282061:0:282064:3:commit:w:tx payment 02
+282174:0:282174:0:beginning:w:tx payment 02
+282174:0:282175:1:processing:w:tx payment 02
+282175:0:282177:2:committing:w:tx payment 02
+282174:0:282177:3:commit:w:tx payment 02
+282204:0:282205:1:beginning:w:tx payment 02
+282205:0:282206:1:processing:w:tx payment 02
+282206:0:282207:1:committing:w:tx payment 02
+282204:0:282207:3:commit:w:tx payment 02
+282479:0:282480:1:beginning:w:tx payment 02
+282480:0:282481:1:processing:w:tx payment 02
+282481:0:282482:1:committing:w:tx payment 02
+282479:0:282482:3:commit:w:tx payment 02
+282738:0:282739:1:beginning:w:tx neworder
+282739:0:282741:2:processing:w:tx neworder
+282741:0:282743:2:committing:w:tx neworder
+282738:0:282743:5:commit:w:tx neworder
+282782:0:282782:0:beginning:w:tx neworder
+282782:0:282785:3:processing:w:tx neworder
+282785:0:282787:2:committing:w:tx neworder
+282782:0:282787:5:commit:w:tx neworder
+284337:0:284338:1:beginning:w:tx payment 02
+284338:0:284339:1:processing:w:tx payment 02
+284339:0:284341:2:committing:w:tx payment 02
+284337:0:284341:4:commit:w:tx payment 02
+285343:0:285344:1:beginning:w:tx payment 02
+285344:0:285345:1:processing:w:tx payment 02
+285345:0:285347:2:committing:w:tx payment 02
+285343:0:285347:4:commit:w:tx payment 02
+285528:0:285529:1:beginning:w:tx neworder
+285529:0:285530:1:processing:w:tx neworder
+285530:0:285532:2:committing:w:tx neworder
+285528:0:285532:4:commit:w:tx neworder
+285983:0:285984:1:beginning:w:tx neworder
+285984:0:285987:3:processing:w:tx neworder
+285987:0:285989:2:committing:w:tx neworder
+285983:0:285989:6:commit:w:tx neworder
+286575:0:286577:2:beginning:w:tx neworder
+286577:0:286579:2:processing:w:tx neworder
+286579:0:286580:1:committing:w:tx neworder
+286575:0:286580:5:commit:w:tx neworder
+286995:0:286996:1:beginning:w:tx neworder
+286996:0:286998:2:processing:w:tx neworder
+286998:0:287001:3:committing:w:tx neworder
+286995:0:287001:6:commit:w:tx neworder
+287180:0:287180:0:beginning:w:tx neworder
+287180:0:287183:3:processing:w:tx neworder
+287183:0:287185:2:committing:w:tx neworder
+287180:0:287185:5:commit:w:tx neworder
+287221:0:287221:0:beginning:w:tx payment 02
+287221:0:287222:1:processing:w:tx payment 02
+287222:0:287223:1:committing:w:tx payment 02
+287221:0:287224:3:commit:w:tx payment 02
+287329:0:287329:0:beginning:w:tx neworder
+287329:0:287331:2:processing:w:tx neworder
+287331:0:287333:2:committing:w:tx neworder
+287329:0:287333:4:commit:w:tx neworder
+287727:0:287727:0:beginning:w:tx payment 02
+287727:0:287728:1:processing:w:tx payment 02
+287728:0:287730:2:committing:w:tx payment 02
+287727:0:287730:3:commit:w:tx payment 02
+288457:0:288459:2:beginning:w:tx neworder
+288459:0:288461:2:processing:w:tx neworder
+288461:0:288462:1:committing:w:tx neworder
+288457:0:288462:5:commit:w:tx neworder
+288497:0:288498:1:beginning:w:tx neworder
+288498:0:288500:2:processing:w:tx neworder
+288500:0:288501:1:committing:w:tx neworder
+288497:0:288501:4:commit:w:tx neworder
+288937:0:288938:1:beginning:w:tx payment 02
+288938:0:288939:1:processing:w:tx payment 02
+288939:0:288940:1:committing:w:tx payment 02
+288937:0:288940:3:commit:w:tx payment 02
+289342:0:289342:0:beginning:w:tx delivery
+289343:0:289345:2:processing:w:tx delivery
+289345:0:289347:2:committing:w:tx delivery
+289342:0:289347:5:commit:w:tx delivery
+290488:0:290488:0:beginning:w:tx payment 02
+290490:0:290491:1:processing:w:tx payment 02
+290491:0:290492:1:committing:w:tx payment 02
+290488:0:290492:4:commit:w:tx payment 02
+291351:0:291351:0:beginning:r:tx orderstatus 02
+291351:0:291352:1:processing:r:tx orderstatus 02
+291352:0:291352:0:committing:r:tx orderstatus 02
+291351:0:291352:1:commit:r:tx orderstatus 02
+291698:0:291698:0:beginning:w:tx neworder
+291698:0:291700:2:processing:w:tx neworder
+291700:0:291703:3:committing:w:tx neworder
+291698:0:291703:5:commit:w:tx neworder
+291847:0:291847:0:beginning:w:tx payment 02
+291847:0:291848:1:processing:w:tx payment 02
+291849:0:291850:1:committing:w:tx payment 02
+291847:0:291850:3:commit:w:tx payment 02
+291996:0:291996:0:beginning:w:tx payment 02
+291996:0:291998:2:processing:w:tx payment 02
+291998:0:292000:2:committing:w:tx payment 02
+291996:0:292000:4:commit:w:tx payment 02
+292049:0:292050:1:beginning:w:tx payment 02
+292050:0:292051:1:processing:w:tx payment 02
+292051:0:292053:2:committing:w:tx payment 02
+292049:0:292053:4:commit:w:tx payment 02
+293021:0:293022:1:beginning:r:tx orderstatus 02
+293022:0:293023:1:processing:r:tx orderstatus 02
+293023:0:293023:0:committing:r:tx orderstatus 02
+293021:0:293023:2:commit:r:tx orderstatus 02
+293330:0:293330:0:beginning:r:tx orderstatus 02
+293330:0:293331:1:processing:r:tx orderstatus 02
+293331:0:293331:0:committing:r:tx orderstatus 02
+293330:0:293331:1:commit:r:tx orderstatus 02
+293793:0:293793:0:beginning:w:tx payment 02
+293794:0:293795:1:processing:w:tx payment 02
+293795:0:293797:2:committing:w:tx payment 02
+293793:0:293797:4:commit:w:tx payment 02
+294145:0:294146:1:beginning:w:tx payment 02
+294146:0:294147:1:processing:w:tx payment 02
+294147:0:294149:2:committing:w:tx payment 02
+294145:0:294149:4:commit:w:tx payment 02
+295395:0:295396:1:beginning:w:tx payment 02
+295396:0:295397:1:processing:w:tx payment 02
+295397:0:295399:2:committing:w:tx payment 02
+295395:0:295399:4:commit:w:tx payment 02
+296973:0:296973:0:beginning:w:tx payment 02
+296973:0:296975:2:processing:w:tx payment 02
+296975:0:296976:1:committing:w:tx payment 02
+296973:0:296976:3:commit:w:tx payment 02
+298123:0:298124:1:beginning:w:tx neworder
+298124:0:298126:2:processing:w:tx neworder
+298126:0:298128:2:committing:w:tx neworder
+298123:0:298128:5:commit:w:tx neworder
+298941:0:298942:1:beginning:w:tx neworder
+298942:0:298944:2:processing:w:tx neworder
+298944:0:298946:2:committing:w:tx neworder
+298941:0:298946:5:commit:w:tx neworder
+299927:0:299928:1:beginning:w:tx payment 02
+299928:0:299929:1:processing:w:tx payment 02
+299929:0:299931:2:committing:w:tx payment 02
+299927:0:299931:4:commit:w:tx payment 02
+300764:0:300765:1:beginning:w:tx neworder
+300765:0:300768:3:processing:w:tx neworder
+300768:0:300770:2:committing:w:tx neworder
+300764:0:300770:6:commit:w:tx neworder
+301487:0:301488:1:beginning:w:tx payment 02
+301488:0:301489:1:processing:w:tx payment 02
+301489:0:301491:2:committing:w:tx payment 02
+301487:0:301491:4:commit:w:tx payment 02
+303372:0:303372:0:beginning:r:tx orderstatus 02
+303372:0:303373:1:processing:r:tx orderstatus 02
+303373:0:303373:0:committing:r:tx orderstatus 02
+303372:0:303373:1:commit:r:tx orderstatus 02
+303880:0:303880:0:beginning:w:tx payment 02
+303880:0:303881:1:processing:w:tx payment 02
+303881:0:303883:2:committing:w:tx payment 02
+303880:0:303883:3:commit:w:tx payment 02
+304299:0:304300:1:beginning:w:tx neworder
+304300:0:304302:2:processing:w:tx neworder
+304302:0:304304:2:committing:w:tx neworder
+304299:0:304304:5:commit:w:tx neworder
+304918:0:304918:0:beginning:w:tx payment 02
+304918:0:304919:1:processing:w:tx payment 02
+304919:0:304920:1:committing:w:tx payment 02
+304918:0:304920:2:commit:w:tx payment 02
+305008:0:305009:1:beginning:w:tx neworder
+305009:0:305011:2:processing:w:tx neworder
+305011:0:305012:1:committing:w:tx neworder
+305008:0:305012:4:commit:w:tx neworder
+305562:0:305562:0:beginning:w:tx payment 02
+305563:0:305564:1:processing:w:tx payment 02
+305564:0:305565:1:committing:w:tx payment 02
+305562:0:305565:3:commit:w:tx payment 02
+306678:0:306678:0:beginning:w:tx payment 02
+306678:0:306679:1:processing:w:tx payment 02
+306679:0:306681:2:committing:w:tx payment 02
+306678:0:306681:3:commit:w:tx payment 02
+307278:0:307278:0:beginning:w:tx payment 02
+307278:0:307279:1:processing:w:tx payment 02
+307279:0:307280:1:committing:w:tx payment 02
+307278:0:307280:2:commit:w:tx payment 02
+307728:0:307729:1:beginning:w:tx neworder
+307729:0:307731:2:processing:w:tx neworder
+307731:0:307733:2:committing:w:tx neworder
+307728:0:307733:5:commit:w:tx neworder
+308656:0:308656:0:beginning:w:tx neworder
+308658:0:308660:2:processing:w:tx neworder
+308660:0:308661:1:committing:w:tx neworder
+308656:0:308661:5:commit:w:tx neworder
+309001:0:309001:0:beginning:w:tx neworder
+309001:0:309003:2:processing:w:tx neworder
+309003:0:309005:2:committing:w:tx neworder
+309001:0:309005:4:commit:w:tx neworder
+309202:0:309203:1:beginning:w:tx payment 02
+309203:0:309204:1:processing:w:tx payment 02
+309204:0:309205:1:committing:w:tx payment 02
+309202:0:309205:3:commit:w:tx payment 02
+309517:0:309517:0:beginning:w:tx neworder
+309517:0:309519:2:processing:w:tx neworder
+309519:0:309521:2:committing:w:tx neworder
+309517:0:309521:4:commit:w:tx neworder
+309730:0:309730:0:beginning:w:tx payment 02
+309730:0:309731:1:processing:w:tx payment 02
+309731:0:309733:2:committing:w:tx payment 02
+309730:0:309733:3:commit:w:tx payment 02
+310126:0:310127:1:beginning:w:tx payment 02
+310127:0:310128:1:processing:w:tx payment 02
+310128:0:310129:1:committing:w:tx payment 02
+310126:0:310129:3:commit:w:tx payment 02
+310677:0:310678:1:beginning:w:tx delivery
+310678:0:310680:2:processing:w:tx delivery
+310680:0:310683:3:committing:w:tx delivery
+310677:0:310683:6:commit:w:tx delivery
+310699:0:310700:1:beginning:w:tx neworder
+310700:0:310702:2:processing:w:tx neworder
+310702:0:310703:1:committing:w:tx neworder
+310699:0:310703:4:commit:w:tx neworder
+312033:0:312034:1:beginning:w:tx neworder
+312034:0:312036:2:processing:w:tx neworder
+312036:0:312039:3:committing:w:tx neworder
+312033:0:312039:6:commit:w:tx neworder
+314047:0:314048:1:beginning:w:tx payment 02
+314048:0:314049:1:processing:w:tx payment 02
+314049:0:314050:1:committing:w:tx payment 02
+314047:0:314051:4:commit:w:tx payment 02
+314710:0:314711:1:beginning:w:tx payment 02
+314711:0:314712:1:processing:w:tx payment 02
+314712:0:314713:1:committing:w:tx payment 02
+314710:0:314713:3:commit:w:tx payment 02
+315166:0:315167:1:beginning:w:tx payment 02
+315167:0:315168:1:processing:w:tx payment 02
+315168:0:315169:1:committing:w:tx payment 02
+315166:0:315169:3:commit:w:tx payment 02
+316184:0:316185:1:beginning:w:tx payment 02
+316185:0:316186:1:processing:w:tx payment 02
+316186:0:316187:1:committing:w:tx payment 02
+316184:0:316187:3:commit:w:tx payment 02
+317399:0:317400:1:beginning:w:tx neworder
+317400:0:317402:2:processing:w:tx neworder
+317402:0:317404:2:committing:w:tx neworder
+317399:0:317404:5:commit:w:tx neworder
+318943:0:318944:1:beginning:w:tx neworder
+318944:0:318946:2:processing:w:tx neworder
+318946:0:318949:3:committing:w:tx neworder
+318943:0:318949:6:commit:w:tx neworder
+319384:0:319385:1:beginning:w:tx neworder
+319386:0:319388:2:processing:w:tx neworder
+319388:0:319389:1:committing:w:tx neworder
+319384:0:319389:5:commit:w:tx neworder
+319901:0:319901:0:beginning:w:tx neworder
+319901:0:319903:2:processing:w:tx neworder
+319903:0:319905:2:committing:w:tx neworder
+319901:0:319905:4:commit:w:tx neworder
+319979:0:319979:0:beginning:w:tx neworder
+319979:0:319981:2:processing:w:tx neworder
+319981:0:319983:2:committing:w:tx neworder
+319979:0:319983:4:commit:w:tx neworder
+322686:0:322686:0:beginning:w:tx payment 02
+322686:0:322687:1:processing:w:tx payment 02
+322687:0:322689:2:committing:w:tx payment 02
+322686:0:322689:3:commit:w:tx payment 02
+324190:0:324191:1:beginning:w:tx neworder
+324191:0:324193:2:processing:w:tx neworder
+324193:0:324194:1:committing:w:tx neworder
+324190:0:324194:4:commit:w:tx neworder
+324264:0:324265:1:beginning:w:tx neworder
+324265:0:324268:3:processing:w:tx neworder
+324268:0:324270:2:committing:w:tx neworder
+324264:0:324270:6:commit:w:tx neworder
+324341:0:324341:0:beginning:w:tx neworder
+324341:0:324343:2:processing:w:tx neworder
+324343:0:324344:1:committing:w:tx neworder
+324341:0:324344:3:commit:w:tx neworder
+325297:0:325298:1:beginning:w:tx neworder
+325298:0:325300:2:processing:w:tx neworder
+325300:0:325302:2:committing:w:tx neworder
+325297:0:325302:5:commit:w:tx neworder
+326408:0:326408:0:beginning:w:tx payment 02
+326408:0:326409:1:processing:w:tx payment 02
+326409:0:326411:2:committing:w:tx payment 02
+326408:0:326411:3:commit:w:tx payment 02
+326973:0:326973:0:beginning:w:tx neworder
+326973:0:326975:2:processing:w:tx neworder
+326975:0:326977:2:committing:w:tx neworder
+326973:0:326977:4:commit:w:tx neworder
+327157:0:327157:0:beginning:w:tx neworder
+327157:0:327159:2:processing:w:tx neworder
+327159:0:327162:3:committing:w:tx neworder
+327157:0:327162:5:commit:w:tx neworder
+328248:0:328248:0:beginning:w:tx payment 02
+328248:0:328250:2:processing:w:tx payment 02
+328250:0:328251:1:committing:w:tx payment 02
+328248:0:328251:3:commit:w:tx payment 02
+328916:0:328917:1:beginning:w:tx payment 02
+328917:0:328918:1:processing:w:tx payment 02
+328918:0:328920:2:committing:w:tx payment 02
+328916:0:328920:4:commit:w:tx payment 02
+329956:0:329957:1:beginning:w:tx payment 02
+329958:0:329959:1:processing:w:tx payment 02
+329959:0:329961:2:committing:w:tx payment 02
+329956:0:329961:5:commit:w:tx payment 02
+330941:0:330941:0:beginning:w:tx delivery
+330941:0:330944:3:processing:w:tx delivery
+330944:0:330945:1:committing:w:tx delivery
+330941:0:330945:4:commit:w:tx delivery
+331152:0:331153:1:beginning:w:tx neworder
+331153:0:331155:2:processing:w:tx neworder
+331155:0:331157:2:committing:w:tx neworder
+331152:0:331157:5:commit:w:tx neworder
+331421:0:331421:0:beginning:w:tx payment 02
+331421:0:331422:1:processing:w:tx payment 02
+331422:0:331424:2:committing:w:tx payment 02
+331421:0:331424:3:commit:w:tx payment 02
+331601:0:331602:1:beginning:w:tx neworder
+331602:0:331604:2:processing:w:tx neworder
+331604:0:331606:2:committing:w:tx neworder
+331601:0:331606:5:commit:w:tx neworder
+332352:0:332352:0:beginning:w:tx payment 02
+332352:0:332353:1:processing:w:tx payment 02
+332353:0:332355:2:committing:w:tx payment 02
+332352:0:332355:3:commit:w:tx payment 02
+332921:0:332921:0:beginning:w:tx neworder
+332921:0:332923:2:processing:w:tx neworder
+332923:0:332925:2:committing:w:tx neworder
+332921:0:332925:4:commit:w:tx neworder
+333169:0:333169:0:beginning:w:tx payment 02
+333169:0:333171:2:processing:w:tx payment 02
+333171:0:333172:1:committing:w:tx payment 02
+333169:0:333172:3:commit:w:tx payment 02
+333199:0:333200:1:beginning:w:tx neworder
+333200:0:333202:2:processing:w:tx neworder
+333202:0:333204:2:committing:w:tx neworder
+333199:0:333204:5:commit:w:tx neworder
+333294:0:333295:1:beginning:w:tx neworder
+333295:0:333296:1:processing:w:tx neworder
+333296:0:333298:2:committing:w:tx neworder
+333294:0:333298:4:commit:w:tx neworder
+334502:0:334502:0:beginning:w:tx neworder
+334502:0:334504:2:processing:w:tx neworder
+334504:0:334506:2:committing:w:tx neworder
+334502:0:334506:4:commit:w:tx neworder
+335094:0:335095:1:beginning:w:tx payment 02
+335095:0:335096:1:processing:w:tx payment 02
+335096:0:335097:1:committing:w:tx payment 02
+335094:0:335097:3:commit:w:tx payment 02
+335988:0:335988:0:beginning:w:tx delivery
+335988:0:335992:4:processing:w:tx delivery
+335992:0:335994:2:committing:w:tx delivery
+335988:0:335994:6:commit:w:tx delivery
+336519:0:336522:3:beginning:w:tx payment 02
+336522:0:336523:1:processing:w:tx payment 02
+336523:0:336524:1:committing:w:tx payment 02
+336519:0:336524:5:commit:w:tx payment 02
+336647:0:336648:1:beginning:r:tx orderstatus 02
+336648:0:336649:1:processing:r:tx orderstatus 02
+336649:0:336649:0:committing:r:tx orderstatus 02
+336647:0:336649:2:commit:r:tx orderstatus 02
+336780:0:336781:1:beginning:w:tx payment 02
+336781:0:336782:1:beginning:w:tx delivery
+336781:0:336782:1:processing:w:tx payment 02
+336782:0:336784:2:committing:w:tx payment 02
+336780:0:336784:4:commit:w:tx payment 02
+336782:0:336785:3:processing:w:tx delivery
+336785:0:336787:2:committing:w:tx delivery
+336781:0:336787:6:commit:w:tx delivery
+336811:0:336811:0:beginning:w:tx payment 02
+336811:0:336812:1:processing:w:tx payment 02
+336812:0:336814:2:committing:w:tx payment 02
+336811:0:336814:3:commit:w:tx payment 02
+336827:0:336828:1:beginning:w:tx payment 02
+336828:0:336829:1:processing:w:tx payment 02
+336829:0:336830:1:committing:w:tx payment 02
+336827:0:336830:3:commit:w:tx payment 02
+336922:0:336922:0:beginning:w:tx neworder
+336922:0:336925:3:processing:w:tx neworder
+336925:0:336927:2:committing:w:tx neworder
+336922:0:336927:5:commit:w:tx neworder
+336980:0:336981:1:beginning:w:tx neworder
+336981:0:336983:2:processing:w:tx neworder
+336983:0:336985:2:committing:w:tx neworder
+336980:0:336985:5:commit:w:tx neworder
+338255:0:338255:0:beginning:r:tx orderstatus 02
+338256:0:338256:0:processing:r:tx orderstatus 02
+338256:0:338257:1:committing:r:tx orderstatus 02
+338255:0:338257:2:commit:r:tx orderstatus 02
+339117:0:339118:1:beginning:w:tx neworder
+339118:0:339120:2:processing:w:tx neworder
+339120:0:339122:2:committing:w:tx neworder
+339117:0:339122:5:commit:w:tx neworder
+339437:0:339438:1:beginning:w:tx neworder
+339438:0:339441:3:processing:w:tx neworder
+339441:0:339443:2:committing:w:tx neworder
+339437:0:339443:6:commit:w:tx neworder
+339752:0:339753:1:beginning:w:tx payment 02
+339753:0:339754:1:processing:w:tx payment 02
+339754:0:339755:1:committing:w:tx payment 02
+339752:0:339755:3:commit:w:tx payment 02
+339863:0:339864:1:beginning:w:tx payment 02
+339864:0:339865:1:processing:w:tx payment 02
+339865:0:339866:1:committing:w:tx payment 02
+339863:0:339866:3:commit:w:tx payment 02
+339906:0:339906:0:beginning:w:tx payment 02
+339906:0:339907:1:processing:w:tx payment 02
+339907:0:339908:1:committing:w:tx payment 02
+339906:0:339908:2:commit:w:tx payment 02
+340030:0:340030:0:beginning:w:tx neworder
+340030:0:340032:2:processing:w:tx neworder
+340032:0:340033:1:committing:w:tx neworder
+340030:0:340033:3:commit:w:tx neworder
+340287:0:340287:0:beginning:w:tx neworder
+340288:0:340290:2:processing:w:tx neworder
+340290:0:340292:2:committing:w:tx neworder
+340287:0:340292:5:commit:w:tx neworder
+340342:0:340342:0:beginning:w:tx payment 02
+340342:0:340343:1:processing:w:tx payment 02
+340343:0:340345:2:committing:w:tx payment 02
+340342:0:340345:3:commit:w:tx payment 02
+341201:0:341201:0:beginning:w:tx neworder
+341201:0:341204:3:processing:w:tx neworder
+341204:0:341206:2:committing:w:tx neworder
+341201:0:341206:5:commit:w:tx neworder
+342034:0:342035:1:beginning:w:tx payment 02
+342035:0:342036:1:processing:w:tx payment 02
+342036:0:342038:2:committing:w:tx payment 02
+342034:0:342038:4:commit:w:tx payment 02
+343696:0:343696:0:beginning:w:tx neworder
+343696:0:343699:3:processing:w:tx neworder
+343699:0:343701:2:committing:w:tx neworder
+343696:0:343701:5:commit:w:tx neworder
+343733:0:343734:1:beginning:w:tx neworder
+343734:0:343736:2:processing:w:tx neworder
+343736:0:343737:1:committing:w:tx neworder
+343733:0:343737:4:commit:w:tx neworder
+344199:0:344199:0:beginning:w:tx payment 02
+344199:0:344200:1:processing:w:tx payment 02
+344201:0:344202:1:committing:w:tx payment 02
+344199:0:344202:3:commit:w:tx payment 02
+344425:0:344426:1:beginning:w:tx payment 02
+344426:0:344427:1:processing:w:tx payment 02
+344427:0:344428:1:committing:w:tx payment 02
+344425:0:344428:3:commit:w:tx payment 02
+344856:0:344856:0:beginning:w:tx payment 02
+344857:0:344857:0:processing:w:tx payment 02
+344858:0:344859:1:committing:w:tx payment 02
+344856:0:344859:3:commit:w:tx payment 02
+345017:0:345018:1:beginning:w:tx neworder
+345018:0:345020:2:processing:w:tx neworder
+345020:0:345022:2:committing:w:tx neworder
+345017:0:345022:5:commit:w:tx neworder
+345039:0:345040:1:beginning:w:tx payment 02
+345040:0:345041:1:processing:w:tx payment 02
+345041:0:345042:1:committing:w:tx payment 02
+345039:0:345042:3:commit:w:tx payment 02
+347464:0:347464:0:beginning:w:tx delivery
+347464:0:347467:3:processing:w:tx delivery
+347467:0:347470:3:committing:w:tx delivery
+347464:0:347470:6:commit:w:tx delivery
+348258:0:348259:1:beginning:w:tx payment 02
+348259:0:348260:1:processing:w:tx payment 02
+348260:0:348261:1:committing:w:tx payment 02
+348258:0:348261:3:commit:w:tx payment 02
+349696:0:349697:1:beginning:w:tx neworder
+349697:0:349699:2:processing:w:tx neworder
+349699:0:349701:2:committing:w:tx neworder
+349696:0:349701:5:commit:w:tx neworder
+350825:0:350826:1:beginning:w:tx neworder
+350826:0:350828:2:processing:w:tx neworder
+350828:0:350830:2:committing:w:tx neworder
+350825:0:350830:5:commit:w:tx neworder
+350914:0:350914:0:beginning:r:tx orderstatus 02
+350914:0:350915:1:processing:r:tx orderstatus 02
+350915:0:350915:0:committing:r:tx orderstatus 02
+350914:0:350915:1:commit:r:tx orderstatus 02
+351480:0:351481:1:beginning:w:tx payment 02
+351481:0:351481:0:processing:w:tx payment 02
+351481:0:351483:2:committing:w:tx payment 02
+351480:0:351483:3:commit:w:tx payment 02
+351791:0:351792:1:beginning:w:tx payment 02
+351792:0:351793:1:processing:w:tx payment 02
+351793:0:351794:1:committing:w:tx payment 02
+351791:0:351794:3:commit:w:tx payment 02
+352090:0:352091:1:beginning:w:tx payment 02
+352091:0:352092:1:processing:w:tx payment 02
+352092:0:352093:1:committing:w:tx payment 02
+352090:0:352093:3:commit:w:tx payment 02
+352364:0:352365:1:beginning:w:tx neworder
+352365:0:352367:2:processing:w:tx neworder
+352367:0:352369:2:committing:w:tx neworder
+352364:0:352369:5:commit:w:tx neworder
+352628:0:352628:0:beginning:w:tx neworder
+352629:0:352632:3:processing:w:tx neworder
+352632:0:352633:1:committing:w:tx neworder
+352628:0:352633:5:commit:w:tx neworder
+353522:0:353522:0:beginning:w:tx payment 02
+353522:0:353523:1:processing:w:tx payment 02
+353523:0:353524:1:committing:w:tx payment 02
+353522:0:353524:2:commit:w:tx payment 02
+353829:0:353830:1:beginning:w:tx delivery
+353830:0:353832:2:processing:w:tx delivery
+353832:0:353834:2:committing:w:tx delivery
+353829:0:353834:5:commit:w:tx delivery
+353851:0:353851:0:beginning:w:tx payment 02
+353851:0:353852:1:processing:w:tx payment 02
+353852:0:353853:1:committing:w:tx payment 02
+353851:0:353853:2:commit:w:tx payment 02
+354217:0:354217:0:beginning:w:tx neworder
+354217:0:354219:2:processing:w:tx neworder
+354219:0:354221:2:committing:w:tx neworder
+354217:0:354221:4:commit:w:tx neworder
+354826:0:354827:1:beginning:w:tx payment 02
+354827:0:354828:1:processing:w:tx payment 02
+354828:0:354829:1:committing:w:tx payment 02
+354826:0:354829:3:commit:w:tx payment 02
+354918:0:354918:0:beginning:w:tx payment 02
+354918:0:354919:1:processing:w:tx payment 02
+354919:0:354921:2:committing:w:tx payment 02
+354918:0:354921:3:commit:w:tx payment 02
+354942:0:354942:0:beginning:w:tx payment 02
+354942:0:354943:1:processing:w:tx payment 02
+354943:0:354944:1:committing:w:tx payment 02
+354942:0:354944:2:commit:w:tx payment 02
+355163:0:355164:1:beginning:w:tx neworder
+355164:0:355166:2:processing:w:tx neworder
+355166:0:355168:2:committing:w:tx neworder
+355163:0:355168:5:commit:w:tx neworder
+355471:0:355471:0:beginning:w:tx payment 02
+355471:0:355472:1:processing:w:tx payment 02
+355472:0:355474:2:committing:w:tx payment 02
+355471:0:355474:3:commit:w:tx payment 02
+355536:0:355537:1:beginning:w:tx payment 02
+355537:0:355538:1:processing:w:tx payment 02
+355538:0:355539:1:committing:w:tx payment 02
+355536:0:355539:3:commit:w:tx payment 02
+355624:0:355624:0:beginning:w:tx payment 02
+355625:0:355625:0:processing:w:tx payment 02
+355625:0:355627:2:committing:w:tx payment 02
+355624:0:355627:3:commit:w:tx payment 02
+356277:0:356278:1:beginning:r:tx stocklevel
+356278:0:356280:2:processing:r:tx stocklevel
+356280:0:356280:0:committing:r:tx stocklevel
+356277:0:356280:3:commit:r:tx stocklevel
+356609:0:356610:1:beginning:w:tx neworder
+356610:0:356611:1:processing:w:tx neworder
+356611:0:356613:2:committing:w:tx neworder
+356609:0:356613:4:commit:w:tx neworder
+356941:0:356942:1:beginning:w:tx neworder
+356942:0:356944:2:processing:w:tx neworder
+356944:0:356946:2:committing:w:tx neworder
+356941:0:356946:5:commit:w:tx neworder
+357065:0:357065:0:beginning:w:tx payment 02
+357065:0:357066:1:processing:w:tx payment 02
+357066:0:357068:2:committing:w:tx payment 02
+357065:0:357068:3:commit:w:tx payment 02
+357268:0:357268:0:beginning:w:tx payment 02
+357268:0:357270:2:processing:w:tx payment 02
+357270:0:357271:1:committing:w:tx payment 02
+357268:0:357271:3:commit:w:tx payment 02
+357609:0:357609:0:beginning:w:tx neworder
+357609:0:357612:3:processing:w:tx neworder
+357612:0:357614:2:committing:w:tx neworder
+357609:0:357614:5:commit:w:tx neworder
+358054:0:358054:0:beginning:w:tx neworder
+358054:0:358056:2:processing:w:tx neworder
+358056:0:358058:2:committing:w:tx neworder
+358054:0:358058:4:commit:w:tx neworder
+358947:0:358948:1:beginning:w:tx payment 02
+358948:0:358949:1:processing:w:tx payment 02
+358949:0:358950:1:committing:w:tx payment 02
+358947:0:358950:3:commit:w:tx payment 02
+358961:0:358962:1:beginning:w:tx payment 02
+358962:0:358962:0:processing:w:tx payment 02
+358962:0:358964:2:committing:w:tx payment 02
+358961:0:358964:3:commit:w:tx payment 02
+359161:0:359162:1:beginning:w:tx payment 02
+359162:0:359163:1:processing:w:tx payment 02
+359163:0:359164:1:committing:w:tx payment 02
+359160:0:359164:4:commit:w:tx payment 02
+359535:0:359536:1:beginning:w:tx payment 02
+359536:0:359536:0:processing:w:tx payment 02
+359536:0:359538:2:committing:w:tx payment 02
+359535:0:359538:3:commit:w:tx payment 02
+361339:0:361339:0:beginning:w:tx neworder
+361339:0:361342:3:processing:w:tx neworder
+361342:0:361344:2:committing:w:tx neworder
+361339:0:361344:5:commit:w:tx neworder
+363108:0:363109:1:beginning:w:tx payment 02
+363110:0:363111:1:processing:w:tx payment 02
+363111:0:363113:2:committing:w:tx payment 02
+363108:0:363113:5:commit:w:tx payment 02
+363276:0:363276:0:beginning:w:tx neworder
+363276:0:363279:3:processing:w:tx neworder
+363279:0:363281:2:committing:w:tx neworder
+363276:0:363281:5:commit:w:tx neworder
+363495:0:363495:0:beginning:w:tx delivery
+363496:0:363498:2:processing:w:tx delivery
+363498:0:363499:1:committing:w:tx delivery
+363495:0:363499:4:commit:w:tx delivery
+363650:0:363650:0:beginning:w:tx neworder
+363651:0:363652:1:processing:w:tx neworder
+363652:0:363653:1:committing:w:tx neworder
+363650:0:363654:4:commit:w:tx neworder
+365000:0:365001:1:beginning:w:tx neworder
+365001:0:365003:2:processing:w:tx neworder
+365003:0:365005:2:committing:w:tx neworder
+365000:0:365005:5:commit:w:tx neworder
+365408:0:365408:0:beginning:w:tx payment 02
+365408:0:365410:2:processing:w:tx payment 02
+365410:0:365411:1:committing:w:tx payment 02
+365408:0:365411:3:commit:w:tx payment 02
+365784:0:365784:0:beginning:w:tx neworder
+365784:0:365786:2:processing:w:tx neworder
+365786:0:365788:2:committing:w:tx neworder
+365784:0:365788:4:commit:w:tx neworder
+365882:0:365882:0:beginning:w:tx neworder
+365882:0:365884:2:processing:w:tx neworder
+365884:0:365886:2:committing:w:tx neworder
+365882:0:365886:4:commit:w:tx neworder
+366210:0:366211:1:beginning:w:tx payment 02
+366211:0:366211:0:processing:w:tx payment 02
+366212:0:366213:1:committing:w:tx payment 02
+366210:0:366213:3:commit:w:tx payment 02
+366462:0:366463:1:beginning:w:tx payment 02
+366463:0:366464:1:processing:w:tx payment 02
+366464:0:366465:1:committing:w:tx payment 02
+366462:0:366465:3:commit:w:tx payment 02
+366660:0:366660:0:beginning:w:tx neworder
+366660:0:366662:2:processing:w:tx neworder
+366662:0:366663:1:committing:w:tx neworder
+366660:0:366663:3:commit:w:tx neworder
+367082:0:367082:0:beginning:r:tx orderstatus 02
+367082:0:367083:1:processing:r:tx orderstatus 02
+367083:0:367083:0:committing:r:tx orderstatus 02
+367082:0:367083:1:commit:r:tx orderstatus 02
+367364:0:367364:0:beginning:w:tx neworder
+367364:0:367366:2:processing:w:tx neworder
+367366:0:367367:1:committing:w:tx neworder
+367364:0:367367:3:commit:w:tx neworder
+367915:0:367915:0:beginning:w:tx neworder
+367915:0:367918:3:processing:w:tx neworder
+367918:0:367920:2:committing:w:tx neworder
+367915:0:367920:5:commit:w:tx neworder
+368149:0:368149:0:beginning:w:tx payment 02
+368150:0:368152:2:processing:w:tx payment 02
+368152:0:368154:2:committing:w:tx payment 02
+368149:0:368154:5:commit:w:tx payment 02
+370310:0:370311:1:beginning:w:tx neworder
+370311:0:370313:2:processing:w:tx neworder
+370313:0:370315:2:committing:w:tx neworder
+370310:0:370315:5:commit:w:tx neworder
+370332:0:370332:0:beginning:w:tx payment 02
+370332:0:370333:1:processing:w:tx payment 02
+370333:0:370334:1:committing:w:tx payment 02
+370332:0:370334:2:commit:w:tx payment 02
+370390:0:370396:6:beginning:w:tx neworder
+370396:0:370399:3:processing:w:tx neworder
+370399:0:370400:1:committing:w:tx neworder
+370390:0:370400:10:commit:w:tx neworder
+372601:0:372601:0:beginning:w:tx neworder
+372601:0:372603:2:processing:w:tx neworder
+372603:0:372605:2:committing:w:tx neworder
+372601:0:372605:4:commit:w:tx neworder
+374011:0:374012:1:beginning:w:tx neworder
+374012:0:374015:3:processing:w:tx neworder
+374015:0:374016:1:committing:w:tx neworder
+374011:0:374016:5:commit:w:tx neworder
+374073:0:374073:0:beginning:w:tx neworder
+374073:0:374075:2:processing:w:tx neworder
+374075:0:374076:1:committing:w:tx neworder
+374073:0:374076:3:commit:w:tx neworder
+374353:0:374354:1:beginning:w:tx neworder
+374354:0:374356:2:processing:w:tx neworder
+374356:0:374357:1:committing:w:tx neworder
+374353:0:374357:4:commit:w:tx neworder
+374614:0:374615:1:beginning:w:tx neworder
+374615:0:374616:1:processing:w:tx neworder
+374616:0:374618:2:committing:w:tx neworder
+374614:0:374618:4:commit:w:tx neworder
+374669:0:374669:0:beginning:w:tx neworder
+374669:0:374671:2:processing:w:tx neworder
+374671:0:374672:1:committing:w:tx neworder
+374669:0:374673:4:commit:w:tx neworder
+374904:0:374905:1:beginning:r:tx orderstatus 02
+374905:0:374906:1:processing:r:tx orderstatus 02
+374906:0:374906:0:committing:r:tx orderstatus 02
+374904:0:374906:2:commit:r:tx orderstatus 02
+375175:0:375175:0:beginning:w:tx neworder
+375176:0:375177:1:processing:w:tx neworder
+375177:0:375179:2:committing:w:tx neworder
+375175:0:375179:4:commit:w:tx neworder
+375250:0:375251:1:beginning:w:tx payment 02
+375251:0:375252:1:processing:w:tx payment 02
+375252:0:375253:1:committing:w:tx payment 02
+375250:0:375253:3:commit:w:tx payment 02
+375603:0:375603:0:beginning:w:tx payment 02
+375603:0:375604:1:processing:w:tx payment 02
+375604:0:375605:1:committing:w:tx payment 02
+375603:0:375606:3:commit:w:tx payment 02
+376942:0:376942:0:beginning:w:tx payment 02
+376942:0:376943:1:processing:w:tx payment 02
+376943:0:376945:2:committing:w:tx payment 02
+376942:0:376945:3:commit:w:tx payment 02
+377129:0:377129:0:beginning:w:tx neworder
+377129:0:377131:2:processing:w:tx neworder
+377131:0:377133:2:committing:w:tx neworder
+377129:0:377133:4:commit:w:tx neworder
+377850:0:377850:0:beginning:w:tx payment 02
+377850:0:377851:1:processing:w:tx payment 02
+377851:0:377852:1:committing:w:tx payment 02
+377850:0:377853:3:commit:w:tx payment 02
+378062:0:378062:0:beginning:w:tx neworder
+378062:0:378065:3:processing:w:tx neworder
+378065:0:378067:2:committing:w:tx neworder
+378062:0:378067:5:commit:w:tx neworder
+378732:0:378732:0:beginning:w:tx neworder
+378732:0:378734:2:processing:w:tx neworder
+378734:0:378735:1:committing:w:tx neworder
+378731:0:378735:4:commit:w:tx neworder
+379942:0:379942:0:beginning:w:tx neworder
+379942:0:379944:2:processing:w:tx neworder
+379944:0:379946:2:committing:w:tx neworder
+379942:0:379946:4:commit:w:tx neworder
+380170:0:380170:0:beginning:w:tx payment 02
+380171:0:380171:0:processing:w:tx payment 02
+380171:0:380173:2:committing:w:tx payment 02
+380170:0:380173:3:commit:w:tx payment 02
+380902:0:380905:3:beginning:w:tx payment 02
+380905:0:380906:1:processing:w:tx payment 02
+380906:0:380908:2:committing:w:tx payment 02
+380902:0:380908:6:commit:w:tx payment 02
+381009:0:381009:0:beginning:w:tx payment 02
+381009:0:381010:1:processing:w:tx payment 02
+381010:0:381011:1:committing:w:tx payment 02
+381009:0:381011:2:commit:w:tx payment 02
+381015:0:381015:0:beginning:w:tx payment 02
+381015:0:381016:1:processing:w:tx payment 02
+381016:0:381017:1:committing:w:tx payment 02
+381015:0:381017:2:commit:w:tx payment 02
+381663:0:381665:2:beginning:w:tx neworder
+381665:0:381667:2:processing:w:tx neworder
+381667:0:381669:2:committing:w:tx neworder
+381663:0:381669:6:commit:w:tx neworder
+382072:0:382073:1:beginning:w:tx neworder
+382073:0:382075:2:processing:w:tx neworder
+382075:0:382076:1:committing:w:tx neworder
+382072:0:382076:4:commit:w:tx neworder
+382090:0:382091:1:beginning:r:tx stocklevel
+382091:0:382092:1:processing:r:tx stocklevel
+382092:0:382093:1:committing:r:tx stocklevel
+382090:0:382093:3:commit:r:tx stocklevel
+383006:0:383007:1:beginning:w:tx payment 02
+383007:0:383008:1:processing:w:tx payment 02
+383008:0:383009:1:committing:w:tx payment 02
+383006:0:383009:3:commit:w:tx payment 02
+384656:0:384656:0:beginning:r:tx orderstatus 02
+384658:0:384659:1:processing:r:tx orderstatus 02
+384659:0:384659:0:committing:r:tx orderstatus 02
+384656:0:384659:3:commit:r:tx orderstatus 02
+385760:0:385760:0:beginning:w:tx payment 02
+385760:0:385762:2:processing:w:tx payment 02
+385762:0:385764:2:committing:w:tx payment 02
+385760:0:385764:4:commit:w:tx payment 02
+385969:0:385970:1:beginning:w:tx neworder
+385970:0:385972:2:processing:w:tx neworder
+385972:0:385975:3:committing:w:tx neworder
+385969:0:385975:6:commit:w:tx neworder
+386483:0:386484:1:beginning:w:tx neworder
+386484:0:386486:2:processing:w:tx neworder
+386486:0:386488:2:committing:w:tx neworder
+386483:0:386488:5:commit:w:tx neworder
+386655:0:386656:1:beginning:w:tx delivery
+386656:0:386658:2:processing:w:tx delivery
+386658:0:386660:2:committing:w:tx delivery
+386655:0:386660:5:commit:w:tx delivery
+387035:0:387035:0:beginning:w:tx payment 02
+387035:0:387036:1:processing:w:tx payment 02
+387036:0:387038:2:committing:w:tx payment 02
+387035:0:387038:3:commit:w:tx payment 02
+388524:0:388525:1:beginning:r:tx orderstatus 02
+388525:0:388526:1:processing:r:tx orderstatus 02
+388526:0:388526:0:committing:r:tx orderstatus 02
+388524:0:388526:2:commit:r:tx orderstatus 02
+388935:0:388936:1:beginning:w:tx neworder
+388936:0:388938:2:processing:w:tx neworder
+388938:0:388941:3:committing:w:tx neworder
+388935:0:388941:6:commit:w:tx neworder
+389519:0:389520:1:beginning:w:tx neworder
+389520:0:389522:2:processing:w:tx neworder
+389522:0:389524:2:committing:w:tx neworder
+389519:0:389524:5:commit:w:tx neworder
+389592:0:389592:0:beginning:w:tx neworder
+389592:0:389594:2:processing:w:tx neworder
+389594:0:389596:2:committing:w:tx neworder
+389592:0:389596:4:commit:w:tx neworder
+390501:0:390502:1:beginning:w:tx delivery
+390502:0:390505:3:processing:w:tx delivery
+390505:0:390507:2:committing:w:tx delivery
+390501:0:390507:6:commit:w:tx delivery
+390802:0:390803:1:beginning:w:tx neworder
+390803:0:390805:2:processing:w:tx neworder
+390805:0:390808:3:committing:w:tx neworder
+390802:0:390808:6:commit:w:tx neworder
+392675:0:392675:0:beginning:w:tx neworder
+392675:0:392678:3:processing:w:tx neworder
+392678:0:392680:2:committing:w:tx neworder
+392675:0:392680:5:commit:w:tx neworder
+393447:0:393447:0:beginning:w:tx payment 02
+393447:0:393448:1:processing:w:tx payment 02
+393448:0:393450:2:committing:w:tx payment 02
+393447:0:393450:3:commit:w:tx payment 02
+393771:0:393772:1:beginning:w:tx payment 02
+393772:0:393773:1:processing:w:tx payment 02
+393773:0:393775:2:committing:w:tx payment 02
+393771:0:393775:4:commit:w:tx payment 02
+393951:0:393952:1:beginning:w:tx neworder
+393952:0:393954:2:processing:w:tx neworder
+393954:0:393957:3:committing:w:tx neworder
+393951:0:393957:6:commit:w:tx neworder
+394893:0:394894:1:beginning:w:tx payment 02
+394894:0:394895:1:processing:w:tx payment 02
+394895:0:394896:1:committing:w:tx payment 02
+394893:0:394896:3:commit:w:tx payment 02
+394970:0:394971:1:beginning:w:tx neworder
+394971:0:394973:2:processing:w:tx neworder
+394973:0:394974:1:committing:w:tx neworder
+394970:0:394974:4:commit:w:tx neworder
+395205:0:395205:0:beginning:w:tx neworder
+395205:0:395207:2:processing:w:tx neworder
+395207:0:395209:2:committing:w:tx neworder
+395205:0:395209:4:commit:w:tx neworder
+395793:0:395794:1:beginning:w:tx payment 02
+395795:0:395796:1:processing:w:tx payment 02
+395796:0:395797:1:committing:w:tx payment 02
+395793:0:395797:4:commit:w:tx payment 02
+396543:0:396544:1:beginning:w:tx neworder
+396544:0:396547:3:processing:w:tx neworder
+396547:0:396548:1:committing:w:tx neworder
+396543:0:396548:5:commit:w:tx neworder
+396606:0:396606:0:beginning:w:tx payment 02
+396606:0:396607:1:processing:w:tx payment 02
+396607:0:396609:2:committing:w:tx payment 02
+396606:0:396609:3:commit:w:tx payment 02
+400720:0:400720:0:beginning:w:tx payment 02
+400721:0:400721:0:processing:w:tx payment 02
+400721:0:400723:2:committing:w:tx payment 02
+400720:0:400723:3:commit:w:tx payment 02
+400960:0:400960:0:beginning:w:tx payment 02
+400961:0:400962:1:processing:w:tx payment 02
+400962:0:400964:2:committing:w:tx payment 02
+400960:0:400964:4:commit:w:tx payment 02
+401584:0:401584:0:beginning:w:tx neworder
+401584:0:401586:2:processing:w:tx neworder
+401586:0:401587:1:committing:w:tx neworder
+401584:0:401587:3:commit:w:tx neworder
+401935:0:401935:0:beginning:w:tx payment 02
+401935:0:401936:1:processing:w:tx payment 02
+401936:0:401938:2:committing:w:tx payment 02
+401935:0:401938:3:commit:w:tx payment 02
+403465:0:403465:0:beginning:w:tx payment 02
+403465:0:403466:1:processing:w:tx payment 02
+403466:0:403468:2:committing:w:tx payment 02
+403465:0:403468:3:commit:w:tx payment 02
+403716:0:403716:0:beginning:r:tx orderstatus 02
+403717:0:403717:0:processing:r:tx orderstatus 02
+403717:0:403718:1:committing:r:tx orderstatus 02
+403716:0:403718:2:commit:r:tx orderstatus 02
+404016:0:404017:1:beginning:w:tx neworder
+404017:0:404019:2:processing:w:tx neworder
+404020:0:404022:2:committing:w:tx neworder
+404016:0:404022:6:commit:w:tx neworder
+404102:0:404102:0:beginning:w:tx neworder
+404102:0:404104:2:processing:w:tx neworder
+404104:0:404106:2:committing:w:tx neworder
+404102:0:404106:4:commit:w:tx neworder
+404419:0:404419:0:beginning:w:tx payment 02
+404419:0:404420:1:processing:w:tx payment 02
+404420:0:404421:1:committing:w:tx payment 02
+404418:0:404422:4:commit:w:tx payment 02
+405473:0:405474:1:beginning:w:tx neworder
+405474:0:405476:2:processing:w:tx neworder
+405476:0:405478:2:committing:w:tx neworder
+405473:0:405478:5:commit:w:tx neworder
+405572:0:405572:0:beginning:w:tx neworder
+405572:0:405575:3:processing:w:tx neworder
+405575:0:405579:4:committing:w:tx neworder
+405572:0:405579:7:commit:w:tx neworder
+406205:0:406206:1:beginning:w:tx neworder
+406206:0:406208:2:processing:w:tx neworder
+406208:0:406212:4:committing:w:tx neworder
+406205:0:406212:7:commit:w:tx neworder
+406728:0:406728:0:beginning:w:tx neworder
+406728:0:406730:2:processing:w:tx neworder
+406730:0:406732:2:committing:w:tx neworder
+406728:0:406732:4:commit:w:tx neworder
+407560:0:407561:1:beginning:w:tx neworder
+407561:0:407563:2:processing:w:tx neworder
+407563:0:407566:3:committing:w:tx neworder
+407560:0:407566:6:commit:w:tx neworder
+409042:0:409043:1:beginning:w:tx neworder
+409043:0:409046:3:processing:w:tx neworder
+409046:0:409051:5:committing:w:tx neworder
+409042:0:409051:9:commit:w:tx neworder
+409855:0:409856:1:beginning:w:tx payment 02
+409856:0:409857:1:processing:w:tx payment 02
+409857:0:409858:1:committing:w:tx payment 02
+409855:0:409858:3:commit:w:tx payment 02
+410448:0:410448:0:beginning:w:tx neworder
+410449:0:410451:2:processing:w:tx neworder
+410451:0:410453:2:committing:w:tx neworder
+410448:0:410453:5:commit:w:tx neworder
+410687:0:410687:0:beginning:w:tx payment 02
+410687:0:410688:1:processing:w:tx payment 02
+410688:0:410690:2:committing:w:tx payment 02
+410687:0:410690:3:commit:w:tx payment 02
+410702:0:410702:0:beginning:w:tx delivery
+410702:0:410705:3:processing:w:tx delivery
+410705:0:410710:5:committing:w:tx delivery
+410702:0:410710:8:commit:w:tx delivery
+411594:0:411594:0:beginning:w:tx neworder
+411594:0:411596:2:processing:w:tx neworder
+411596:0:411599:3:committing:w:tx neworder
+411594:0:411599:5:commit:w:tx neworder
+411663:0:411663:0:beginning:w:tx payment 02
+411663:0:411664:1:processing:w:tx payment 02
+411664:0:411666:2:committing:w:tx payment 02
+411663:0:411666:3:commit:w:tx payment 02
+411775:0:411776:1:beginning:w:tx neworder
+411776:0:411778:2:processing:w:tx neworder
+411778:0:411781:3:committing:w:tx neworder
+411775:0:411781:6:commit:w:tx neworder
+411814:0:411814:0:beginning:w:tx neworder
+411814:0:411816:2:processing:w:tx neworder
+411816:0:411818:2:committing:w:tx neworder
+411814:0:411818:4:commit:w:tx neworder
+411848:0:411848:0:beginning:w:tx neworder
+411848:0:411851:3:processing:w:tx neworder
+411851:0:411855:4:committing:w:tx neworder
+411848:0:411855:7:commit:w:tx neworder
+412669:0:412670:1:beginning:w:tx payment 02
+412670:0:412671:1:processing:w:tx payment 02
+412671:0:412672:1:committing:w:tx payment 02
+412669:0:412672:3:commit:w:tx payment 02
+412939:0:412940:1:beginning:w:tx payment 02
+412940:0:412941:1:processing:w:tx payment 02
+412941:0:412942:1:committing:w:tx payment 02
+412939:0:412942:3:commit:w:tx payment 02
+413282:0:413283:1:beginning:r:tx stocklevel
+413283:0:413285:2:processing:r:tx stocklevel
+413285:0:413286:1:committing:r:tx stocklevel
+413282:0:413286:4:commit:r:tx stocklevel
+413307:0:413307:0:beginning:w:tx neworder
+413307:0:413309:2:processing:w:tx neworder
+413309:0:413311:2:committing:w:tx neworder
+413306:0:413311:5:commit:w:tx neworder
+414070:0:414070:0:beginning:r:tx orderstatus 02
+414072:0:414073:1:processing:r:tx orderstatus 02
+414073:0:414073:0:committing:r:tx orderstatus 02
+414070:0:414073:3:commit:r:tx orderstatus 02
+415087:0:415088:1:beginning:w:tx payment 02
+415088:0:415089:1:processing:w:tx payment 02
+415089:0:415090:1:committing:w:tx payment 02
+415087:0:415090:3:commit:w:tx payment 02
+415516:0:415520:4:beginning:w:tx payment 02
+415520:0:415521:1:processing:w:tx payment 02
+415521:0:415522:1:committing:w:tx payment 02
+415516:0:415522:6:commit:w:tx payment 02
+415790:0:415790:0:beginning:w:tx neworder
+415790:0:415793:3:processing:w:tx neworder
+415794:0:415795:1:beginning:r:tx orderstatus 02
+415795:0:415795:0:processing:r:tx orderstatus 02
+415795:0:415796:1:committing:r:tx orderstatus 02
+415794:0:415796:2:commit:r:tx orderstatus 02
+415793:0:415797:4:committing:w:tx neworder
+415790:0:415797:7:commit:w:tx neworder
+415952:0:415952:0:beginning:w:tx neworder
+415952:0:415955:3:processing:w:tx neworder
+415955:0:415960:5:committing:w:tx neworder
+415952:0:415960:8:commit:w:tx neworder
+416081:0:416082:1:beginning:w:tx payment 02
+416082:0:416083:1:processing:w:tx payment 02
+416083:0:416084:1:committing:w:tx payment 02
+416081:0:416084:3:commit:w:tx payment 02
+416480:0:416480:0:beginning:w:tx neworder
+416481:0:416483:2:processing:w:tx neworder
+416483:0:416487:4:committing:w:tx neworder
+416480:0:416487:7:commit:w:tx neworder
+418304:0:418304:0:beginning:w:tx neworder
+418304:0:418307:3:processing:w:tx neworder
+418307:0:418311:4:committing:w:tx neworder
+418304:0:418311:7:commit:w:tx neworder
+418461:0:418462:1:beginning:w:tx delivery
+418462:0:418464:2:processing:w:tx delivery
+418464:0:418469:5:committing:w:tx delivery
+418461:0:418469:8:commit:w:tx delivery
+419463:0:419463:0:beginning:w:tx neworder
+419464:0:419466:2:processing:w:tx neworder
+419466:0:419470:4:committing:w:tx neworder
+419463:0:419470:7:commit:w:tx neworder
+419751:0:419751:0:beginning:w:tx neworder
+419751:0:419753:2:processing:w:tx neworder
+419753:0:419757:4:committing:w:tx neworder
+419751:0:419757:6:commit:w:tx neworder
+420018:0:420019:1:beginning:w:tx payment 02
+420019:0:420020:1:processing:w:tx payment 02
+420020:0:420021:1:committing:w:tx payment 02
+420018:0:420021:3:commit:w:tx payment 02
+420157:0:420157:0:beginning:r:tx stocklevel
+420157:0:420159:2:processing:r:tx stocklevel
+420159:0:420160:1:committing:r:tx stocklevel
+420157:0:420160:3:commit:r:tx stocklevel
+420664:0:420665:1:beginning:w:tx neworder
+420665:0:420667:2:processing:w:tx neworder
+420667:0:420669:2:committing:w:tx neworder
+420664:0:420669:5:commit:w:tx neworder
+421052:0:421053:1:beginning:w:tx neworder
+421053:0:421055:2:processing:w:tx neworder
+421055:0:421058:3:committing:w:tx neworder
+421052:0:421058:6:commit:w:tx neworder
+421130:0:421130:0:beginning:w:tx payment 02
+421130:0:421131:1:processing:w:tx payment 02
+421131:0:421132:1:committing:w:tx payment 02
+421130:0:421132:2:commit:w:tx payment 02
+421145:0:421145:0:beginning:w:tx neworder
+421145:0:421147:2:processing:w:tx neworder
+421147:0:421150:3:committing:w:tx neworder
+421145:0:421150:5:commit:w:tx neworder
+422387:0:422387:0:beginning:w:tx payment 02
+422388:0:422389:1:processing:w:tx payment 02
+422389:0:422390:1:committing:w:tx payment 02
+422387:0:422390:3:commit:w:tx payment 02
+422591:0:422591:0:beginning:w:tx payment 02
+422591:0:422593:2:processing:w:tx payment 02
+422593:0:422594:1:committing:w:tx payment 02
+422591:0:422594:3:commit:w:tx payment 02
+422628:0:422628:0:beginning:w:tx neworder
+422628:0:422631:3:processing:w:tx neworder
+422631:0:422635:4:committing:w:tx neworder
+422628:0:422635:7:commit:w:tx neworder
+423131:0:423132:1:beginning:w:tx payment 02
+423132:0:423133:1:processing:w:tx payment 02
+423133:0:423134:1:committing:w:tx payment 02
+423131:0:423134:3:commit:w:tx payment 02
+423536:0:423537:1:beginning:w:tx neworder
+423537:0:423539:2:processing:w:tx neworder
+423539:0:423541:2:committing:w:tx neworder
+423536:0:423541:5:commit:w:tx neworder
+424249:0:424249:0:beginning:w:tx payment 02
+424249:0:424250:1:processing:w:tx payment 02
+424250:0:424252:2:committing:w:tx payment 02
+424249:0:424252:3:commit:w:tx payment 02
+424401:0:424402:1:beginning:w:tx neworder
+424402:0:424404:2:processing:w:tx neworder
+424404:0:424406:2:committing:w:tx neworder
+424401:0:424406:5:commit:w:tx neworder
+424696:0:424697:1:beginning:w:tx payment 02
+424698:0:424699:1:processing:w:tx payment 02
+424699:0:424700:1:committing:w:tx payment 02
+424696:0:424700:4:commit:w:tx payment 02
+425406:0:425406:0:beginning:w:tx payment 02
+425406:0:425407:1:processing:w:tx payment 02
+425407:0:425408:1:committing:w:tx payment 02
+425406:0:425408:2:commit:w:tx payment 02
+426398:0:426398:0:beginning:r:tx stocklevel
+426398:0:426400:2:processing:r:tx stocklevel
+426400:0:426400:0:committing:r:tx stocklevel
+426398:0:426400:2:commit:r:tx stocklevel
+426879:0:426879:0:beginning:w:tx neworder
+426879:0:426881:2:processing:w:tx neworder
+426881:0:426884:3:committing:w:tx neworder
+426879:0:426884:5:commit:w:tx neworder
+426960:0:426960:0:beginning:w:tx payment 02
+426960:0:426961:1:processing:w:tx payment 02
+426961:0:426965:4:committing:w:tx payment 02
+426960:0:426965:5:commit:w:tx payment 02
+426963:0:426965:2:beginning:w:tx payment 02
+426965:0:426966:1:processing:w:tx payment 02
+426966:0:426967:1:committing:w:tx payment 02
+426963:0:426967:4:commit:w:tx payment 02
+427510:0:427510:0:beginning:w:tx payment 02
+427510:0:427511:1:processing:w:tx payment 02
+427511:0:427513:2:committing:w:tx payment 02
+427510:0:427513:3:commit:w:tx payment 02
+428150:0:428151:1:beginning:w:tx payment 02
+428151:0:428152:1:processing:w:tx payment 02
+428152:0:428153:1:committing:w:tx payment 02
+428150:0:428154:4:commit:w:tx payment 02
+428531:0:428531:0:beginning:w:tx neworder
+428531:0:428534:3:processing:w:tx neworder
+428534:0:428536:2:committing:w:tx neworder
+428531:0:428536:5:commit:w:tx neworder
+429359:0:429359:0:beginning:w:tx payment 02
+429359:0:429360:1:processing:w:tx payment 02
+429360:0:429362:2:committing:w:tx payment 02
+429359:0:429362:3:commit:w:tx payment 02
+429603:0:429603:0:beginning:w:tx neworder
+429603:0:429605:2:processing:w:tx neworder
+429605:0:429608:3:committing:w:tx neworder
+429603:0:429608:5:commit:w:tx neworder
+429853:0:429853:0:beginning:w:tx neworder
+429855:0:429857:2:processing:w:tx neworder
+429857:0:429859:2:committing:w:tx neworder
+429853:0:429859:6:commit:w:tx neworder
+430011:0:430012:1:beginning:w:tx neworder
+430012:0:430014:2:processing:w:tx neworder
+430014:0:430017:3:committing:w:tx neworder
+430011:0:430017:6:commit:w:tx neworder
+430249:0:430249:0:beginning:w:tx neworder
+430249:0:430252:3:processing:w:tx neworder
+430252:0:430254:2:committing:w:tx neworder
+430249:0:430254:5:commit:w:tx neworder
+430325:0:430326:1:beginning:w:tx payment 02
+430326:0:430327:1:processing:w:tx payment 02
+430327:0:430328:1:committing:w:tx payment 02
+430325:0:430328:3:commit:w:tx payment 02
+430669:0:430669:0:beginning:w:tx neworder
+430669:0:430672:3:processing:w:tx neworder
+430672:0:430674:2:committing:w:tx neworder
+430669:0:430674:5:commit:w:tx neworder
+431200:0:431201:1:beginning:w:tx payment 02
+431201:0:431202:1:processing:w:tx payment 02
+431202:0:431203:1:committing:w:tx payment 02
+431200:0:431203:3:commit:w:tx payment 02
+431595:0:431596:1:beginning:w:tx neworder
+431596:0:431598:2:processing:w:tx neworder
+431598:0:431600:2:committing:w:tx neworder
+431595:0:431600:5:commit:w:tx neworder
+431938:0:431938:0:beginning:w:tx payment 02
+431938:0:431939:1:processing:w:tx payment 02
+431939:0:431941:2:committing:w:tx payment 02
+431938:0:431941:3:commit:w:tx payment 02
+432540:0:432541:1:beginning:w:tx payment 02
+432541:0:432542:1:processing:w:tx payment 02
+432542:0:432543:1:committing:w:tx payment 02
+432540:0:432543:3:commit:w:tx payment 02
+432645:0:432646:1:beginning:w:tx neworder
+432646:0:432648:2:processing:w:tx neworder
+432648:0:432652:4:committing:w:tx neworder
+432645:0:432652:7:commit:w:tx neworder
+432880:0:432880:0:beginning:w:tx payment 02
+432880:0:432881:1:processing:w:tx payment 02
+432881:0:432884:3:committing:w:tx payment 02
+432880:0:432884:4:commit:w:tx payment 02
+433835:0:433836:1:beginning:r:tx orderstatus 02
+433836:0:433837:1:processing:r:tx orderstatus 02
+433837:0:433837:0:committing:r:tx orderstatus 02
+433835:0:433837:2:commit:r:tx orderstatus 02
+433874:0:433874:0:beginning:w:tx payment 02
+433874:0:433875:1:processing:w:tx payment 02
+433875:0:433877:2:committing:w:tx payment 02
+433874:0:433877:3:commit:w:tx payment 02
+434358:0:434359:1:beginning:w:tx payment 02
+434359:0:434360:1:processing:w:tx payment 02
+434360:0:434361:1:committing:w:tx payment 02
+434358:0:434361:3:commit:w:tx payment 02
+434933:0:434934:1:beginning:w:tx payment 02
+434936:0:434937:1:processing:w:tx payment 02
+434937:0:434938:1:committing:w:tx payment 02
+434933:0:434938:5:commit:w:tx payment 02
+435282:0:435282:0:beginning:w:tx payment 02
+435282:0:435284:2:processing:w:tx payment 02
+435284:0:435285:1:committing:w:tx payment 02
+435282:0:435285:3:commit:w:tx payment 02
+435955:0:435956:1:beginning:w:tx payment 02
+435956:0:435957:1:processing:w:tx payment 02
+435957:0:435958:1:committing:w:tx payment 02
+435955:0:435958:3:commit:w:tx payment 02
+436209:0:436209:0:beginning:w:tx payment 02
+436209:0:436210:1:processing:w:tx payment 02
+436210:0:436212:2:committing:w:tx payment 02
+436209:0:436212:3:commit:w:tx payment 02
+436405:0:436405:0:beginning:w:tx neworder
+436405:0:436408:3:processing:w:tx neworder
+436408:0:436410:2:committing:w:tx neworder
+436405:0:436410:5:commit:w:tx neworder
+436809:0:436809:0:beginning:r:tx stocklevel
+436809:0:436811:2:processing:r:tx stocklevel
+436811:0:436811:0:committing:r:tx stocklevel
+436809:0:436811:2:commit:r:tx stocklevel
+436838:0:436839:1:beginning:w:tx payment 02
+436839:0:436840:1:processing:w:tx payment 02
+436840:0:436841:1:committing:w:tx payment 02
+436838:0:436842:4:commit:w:tx payment 02
+436843:0:436844:1:beginning:w:tx neworder
+436844:0:436846:2:processing:w:tx neworder
+436846:0:436849:3:committing:w:tx neworder
+436843:0:436849:6:commit:w:tx neworder
+438472:0:438472:0:beginning:w:tx neworder
+438472:0:438475:3:processing:w:tx neworder
+438475:0:438477:2:committing:w:tx neworder
+438472:0:438477:5:commit:w:tx neworder
+439167:0:439168:1:beginning:w:tx neworder
+439168:0:439169:1:processing:w:tx neworder
+439169:0:439172:3:committing:w:tx neworder
+439167:0:439172:5:commit:w:tx neworder
+439191:0:439192:1:beginning:w:tx payment 02
+439192:0:439193:1:processing:w:tx payment 02
+439193:0:439194:1:committing:w:tx payment 02
+439191:0:439194:3:commit:w:tx payment 02
+439621:0:439621:0:beginning:w:tx payment 02
+439621:0:439622:1:processing:w:tx payment 02
+439622:0:439624:2:committing:w:tx payment 02
+439621:0:439624:3:commit:w:tx payment 02
+440546:0:440547:1:beginning:w:tx neworder
+440547:0:440548:1:processing:w:tx neworder
+440548:0:440550:2:committing:w:tx neworder
+440546:0:440550:4:commit:w:tx neworder
+441997:0:441998:1:beginning:w:tx neworder
+441998:0:442000:2:processing:w:tx neworder
+442000:0:442003:3:committing:w:tx neworder
+441997:0:442003:6:commit:w:tx neworder
+442077:0:442077:0:beginning:w:tx neworder
+442077:0:442079:2:processing:w:tx neworder
+442079:0:442082:3:committing:w:tx neworder
+442077:0:442082:5:commit:w:tx neworder
+442679:0:442679:0:beginning:w:tx neworder
+442679:0:442681:2:processing:w:tx neworder
+442681:0:442684:3:committing:w:tx neworder
+442679:0:442684:5:commit:w:tx neworder
+442708:0:442708:0:beginning:w:tx neworder
+442708:0:442713:5:processing:w:tx neworder
+442713:0:442715:2:committing:w:tx neworder
+442708:0:442715:7:commit:w:tx neworder
+443634:0:443636:2:beginning:w:tx neworder
+443636:0:443638:2:processing:w:tx neworder
+443638:0:443640:2:committing:w:tx neworder
+443634:0:443640:6:commit:w:tx neworder
+444122:0:444123:1:beginning:w:tx payment 02
+444123:0:444124:1:processing:w:tx payment 02
+444124:0:444125:1:committing:w:tx payment 02
+444122:0:444125:3:commit:w:tx payment 02
+446279:0:446279:0:beginning:w:tx neworder
+446279:0:446282:3:processing:w:tx neworder
+446282:0:446285:3:committing:w:tx neworder
+446279:0:446285:6:commit:w:tx neworder
+447064:0:447065:1:beginning:w:tx neworder
+447066:0:447068:2:processing:w:tx neworder
+447068:0:447071:3:committing:w:tx neworder
+447064:0:447071:7:commit:w:tx neworder
+447383:0:447384:1:beginning:w:tx payment 02
+447385:0:447386:1:processing:w:tx payment 02
+447386:0:447388:2:committing:w:tx payment 02
+447383:0:447388:5:commit:w:tx payment 02
+448202:0:448203:1:beginning:w:tx payment 02
+448203:0:448204:1:processing:w:tx payment 02
+448204:0:448205:1:committing:w:tx payment 02
+448202:0:448205:3:commit:w:tx payment 02
+448455:0:448456:1:beginning:w:tx payment 02
+448456:0:448456:0:processing:w:tx payment 02
+448456:0:448458:2:committing:w:tx payment 02
+448455:0:448458:3:commit:w:tx payment 02
+448548:0:448548:0:beginning:w:tx neworder
+448548:0:448550:2:processing:w:tx neworder
+448551:0:448553:2:committing:w:tx neworder
+448548:0:448553:5:commit:w:tx neworder
+449124:0:449125:1:beginning:w:tx neworder
+449125:0:449127:2:processing:w:tx neworder
+449127:0:449129:2:committing:w:tx neworder
+449124:0:449129:5:commit:w:tx neworder
+449609:0:449609:0:beginning:w:tx neworder
+449609:0:449611:2:processing:w:tx neworder
+449611:0:449614:3:committing:w:tx neworder
+449609:0:449614:5:commit:w:tx neworder
+450537:0:450537:0:beginning:w:tx payment 02
+450537:0:450539:2:processing:w:tx payment 02
+450539:0:450540:1:committing:w:tx payment 02
+450537:0:450540:3:commit:w:tx payment 02
+450660:0:450660:0:beginning:w:tx neworder
+450660:0:450662:2:processing:w:tx neworder
+450662:0:450665:3:committing:w:tx neworder
+450660:0:450665:5:commit:w:tx neworder
+451150:0:451151:1:beginning:w:tx neworder
+451151:0:451153:2:processing:w:tx neworder
+451153:0:451154:1:committing:w:tx neworder
+451150:0:451154:4:commit:w:tx neworder
+451274:0:451275:1:beginning:w:tx neworder
+451275:0:451277:2:processing:w:tx neworder
+451277:0:451279:2:committing:w:tx neworder
+451274:0:451279:5:commit:w:tx neworder
+451531:0:451531:0:beginning:w:tx payment 02
+451531:0:451532:1:processing:w:tx payment 02
+451532:0:451534:2:committing:w:tx payment 02
+451531:0:451534:3:commit:w:tx payment 02
+451589:0:451589:0:beginning:w:tx neworder
+451589:0:451591:2:processing:w:tx neworder
+451591:0:451594:3:committing:w:tx neworder
+451589:0:451594:5:commit:w:tx neworder
+452123:0:452123:0:beginning:w:tx payment 02
+452124:0:452125:1:processing:w:tx payment 02
+452125:0:452126:1:committing:w:tx payment 02
+452123:0:452126:3:commit:w:tx payment 02
+452145:0:452145:0:beginning:w:tx payment 02
+452145:0:452146:1:processing:w:tx payment 02
+452146:0:452148:2:committing:w:tx payment 02
+452145:0:452148:3:commit:w:tx payment 02
+452161:0:452162:1:beginning:w:tx payment 02
+452162:0:452162:0:processing:w:tx payment 02
+452162:0:452163:1:committing:w:tx payment 02
+452161:0:452163:2:commit:w:tx payment 02
+452239:0:452240:1:beginning:w:tx payment 02
+452240:0:452241:1:processing:w:tx payment 02
+452241:0:452242:1:committing:w:tx payment 02
+452239:0:452242:3:commit:w:tx payment 02
+452348:0:452349:1:beginning:w:tx neworder
+452349:0:452351:2:processing:w:tx neworder
+452351:0:452353:2:committing:w:tx neworder
+452348:0:452353:5:commit:w:tx neworder
+452904:0:452904:0:beginning:w:tx payment 02
+452904:0:452905:1:processing:w:tx payment 02
+452905:0:452907:2:committing:w:tx payment 02
+452904:0:452907:3:commit:w:tx payment 02
+453246:0:453246:0:beginning:w:tx payment 02
+453246:0:453247:1:processing:w:tx payment 02
+453247:0:453249:2:committing:w:tx payment 02
+453246:0:453249:3:commit:w:tx payment 02
+453462:0:453463:1:beginning:w:tx neworder
+453463:0:453466:3:processing:w:tx neworder
+453466:0:453469:3:committing:w:tx neworder
+453462:0:453469:7:commit:w:tx neworder
+453519:0:453519:0:beginning:w:tx neworder
+453519:0:453521:2:processing:w:tx neworder
+453522:0:453524:2:committing:w:tx neworder
+453519:0:453524:5:commit:w:tx neworder
+454917:0:454917:0:beginning:w:tx neworder
+454917:0:454920:3:processing:w:tx neworder
+454920:0:454922:2:committing:w:tx neworder
+454917:0:454922:5:commit:w:tx neworder
+456555:0:456556:1:beginning:w:tx neworder
+456556:0:456561:5:processing:w:tx neworder
+456561:0:456563:2:committing:w:tx neworder
+456555:0:456563:8:commit:w:tx neworder
+456885:0:456885:0:beginning:w:tx neworder
+456885:0:456888:3:processing:w:tx neworder
+456888:0:456890:2:committing:w:tx neworder
+456885:0:456890:5:commit:w:tx neworder
+457495:0:457495:0:beginning:w:tx payment 02
+457497:0:457498:1:processing:w:tx payment 02
+457498:0:457499:1:committing:w:tx payment 02
+457495:0:457499:4:commit:w:tx payment 02
+457758:0:457758:0:beginning:w:tx neworder
+457758:0:457760:2:processing:w:tx neworder
+457760:0:457762:2:committing:w:tx neworder
+457758:0:457762:4:commit:w:tx neworder
+458031:0:458032:1:beginning:w:tx neworder
+458032:0:458033:1:processing:w:tx neworder
+458033:0:458036:3:committing:w:tx neworder
+458031:0:458036:5:commit:w:tx neworder
+458493:0:458494:1:beginning:w:tx neworder
+458494:0:458495:1:processing:w:tx neworder
+458495:0:458497:2:committing:w:tx neworder
+458493:0:458497:4:commit:w:tx neworder
+458560:0:458560:0:beginning:w:tx neworder
+458560:0:458562:2:processing:w:tx neworder
+458562:0:458564:2:committing:w:tx neworder
+458560:0:458564:4:commit:w:tx neworder
+458675:0:458676:1:beginning:w:tx delivery
+458676:0:458678:2:processing:w:tx delivery
+458678:0:458681:3:committing:w:tx delivery
+458675:0:458681:6:commit:w:tx delivery
+459074:0:459075:1:beginning:w:tx payment 02
+459075:0:459076:1:processing:w:tx payment 02
+459076:0:459077:1:committing:w:tx payment 02
+459074:0:459077:3:commit:w:tx payment 02
+459157:0:459157:0:beginning:r:tx orderstatus 02
+459157:0:459158:1:processing:r:tx orderstatus 02
+459158:0:459158:0:committing:r:tx orderstatus 02
+459157:0:459158:1:commit:r:tx orderstatus 02
+459582:0:459582:0:beginning:w:tx payment 02
+459582:0:459583:1:processing:w:tx payment 02
+459583:0:459584:1:committing:w:tx payment 02
+459582:0:459584:2:commit:w:tx payment 02
+459815:0:459816:1:beginning:w:tx payment 02
+459816:0:459817:1:processing:w:tx payment 02
+459817:0:459818:1:committing:w:tx payment 02
+459815:0:459818:3:commit:w:tx payment 02
+461537:0:461538:1:beginning:w:tx payment 02
+461538:0:461539:1:processing:w:tx payment 02
+461539:0:461540:1:committing:w:tx payment 02
+461537:0:461540:3:commit:w:tx payment 02
+461553:0:461553:0:beginning:w:tx neworder
+461553:0:461556:3:processing:w:tx neworder
+461556:0:461558:2:committing:w:tx neworder
+461553:0:461558:5:commit:w:tx neworder
+461721:0:461721:0:beginning:w:tx delivery
+461722:0:461724:2:processing:w:tx delivery
+461724:0:461726:2:committing:w:tx delivery
+461721:0:461726:5:commit:w:tx delivery
+461800:0:461800:0:beginning:w:tx neworder
+461800:0:461802:2:processing:w:tx neworder
+461803:0:461805:2:committing:w:tx neworder
+461800:0:461805:5:commit:w:tx neworder
+462011:0:462011:0:beginning:w:tx neworder
+462011:0:462013:2:processing:w:tx neworder
+462013:0:462016:3:committing:w:tx neworder
+462011:0:462016:5:commit:w:tx neworder
+462111:0:462112:1:beginning:w:tx neworder
+462112:0:462114:2:processing:w:tx neworder
+462114:0:462117:3:committing:w:tx neworder
+462111:0:462117:6:commit:w:tx neworder
+463174:0:463174:0:beginning:r:tx stocklevel
+463174:0:463176:2:processing:r:tx stocklevel
+463176:0:463177:1:committing:r:tx stocklevel
+463174:0:463177:3:commit:r:tx stocklevel
+463632:0:463634:2:beginning:w:tx neworder
+463634:0:463637:3:processing:w:tx neworder
+463637:0:463640:3:committing:w:tx neworder
+463632:0:463640:8:commit:w:tx neworder
+463702:0:463702:0:beginning:r:tx stocklevel
+463702:0:463704:2:processing:r:tx stocklevel
+463704:0:463704:0:committing:r:tx stocklevel
+463702:0:463704:2:commit:r:tx stocklevel
+464122:0:464122:0:beginning:r:tx stocklevel
+464122:0:464124:2:processing:r:tx stocklevel
+464124:0:464124:0:committing:r:tx stocklevel
+464122:0:464124:2:commit:r:tx stocklevel
+465071:0:465071:0:beginning:w:tx delivery
+465071:0:465074:3:processing:w:tx delivery
+465074:0:465076:2:committing:w:tx delivery
+465071:0:465076:5:commit:w:tx delivery
+465197:0:465197:0:beginning:w:tx neworder
+465197:0:465199:2:processing:w:tx neworder
+465199:0:465201:2:committing:w:tx neworder
+465197:0:465201:4:commit:w:tx neworder
+466904:0:466904:0:beginning:w:tx neworder
+466904:0:466906:2:processing:w:tx neworder
+466906:0:466909:3:committing:w:tx neworder
+466904:0:466909:5:commit:w:tx neworder
+467849:0:467850:1:beginning:w:tx payment 02
+467850:0:467851:1:processing:w:tx payment 02
+467851:0:467853:2:committing:w:tx payment 02
+467849:0:467853:4:commit:w:tx payment 02
+468322:0:468323:1:beginning:w:tx payment 02
+468324:0:468325:1:processing:w:tx payment 02
+468325:0:468326:1:committing:w:tx payment 02
+468322:0:468326:4:commit:w:tx payment 02
+471480:0:471480:0:beginning:w:tx payment 02
+471480:0:471481:1:processing:w:tx payment 02
+471481:0:471483:2:committing:w:tx payment 02
+471480:0:471483:3:commit:w:tx payment 02
+471533:0:471534:1:beginning:w:tx neworder
+471534:0:471535:1:processing:w:tx neworder
+471535:0:471537:2:committing:w:tx neworder
+471533:0:471537:4:commit:w:tx neworder
+472055:0:472056:1:beginning:w:tx payment 02
+472056:0:472057:1:processing:w:tx payment 02
+472057:0:472059:2:committing:w:tx payment 02
+472055:0:472059:4:commit:w:tx payment 02
+472550:0:472551:1:beginning:w:tx neworder
+472551:0:472553:2:processing:w:tx neworder
+472553:0:472555:2:committing:w:tx neworder
+472550:0:472555:5:commit:w:tx neworder
+473146:0:473146:0:beginning:w:tx neworder
+473146:0:473149:3:processing:w:tx neworder
+473149:0:473151:2:committing:w:tx neworder
+473146:0:473151:5:commit:w:tx neworder
+474137:0:474138:1:beginning:w:tx payment 02
+474138:0:474139:1:processing:w:tx payment 02
+474139:0:474140:1:committing:w:tx payment 02
+474137:0:474140:3:commit:w:tx payment 02
+474486:0:474486:0:beginning:w:tx payment 02
+474486:0:474487:1:processing:w:tx payment 02
+474487:0:474488:1:committing:w:tx payment 02
+474486:0:474488:2:commit:w:tx payment 02
+474785:0:474786:1:beginning:w:tx delivery
+474786:0:474789:3:processing:w:tx delivery
+474789:0:474792:3:committing:w:tx delivery
+474785:0:474792:7:commit:w:tx delivery
+474793:0:474793:0:beginning:w:tx neworder
+474793:0:474795:2:processing:w:tx neworder
+474795:0:474797:2:committing:w:tx neworder
+474793:0:474797:4:commit:w:tx neworder
+474871:0:474871:0:beginning:w:tx delivery
+474871:0:474874:3:processing:w:tx delivery
+474874:0:474878:4:committing:w:tx delivery
+474871:0:474879:8:commit:w:tx delivery
+475182:0:475182:0:beginning:w:tx payment 02
+475182:0:475183:1:processing:w:tx payment 02
+475183:0:475185:2:committing:w:tx payment 02
+475182:0:475185:3:commit:w:tx payment 02
+475329:0:475329:0:beginning:w:tx payment 02
+475329:0:475330:1:processing:w:tx payment 02
+475330:0:475332:2:committing:w:tx payment 02
+475329:0:475332:3:commit:w:tx payment 02
+475479:0:475479:0:beginning:w:tx neworder
+475479:0:475481:2:processing:w:tx neworder
+475481:0:475483:2:committing:w:tx neworder
+475479:0:475483:4:commit:w:tx neworder
+475580:0:475581:1:beginning:w:tx payment 02
+475581:0:475581:0:processing:w:tx payment 02
+475582:0:475583:1:committing:w:tx payment 02
+475580:0:475583:3:commit:w:tx payment 02
+477143:0:477143:0:beginning:w:tx payment 02
+477143:0:477144:1:processing:w:tx payment 02
+477144:0:477145:1:committing:w:tx payment 02
+477143:0:477145:2:commit:w:tx payment 02
+477329:0:477330:1:beginning:w:tx neworder
+477330:0:477331:1:processing:w:tx neworder
+477332:0:477333:1:committing:w:tx neworder
+477329:0:477333:4:commit:w:tx neworder
+477361:0:477362:1:beginning:w:tx neworder
+477362:0:477364:2:processing:w:tx neworder
+477364:0:477366:2:committing:w:tx neworder
+477361:0:477366:5:commit:w:tx neworder
+477831:0:477832:1:beginning:w:tx payment 02
+477832:0:477833:1:processing:w:tx payment 02
+477833:0:477834:1:committing:w:tx payment 02
+477831:0:477834:3:commit:w:tx payment 02
+478424:0:478425:1:beginning:r:tx orderstatus 02
+478425:0:478426:1:processing:r:tx orderstatus 02
+478426:0:478426:0:committing:r:tx orderstatus 02
+478424:0:478426:2:commit:r:tx orderstatus 02
+479496:0:479497:1:beginning:w:tx payment 02
+479498:0:479499:1:processing:w:tx payment 02
+479499:0:479501:2:committing:w:tx payment 02
+479496:0:479501:5:commit:w:tx payment 02
+480829:0:480830:1:beginning:w:tx neworder
+480830:0:480832:2:processing:w:tx neworder
+480832:0:480834:2:committing:w:tx neworder
+480829:0:480835:6:commit:w:tx neworder
+481251:0:481251:0:beginning:w:tx neworder
+481251:0:481253:2:processing:w:tx neworder
+481253:0:481255:2:committing:w:tx neworder
+481251:0:481255:4:commit:w:tx neworder
+481832:0:481833:1:beginning:w:tx neworder
+481833:0:481835:2:processing:w:tx neworder
+481835:0:481838:3:committing:w:tx neworder
+481832:0:481839:7:commit:w:tx neworder
+482801:0:482801:0:beginning:w:tx neworder
+482801:0:482804:3:processing:w:tx neworder
+482804:0:482806:2:committing:w:tx neworder
+482801:0:482806:5:commit:w:tx neworder
+483432:0:483433:1:beginning:w:tx payment 02
+483433:0:483434:1:processing:w:tx payment 02
+483434:0:483436:2:committing:w:tx payment 02
+483432:0:483436:4:commit:w:tx payment 02
+484586:0:484587:1:beginning:w:tx payment 02
+484588:0:484592:4:processing:w:tx payment 02
+484592:0:484594:2:committing:w:tx payment 02
+484586:0:484594:8:commit:w:tx payment 02
+485354:0:485354:0:beginning:w:tx neworder
+485354:0:485356:2:processing:w:tx neworder
+485356:0:485358:2:committing:w:tx neworder
+485354:0:485358:4:commit:w:tx neworder
+486279:0:486279:0:beginning:w:tx neworder
+486279:0:486281:2:processing:w:tx neworder
+486281:0:486283:2:committing:w:tx neworder
+486279:0:486283:4:commit:w:tx neworder
+486287:0:486288:1:beginning:w:tx neworder
+486288:0:486290:2:processing:w:tx neworder
+486290:0:486291:1:committing:w:tx neworder
+486287:0:486291:4:commit:w:tx neworder
+486488:0:486489:1:beginning:w:tx neworder
+486489:0:486490:1:processing:w:tx neworder
+486490:0:486492:2:committing:w:tx neworder
+486488:0:486492:4:commit:w:tx neworder
+486619:0:486621:2:beginning:w:tx payment 02
+486621:0:486622:1:processing:w:tx payment 02
+486622:0:486623:1:committing:w:tx payment 02
+486619:0:486623:4:commit:w:tx payment 02
+488006:0:488006:0:beginning:w:tx payment 02
+488006:0:488007:1:processing:w:tx payment 02
+488007:0:488008:1:committing:w:tx payment 02
+488006:0:488008:2:commit:w:tx payment 02
+488324:0:488324:0:beginning:w:tx neworder
+488324:0:488327:3:processing:w:tx neworder
+488327:0:488329:2:committing:w:tx neworder
+488324:0:488329:5:commit:w:tx neworder
+488999:0:488999:0:beginning:w:tx neworder
+488999:0:489001:2:processing:w:tx neworder
+489002:0:489005:3:committing:w:tx neworder
+488999:0:489005:6:commit:w:tx neworder
+491264:0:491265:1:beginning:w:tx neworder
+491270:0:491272:2:processing:w:tx neworder
+491272:0:491274:2:committing:w:tx neworder
+491264:0:491274:10:commit:w:tx neworder
+491637:0:491637:0:beginning:w:tx neworder
+491637:0:491640:3:processing:w:tx neworder
+491640:0:491643:3:committing:w:tx neworder
+491637:0:491643:6:commit:w:tx neworder
+492151:0:492152:1:beginning:w:tx payment 02
+492152:0:492153:1:processing:w:tx payment 02
+492153:0:492154:1:committing:w:tx payment 02
+492151:0:492154:3:commit:w:tx payment 02
+492660:0:492660:0:beginning:r:tx orderstatus 02
+492660:0:492661:1:processing:r:tx orderstatus 02
+492661:0:492662:1:committing:r:tx orderstatus 02
+492660:0:492662:2:commit:r:tx orderstatus 02
+492794:0:492795:1:beginning:w:tx neworder
+492795:0:492796:1:processing:w:tx neworder
+492796:0:492798:2:committing:w:tx neworder
+492794:0:492798:4:commit:w:tx neworder
+492908:0:492908:0:beginning:w:tx neworder
+492908:0:492910:2:processing:w:tx neworder
+492910:0:492912:2:committing:w:tx neworder
+492907:0:492912:5:commit:w:tx neworder
+493714:0:493714:0:beginning:w:tx neworder
+493714:0:493716:2:processing:w:tx neworder
+493716:0:493718:2:committing:w:tx neworder
+493714:0:493718:4:commit:w:tx neworder
+494308:0:494309:1:beginning:w:tx neworder
+494309:0:494311:2:processing:w:tx neworder
+494311:0:494313:2:committing:w:tx neworder
+494308:0:494313:5:commit:w:tx neworder
+494487:0:494487:0:beginning:w:tx neworder
+494487:0:494490:3:processing:w:tx neworder
+494490:0:494492:2:committing:w:tx neworder
+494487:0:494492:5:commit:w:tx neworder
+494971:0:494972:1:beginning:w:tx payment 02
+494972:0:494973:1:processing:w:tx payment 02
+494973:0:494974:1:committing:w:tx payment 02
+494971:0:494974:3:commit:w:tx payment 02
+495767:0:495768:1:beginning:w:tx neworder
+495768:0:495770:2:processing:w:tx neworder
+495770:0:495773:3:committing:w:tx neworder
+495767:0:495773:6:commit:w:tx neworder
+495826:0:495827:1:beginning:w:tx payment 02
+495827:0:495828:1:processing:w:tx payment 02
+495828:0:495829:1:committing:w:tx payment 02
+495826:0:495829:3:commit:w:tx payment 02
+495836:0:495836:0:beginning:w:tx payment 02
+495836:0:495837:1:processing:w:tx payment 02
+495837:0:495839:2:committing:w:tx payment 02
+495836:0:495839:3:commit:w:tx payment 02
+496251:0:496252:1:beginning:w:tx neworder
+496252:0:496253:1:processing:w:tx neworder
+496253:0:496255:2:committing:w:tx neworder
+496251:0:496255:4:commit:w:tx neworder
+496751:0:496751:0:beginning:w:tx neworder
+496753:0:496754:1:processing:w:tx neworder
+496754:0:496756:2:committing:w:tx neworder
+496751:0:496756:5:commit:w:tx neworder
+496767:0:496768:1:beginning:w:tx payment 02
+496768:0:496769:1:processing:w:tx payment 02
+496769:0:496770:1:committing:w:tx payment 02
+496767:0:496770:3:commit:w:tx payment 02
+496964:0:496964:0:beginning:w:tx payment 02
+496964:0:496965:1:processing:w:tx payment 02
+496965:0:496967:2:committing:w:tx payment 02
+496964:0:496967:3:commit:w:tx payment 02
+497121:0:497122:1:beginning:r:tx stocklevel
+497122:0:497124:2:processing:r:tx stocklevel
+497124:0:497124:0:committing:r:tx stocklevel
+497121:0:497124:3:commit:r:tx stocklevel
+497225:0:497226:1:beginning:w:tx payment 02
+497226:0:497226:0:processing:w:tx payment 02
+497226:0:497228:2:committing:w:tx payment 02
+497225:0:497228:3:commit:w:tx payment 02
+497338:0:497339:1:beginning:w:tx neworder
+497339:0:497341:2:processing:w:tx neworder
+497341:0:497343:2:committing:w:tx neworder
+497338:0:497343:5:commit:w:tx neworder
+497380:0:497381:1:beginning:w:tx neworder
+497381:0:497382:1:processing:w:tx neworder
+497382:0:497384:2:committing:w:tx neworder
+497380:0:497384:4:commit:w:tx neworder
+497395:0:497396:1:beginning:w:tx payment 02
+497396:0:497396:0:processing:w:tx payment 02
+497396:0:497398:2:committing:w:tx payment 02
+497395:0:497398:3:commit:w:tx payment 02
+498363:0:498363:0:beginning:w:tx neworder
+498363:0:498365:2:processing:w:tx neworder
+498365:0:498367:2:committing:w:tx neworder
+498363:0:498367:4:commit:w:tx neworder
+498862:0:498863:1:beginning:r:tx orderstatus 02
+498863:0:498863:0:processing:r:tx orderstatus 02
+498863:0:498863:0:committing:r:tx orderstatus 02
+498862:0:498863:1:commit:r:tx orderstatus 02
+499745:0:499745:0:beginning:w:tx neworder
+499745:0:499748:3:processing:w:tx neworder
+499748:0:499752:4:committing:w:tx neworder
+499745:0:499752:7:commit:w:tx neworder
+500161:0:500162:1:beginning:w:tx neworder
+500162:0:500164:2:processing:w:tx neworder
+500164:0:500166:2:committing:w:tx neworder
+500161:0:500166:5:commit:w:tx neworder
+501050:0:501050:0:beginning:w:tx neworder
+501050:0:501053:3:processing:w:tx neworder
+501053:0:501055:2:committing:w:tx neworder
+501050:0:501055:5:commit:w:tx neworder
+501593:0:501593:0:beginning:w:tx payment 02
+501593:0:501594:1:processing:w:tx payment 02
+501594:0:501596:2:committing:w:tx payment 02
+501593:0:501596:3:commit:w:tx payment 02
+504300:0:504301:1:beginning:w:tx neworder
+504301:0:504303:2:processing:w:tx neworder
+504303:0:504305:2:committing:w:tx neworder
+504300:0:504305:5:commit:w:tx neworder
+505431:0:505432:1:beginning:w:tx neworder
+505432:0:505434:2:processing:w:tx neworder
+505434:0:505436:2:committing:w:tx neworder
+505431:0:505436:5:commit:w:tx neworder
+505547:0:505548:1:beginning:w:tx neworder
+505548:0:505549:1:processing:w:tx neworder
+505549:0:505551:2:committing:w:tx neworder
+505547:0:505551:4:commit:w:tx neworder
+506359:0:506359:0:beginning:w:tx neworder
+506359:0:506361:2:processing:w:tx neworder
+506361:0:506363:2:committing:w:tx neworder
+506359:0:506363:4:commit:w:tx neworder
+506370:0:506370:0:beginning:w:tx payment 02
+506370:0:506371:1:processing:w:tx payment 02
+506371:0:506373:2:committing:w:tx payment 02
+506370:0:506373:3:commit:w:tx payment 02
+506788:0:506789:1:beginning:w:tx payment 02
+506789:0:506790:1:processing:w:tx payment 02
+506790:0:506791:1:committing:w:tx payment 02
+506788:0:506791:3:commit:w:tx payment 02
+507062:0:507063:1:beginning:r:tx orderstatus 02
+507063:0:507063:0:processing:r:tx orderstatus 02
+507063:0:507064:1:committing:r:tx orderstatus 02
+507062:0:507064:2:commit:r:tx orderstatus 02
+507928:0:507928:0:beginning:w:tx payment 02
+507928:0:507929:1:processing:w:tx payment 02
+507929:0:507931:2:committing:w:tx payment 02
+507928:0:507931:3:commit:w:tx payment 02
+508005:0:508005:0:beginning:w:tx delivery
+508005:0:508008:3:processing:w:tx delivery
+508008:0:508010:2:committing:w:tx delivery
+508005:0:508010:5:commit:w:tx delivery
+508586:0:508587:1:beginning:w:tx payment 02
+508587:0:508588:1:processing:w:tx payment 02
+508588:0:508590:2:committing:w:tx payment 02
+508586:0:508590:4:commit:w:tx payment 02
+509198:0:509199:1:beginning:w:tx neworder
+509199:0:509200:1:processing:w:tx neworder
+509200:0:509202:2:committing:w:tx neworder
+509198:0:509202:4:commit:w:tx neworder
+509303:0:509304:1:beginning:w:tx neworder
+509306:0:509308:2:processing:w:tx neworder
+509308:0:509310:2:committing:w:tx neworder
+509303:0:509310:7:commit:w:tx neworder
+509513:0:509514:1:beginning:w:tx payment 02
+509514:0:509515:1:processing:w:tx payment 02
+509515:0:509516:1:committing:w:tx payment 02
+509513:0:509516:3:commit:w:tx payment 02
+509838:0:509838:0:beginning:w:tx neworder
+509838:0:509839:1:processing:w:tx neworder
+509840:0:509841:1:committing:w:tx neworder
+509838:0:509841:3:commit:w:tx neworder
+510504:0:510506:2:beginning:w:tx payment 02
+510506:0:510507:1:processing:w:tx payment 02
+510507:0:510509:2:committing:w:tx payment 02
+510504:0:510509:5:commit:w:tx payment 02
+510947:0:510947:0:beginning:w:tx neworder
+510947:0:510950:3:processing:w:tx neworder
+510950:0:510952:2:committing:w:tx neworder
+510947:0:510952:5:commit:w:tx neworder
+511377:0:511377:0:beginning:w:tx payment 02
+511377:0:511378:1:processing:w:tx payment 02
+511378:0:511380:2:committing:w:tx payment 02
+511377:0:511380:3:commit:w:tx payment 02
+511985:0:511985:0:beginning:w:tx neworder
+511985:0:511987:2:processing:w:tx neworder
+511987:0:511989:2:committing:w:tx neworder
+511985:0:511989:4:commit:w:tx neworder
+512642:0:512643:1:beginning:w:tx payment 02
+512643:0:512644:1:processing:w:tx payment 02
+512644:0:512646:2:committing:w:tx payment 02
+512642:0:512646:4:commit:w:tx payment 02
+512734:0:512735:1:beginning:w:tx neworder
+512735:0:512738:3:processing:w:tx neworder
+512738:0:512740:2:committing:w:tx neworder
+512734:0:512740:6:commit:w:tx neworder
+513042:0:513042:0:beginning:w:tx neworder
+513042:0:513045:3:processing:w:tx neworder
+513045:0:513047:2:committing:w:tx neworder
+513042:0:513047:5:commit:w:tx neworder
+513153:0:513154:1:beginning:w:tx payment 02
+513154:0:513154:0:processing:w:tx payment 02
+513154:0:513156:2:committing:w:tx payment 02
+513153:0:513156:3:commit:w:tx payment 02
+513236:0:513237:1:beginning:w:tx payment 02
+513237:0:513238:1:processing:w:tx payment 02
+513238:0:513239:1:committing:w:tx payment 02
+513236:0:513239:3:commit:w:tx payment 02
+513769:0:513770:1:beginning:w:tx neworder
+513771:0:513772:1:beginning:w:tx payment 02
+513770:0:513772:2:processing:w:tx neworder
+513772:0:513772:0:processing:w:tx payment 02
+513772:0:513773:1:committing:w:tx neworder
+513769:0:513773:4:commit:w:tx neworder
+513772:0:513774:2:committing:w:tx payment 02
+513771:0:513774:3:commit:w:tx payment 02
+514451:0:514451:0:beginning:w:tx payment 02
+514453:0:514454:1:processing:w:tx payment 02
+514454:0:514456:2:committing:w:tx payment 02
+514451:0:514456:5:commit:w:tx payment 02
+515179:0:515179:0:beginning:r:tx orderstatus 02
+515179:0:515180:1:processing:r:tx orderstatus 02
+515180:0:515180:0:committing:r:tx orderstatus 02
+515179:0:515180:1:commit:r:tx orderstatus 02
+516065:0:516065:0:beginning:w:tx payment 02
+516065:0:516066:1:processing:w:tx payment 02
+516066:0:516068:2:committing:w:tx payment 02
+516065:0:516068:3:commit:w:tx payment 02
+516384:0:516384:0:beginning:w:tx payment 02
+516384:0:516385:1:processing:w:tx payment 02
+516385:0:516387:2:committing:w:tx payment 02
+516384:0:516387:3:commit:w:tx payment 02
+517816:0:517817:1:beginning:r:tx stocklevel
+517817:0:517818:1:processing:r:tx stocklevel
+517818:0:517819:1:committing:r:tx stocklevel
+517816:0:517819:3:commit:r:tx stocklevel
+518228:0:518228:0:beginning:r:tx stocklevel
+518228:0:518230:2:processing:r:tx stocklevel
+518230:0:518230:0:committing:r:tx stocklevel
+518228:0:518230:2:commit:r:tx stocklevel
+518590:0:518591:1:beginning:r:tx orderstatus 02
+518591:0:518592:1:processing:r:tx orderstatus 02
+518592:0:518592:0:committing:r:tx orderstatus 02
+518590:0:518592:2:commit:r:tx orderstatus 02
+518884:0:518885:1:beginning:w:tx payment 02
+518885:0:518886:1:processing:w:tx payment 02
+518886:0:518888:2:committing:w:tx payment 02
+518884:0:518888:4:commit:w:tx payment 02
+518944:0:518945:1:beginning:w:tx payment 02
+518945:0:518946:1:processing:w:tx payment 02
+518946:0:518947:1:committing:w:tx payment 02
+518944:0:518947:3:commit:w:tx payment 02
+519417:0:519417:0:beginning:w:tx delivery
+519417:0:519420:3:processing:w:tx delivery
+519420:0:519422:2:committing:w:tx delivery
+519417:0:519422:5:commit:w:tx delivery
+520284:0:520285:1:beginning:w:tx payment 02
+520285:0:520286:1:processing:w:tx payment 02
+520286:0:520287:1:committing:w:tx payment 02
+520284:0:520287:3:commit:w:tx payment 02
+521065:0:521066:1:beginning:w:tx neworder
+521066:0:521068:2:processing:w:tx neworder
+521068:0:521069:1:committing:w:tx neworder
+521065:0:521069:4:commit:w:tx neworder
+521360:0:521361:1:beginning:w:tx neworder
+521361:0:521363:2:processing:w:tx neworder
+521363:0:521365:2:committing:w:tx neworder
+521360:0:521365:5:commit:w:tx neworder
+521379:0:521379:0:beginning:r:tx stocklevel
+521379:0:521381:2:processing:r:tx stocklevel
+521381:0:521381:0:committing:r:tx stocklevel
+521379:0:521381:2:commit:r:tx stocklevel
+521576:0:521577:1:beginning:w:tx payment 02
+521577:0:521578:1:processing:w:tx payment 02
+521578:0:521579:1:committing:w:tx payment 02
+521576:0:521579:3:commit:w:tx payment 02
+521767:0:521768:1:beginning:w:tx neworder
+521768:0:521770:2:processing:w:tx neworder
+521770:0:521771:1:committing:w:tx neworder
+521767:0:521771:4:commit:w:tx neworder
+521849:0:521849:0:beginning:w:tx payment 02
+521849:0:521850:1:processing:w:tx payment 02
+521850:0:521852:2:committing:w:tx payment 02
+521849:0:521852:3:commit:w:tx payment 02
+521882:0:521883:1:beginning:w:tx payment 02
+521883:0:521883:0:processing:w:tx payment 02
+521883:0:521885:2:committing:w:tx payment 02
+521882:0:521885:3:commit:w:tx payment 02
+524762:0:524762:0:beginning:w:tx payment 02
+524762:0:524763:1:processing:w:tx payment 02
+524763:0:524764:1:committing:w:tx payment 02
+524762:0:524764:2:commit:w:tx payment 02
+524829:0:524830:1:beginning:w:tx payment 02
+524830:0:524831:1:processing:w:tx payment 02
+524831:0:524832:1:committing:w:tx payment 02
+524829:0:524832:3:commit:w:tx payment 02
+524846:0:524847:1:beginning:w:tx payment 02
+524847:0:524848:1:processing:w:tx payment 02
+524848:0:524849:1:committing:w:tx payment 02
+524846:0:524849:3:commit:w:tx payment 02
+526438:0:526439:1:beginning:w:tx neworder
+526439:0:526441:2:processing:w:tx neworder
+526441:0:526443:2:committing:w:tx neworder
+526438:0:526443:5:commit:w:tx neworder
+526782:0:526782:0:beginning:w:tx neworder
+526783:0:526784:1:processing:w:tx neworder
+526784:0:526785:1:committing:w:tx neworder
+526782:0:526785:3:commit:w:tx neworder
+528533:0:528534:1:beginning:w:tx neworder
+528534:0:528536:2:processing:w:tx neworder
+528536:0:528538:2:committing:w:tx neworder
+528533:0:528538:5:commit:w:tx neworder
+528852:0:528852:0:beginning:w:tx neworder
+528852:0:528854:2:processing:w:tx neworder
+528854:0:528856:2:committing:w:tx neworder
+528851:0:528856:5:commit:w:tx neworder
+529279:0:529281:2:beginning:w:tx payment 02
+529281:0:529282:1:processing:w:tx payment 02
+529282:0:529283:1:committing:w:tx payment 02
+529279:0:529283:4:commit:w:tx payment 02
+530947:0:530948:1:beginning:w:tx delivery
+530948:0:530951:3:processing:w:tx delivery
+530951:0:530953:2:committing:w:tx delivery
+530947:0:530953:6:commit:w:tx delivery
+531102:0:531103:1:beginning:w:tx neworder
+531103:0:531105:2:processing:w:tx neworder
+531105:0:531108:3:committing:w:tx neworder
+531102:0:531108:6:commit:w:tx neworder
+531314:0:531315:1:beginning:w:tx neworder
+531315:0:531317:2:processing:w:tx neworder
+531317:0:531319:2:committing:w:tx neworder
+531314:0:531319:5:commit:w:tx neworder
+532676:0:532677:1:beginning:w:tx payment 02
+532677:0:532678:1:processing:w:tx payment 02
+532678:0:532679:1:committing:w:tx payment 02
+532676:0:532679:3:commit:w:tx payment 02
+533019:0:533019:0:beginning:w:tx neworder
+533019:0:533022:3:processing:w:tx neworder
+533022:0:533024:2:committing:w:tx neworder
+533019:0:533024:5:commit:w:tx neworder
+533128:0:533129:1:beginning:w:tx payment 02
+533129:0:533129:0:processing:w:tx payment 02
+533130:0:533131:1:committing:w:tx payment 02
+533128:0:533131:3:commit:w:tx payment 02
+533951:0:533951:0:beginning:r:tx orderstatus 02
+533951:0:533952:1:processing:r:tx orderstatus 02
+533952:0:533952:0:committing:r:tx orderstatus 02
+533949:0:533952:3:commit:r:tx orderstatus 02
+534423:0:534424:1:beginning:w:tx neworder
+534424:0:534426:2:processing:w:tx neworder
+534426:0:534428:2:committing:w:tx neworder
+534423:0:534428:5:commit:w:tx neworder
+534486:0:534486:0:beginning:w:tx neworder
+534486:0:534489:3:processing:w:tx neworder
+534489:0:534491:2:committing:w:tx neworder
+534486:0:534491:5:commit:w:tx neworder
+534605:0:534605:0:beginning:w:tx neworder
+534605:0:534607:2:processing:w:tx neworder
+534607:0:534609:2:committing:w:tx neworder
+534605:0:534609:4:commit:w:tx neworder
+534731:0:534732:1:beginning:w:tx payment 02
+534732:0:534733:1:processing:w:tx payment 02
+534733:0:534734:1:committing:w:tx payment 02
+534731:0:534734:3:commit:w:tx payment 02
+534735:0:534735:0:beginning:w:tx neworder
+534735:0:534737:2:processing:w:tx neworder
+534737:0:534739:2:committing:w:tx neworder
+534735:0:534739:4:commit:w:tx neworder
+535986:0:535986:0:beginning:w:tx payment 02
+535986:0:535987:1:processing:w:tx payment 02
+535987:0:535989:2:committing:w:tx payment 02
+535986:0:535989:3:commit:w:tx payment 02
+536795:0:536795:0:beginning:w:tx neworder
+536795:0:536798:3:processing:w:tx neworder
+536798:0:536799:1:committing:w:tx neworder
+536795:0:536799:4:commit:w:tx neworder
+537525:0:537526:1:beginning:w:tx neworder
+537526:0:537527:1:processing:w:tx neworder
+537527:0:537530:3:committing:w:tx neworder
+537525:0:537530:5:commit:w:tx neworder
+538137:0:538137:0:beginning:w:tx neworder
+538137:0:538139:2:processing:w:tx neworder
+538139:0:538140:1:committing:w:tx neworder
+538137:0:538140:3:commit:w:tx neworder
+538918:0:538918:0:beginning:w:tx neworder
+538918:0:538920:2:processing:w:tx neworder
+538921:0:538922:1:committing:w:tx neworder
+538918:0:538923:5:commit:w:tx neworder
+539619:0:539619:0:beginning:r:tx orderstatus 02
+539619:0:539620:1:processing:r:tx orderstatus 02
+539620:0:539620:0:committing:r:tx orderstatus 02
+539619:0:539620:1:commit:r:tx orderstatus 02
+539864:0:539865:1:beginning:w:tx neworder
+539865:0:539868:3:processing:w:tx neworder
+539868:0:539870:2:committing:w:tx neworder
+539864:0:539870:6:commit:w:tx neworder
+541127:0:541128:1:beginning:w:tx neworder
+541128:0:541131:3:processing:w:tx neworder
+541131:0:541133:2:committing:w:tx neworder
+541127:0:541133:6:commit:w:tx neworder
+541712:0:541713:1:beginning:r:tx stocklevel
+541713:0:541714:1:processing:r:tx stocklevel
+541714:0:541715:1:committing:r:tx stocklevel
+541712:0:541715:3:commit:r:tx stocklevel
+542007:0:542007:0:beginning:w:tx neworder
+542008:0:542009:1:processing:w:tx neworder
+542009:0:542011:2:committing:w:tx neworder
+542007:0:542011:4:commit:w:tx neworder
+542499:0:542499:0:beginning:w:tx neworder
+542499:0:542501:2:processing:w:tx neworder
+542501:0:542503:2:committing:w:tx neworder
+542499:0:542503:4:commit:w:tx neworder
+542581:0:542581:0:beginning:w:tx payment 02
+542581:0:542582:1:processing:w:tx payment 02
+542582:0:542583:1:committing:w:tx payment 02
+542581:0:542583:2:commit:w:tx payment 02
+543131:0:543132:1:beginning:w:tx payment 02
+543132:0:543133:1:processing:w:tx payment 02
+543133:0:543134:1:committing:w:tx payment 02
+543131:0:543134:3:commit:w:tx payment 02
+543506:0:543506:0:beginning:w:tx neworder
+543508:0:543510:2:processing:w:tx neworder
+543510:0:543512:2:committing:w:tx neworder
+543506:0:543512:6:commit:w:tx neworder
+543659:0:543659:0:beginning:w:tx delivery
+543659:0:543662:3:processing:w:tx delivery
+543662:0:543664:2:committing:w:tx delivery
+543659:0:543664:5:commit:w:tx delivery
+544322:0:544323:1:beginning:w:tx payment 02
+544323:0:544324:1:processing:w:tx payment 02
+544324:0:544325:1:committing:w:tx payment 02
+544322:0:544325:3:commit:w:tx payment 02
+544499:0:544499:0:beginning:w:tx neworder
+544499:0:544501:2:processing:w:tx neworder
+544501:0:544504:3:committing:w:tx neworder
+544499:0:544504:5:commit:w:tx neworder
+546834:0:546835:1:beginning:w:tx payment 02
+546835:0:546836:1:processing:w:tx payment 02
+546836:0:546837:1:committing:w:tx payment 02
+546834:0:546837:3:commit:w:tx payment 02
+547012:0:547012:0:beginning:w:tx neworder
+547012:0:547014:2:processing:w:tx neworder
+547014:0:547016:2:committing:w:tx neworder
+547012:0:547016:4:commit:w:tx neworder
+547609:0:547609:0:beginning:w:tx payment 02
+547609:0:547610:1:processing:w:tx payment 02
+547610:0:547611:1:committing:w:tx payment 02
+547609:0:547611:2:commit:w:tx payment 02
+548083:0:548083:0:beginning:w:tx neworder
+548083:0:548085:2:processing:w:tx neworder
+548085:0:548087:2:committing:w:tx neworder
+548083:0:548087:4:commit:w:tx neworder
+548256:0:548256:0:beginning:w:tx neworder
+548256:0:548258:2:processing:w:tx neworder
+548258:0:548260:2:committing:w:tx neworder
+548256:0:548260:4:commit:w:tx neworder
+548358:0:548358:0:beginning:w:tx payment 02
+548358:0:548359:1:processing:w:tx payment 02
+548359:0:548361:2:committing:w:tx payment 02
+548358:0:548361:3:commit:w:tx payment 02
+548663:0:548663:0:beginning:w:tx neworder
+548663:0:548665:2:processing:w:tx neworder
+548665:0:548667:2:committing:w:tx neworder
+548663:0:548667:4:commit:w:tx neworder
+549376:0:549377:1:beginning:w:tx payment 02
+549377:0:549378:1:processing:w:tx payment 02
+549378:0:549379:1:committing:w:tx payment 02
+549376:0:549379:3:commit:w:tx payment 02
+551442:0:551442:0:beginning:w:tx payment 02
+551442:0:551443:1:processing:w:tx payment 02
+551443:0:551445:2:committing:w:tx payment 02
+551442:0:551445:3:commit:w:tx payment 02
+552076:0:552076:0:beginning:w:tx payment 02
+552077:0:552078:1:beginning:r:tx orderstatus 02
+552076:0:552078:2:processing:w:tx payment 02
+552078:0:552079:1:processing:r:tx orderstatus 02
+552079:0:552079:0:committing:r:tx orderstatus 02
+552077:0:552079:2:commit:r:tx orderstatus 02
+552078:0:552080:2:committing:w:tx payment 02
+552076:0:552080:4:commit:w:tx payment 02
+553557:0:553557:0:beginning:w:tx neworder
+553559:0:553561:2:processing:w:tx neworder
+553561:0:553563:2:committing:w:tx neworder
+553557:0:553563:6:commit:w:tx neworder
+555859:0:555859:0:beginning:w:tx delivery
+555859:0:555862:3:processing:w:tx delivery
+555862:0:555864:2:committing:w:tx delivery
+555859:0:555864:5:commit:w:tx delivery
+556213:0:556214:1:beginning:r:tx orderstatus 02
+556214:0:556214:0:processing:r:tx orderstatus 02
+556214:0:556215:1:committing:r:tx orderstatus 02
+556213:0:556215:2:commit:r:tx orderstatus 02
+556233:0:556234:1:beginning:w:tx neworder
+556234:0:556236:2:processing:w:tx neworder
+556236:0:556238:2:committing:w:tx neworder
+556233:0:556238:5:commit:w:tx neworder
+556474:0:556474:0:beginning:w:tx payment 02
+556474:0:556475:1:processing:w:tx payment 02
+556475:0:556476:1:committing:w:tx payment 02
+556474:0:556476:2:commit:w:tx payment 02
+556581:0:556582:1:beginning:w:tx neworder
+556582:0:556584:2:processing:w:tx neworder
+556584:0:556585:1:committing:w:tx neworder
+556581:0:556585:4:commit:w:tx neworder
+556585:0:556586:1:beginning:w:tx payment 02
+556586:0:556586:0:processing:w:tx payment 02
+556587:0:556587:0:committing:w:tx payment 02
+556585:0:556587:2:commit:w:tx payment 02
+556720:0:556721:1:beginning:w:tx payment 02
+556721:0:556722:1:processing:w:tx payment 02
+556722:0:556723:1:committing:w:tx payment 02
+556720:0:556723:3:commit:w:tx payment 02
+557305:0:557306:1:beginning:w:tx neworder
+557306:0:557308:2:processing:w:tx neworder
+557308:0:557310:2:committing:w:tx neworder
+557305:0:557310:5:commit:w:tx neworder
+557465:0:557465:0:beginning:w:tx payment 02
+557465:0:557466:1:processing:w:tx payment 02
+557466:0:557468:2:committing:w:tx payment 02
+557465:0:557468:3:commit:w:tx payment 02
+557672:0:557672:0:beginning:w:tx neworder
+557672:0:557674:2:processing:w:tx neworder
+557674:0:557676:2:committing:w:tx neworder
+557672:0:557676:4:commit:w:tx neworder
+558304:0:558304:0:beginning:w:tx neworder
+558304:0:558307:3:processing:w:tx neworder
+558307:0:558309:2:committing:w:tx neworder
+558304:0:558309:5:commit:w:tx neworder
+558349:0:558349:0:beginning:w:tx neworder
+558350:0:558351:1:processing:w:tx neworder
+558351:0:558353:2:committing:w:tx neworder
+558349:0:558353:4:commit:w:tx neworder
+558582:0:558582:0:beginning:w:tx neworder
+558583:0:558585:2:processing:w:tx neworder
+558585:0:558587:2:committing:w:tx neworder
+558582:0:558587:5:commit:w:tx neworder
+561581:0:561582:1:beginning:w:tx payment 02
+561582:0:561583:1:processing:w:tx payment 02
+561583:0:561584:1:committing:w:tx payment 02
+561581:0:561585:4:commit:w:tx payment 02
+562245:0:562246:1:beginning:w:tx neworder
+562246:0:562248:2:processing:w:tx neworder
+562248:0:562250:2:committing:w:tx neworder
+562245:0:562250:5:commit:w:tx neworder
+562799:0:562800:1:beginning:r:tx orderstatus 02
+562800:0:562800:0:processing:r:tx orderstatus 02
+562801:0:562801:0:committing:r:tx orderstatus 02
+562799:0:562801:2:commit:r:tx orderstatus 02
+563048:0:563048:0:beginning:w:tx neworder
+563048:0:563050:2:processing:w:tx neworder
+563050:0:563052:2:committing:w:tx neworder
+563048:0:563052:4:commit:w:tx neworder
+563704:0:563705:1:beginning:w:tx payment 02
+563706:0:563708:2:processing:w:tx payment 02
+563708:0:563709:1:committing:w:tx payment 02
+563704:0:563709:5:commit:w:tx payment 02
+563949:0:563950:1:beginning:r:tx orderstatus 02
+563950:0:563951:1:processing:r:tx orderstatus 02
+563951:0:563951:0:committing:r:tx orderstatus 02
+563949:0:563951:2:commit:r:tx orderstatus 02
+563995:0:563995:0:beginning:w:tx payment 02
+563995:0:563996:1:processing:w:tx payment 02
+563996:0:563997:1:committing:w:tx payment 02
+563995:0:563997:2:commit:w:tx payment 02
+564247:0:564247:0:beginning:w:tx payment 02
+564247:0:564248:1:processing:w:tx payment 02
+564248:0:564250:2:committing:w:tx payment 02
+564247:0:564250:3:commit:w:tx payment 02
+564354:0:564354:0:beginning:w:tx payment 02
+564354:0:564355:1:processing:w:tx payment 02
+564355:0:564357:2:committing:w:tx payment 02
+564354:0:564357:3:commit:w:tx payment 02
+564880:0:564880:0:beginning:w:tx payment 02
+564880:0:564885:5:processing:w:tx payment 02
+564885:0:564886:1:committing:w:tx payment 02
+564880:0:564886:6:commit:w:tx payment 02
+565285:0:565285:0:beginning:w:tx payment 02
+565285:0:565286:1:processing:w:tx payment 02
+565286:0:565288:2:committing:w:tx payment 02
+565285:0:565288:3:commit:w:tx payment 02
+566107:0:566108:1:beginning:w:tx delivery
+566108:0:566110:2:processing:w:tx delivery
+566110:0:566112:2:committing:w:tx delivery
+566107:0:566112:5:commit:w:tx delivery
+566445:0:566446:1:beginning:w:tx neworder
+566446:0:566448:2:processing:w:tx neworder
+566448:0:566449:1:committing:w:tx neworder
+566445:0:566449:4:commit:w:tx neworder
+567183:0:567183:0:beginning:w:tx neworder
+567183:0:567185:2:processing:w:tx neworder
+567185:0:567187:2:committing:w:tx neworder
+567183:0:567187:4:commit:w:tx neworder
+568349:0:568349:0:beginning:w:tx neworder
+568349:0:568351:2:processing:w:tx neworder
+568351:0:568353:2:committing:w:tx neworder
+568349:0:568353:4:commit:w:tx neworder
+568842:0:568843:1:beginning:w:tx payment 02
+568844:0:568845:1:processing:w:tx payment 02
+568845:0:568846:1:committing:w:tx payment 02
+568842:0:568846:4:commit:w:tx payment 02
+570118:0:570118:0:beginning:r:tx orderstatus 02
+570118:0:570119:1:processing:r:tx orderstatus 02
+570119:0:570119:0:committing:r:tx orderstatus 02
+570118:0:570119:1:commit:r:tx orderstatus 02
+570283:0:570284:1:beginning:w:tx neworder
+570284:0:570286:2:processing:w:tx neworder
+570286:0:570289:3:committing:w:tx neworder
+570283:0:570289:6:commit:w:tx neworder
+570346:0:570346:0:beginning:w:tx payment 02
+570346:0:570347:1:processing:w:tx payment 02
+570347:0:570348:1:committing:w:tx payment 02
+570346:0:570348:2:commit:w:tx payment 02
+570545:0:570545:0:beginning:w:tx payment 02
+570545:0:570546:1:processing:w:tx payment 02
+570546:0:570547:1:committing:w:tx payment 02
+570545:0:570547:2:commit:w:tx payment 02
+570706:0:570707:1:beginning:w:tx payment 02
+570707:0:570707:0:processing:w:tx payment 02
+570707:0:570709:2:committing:w:tx payment 02
+570706:0:570709:3:commit:w:tx payment 02
+571144:0:571145:1:beginning:w:tx payment 02
+571145:0:571146:1:processing:w:tx payment 02
+571146:0:571147:1:committing:w:tx payment 02
+571144:0:571147:3:commit:w:tx payment 02
+571384:0:571384:0:beginning:w:tx payment 02
+571384:0:571385:1:processing:w:tx payment 02
+571385:0:571386:1:committing:w:tx payment 02
+571384:0:571386:2:commit:w:tx payment 02
+572162:0:572162:0:beginning:w:tx neworder
+572162:0:572163:1:processing:w:tx neworder
+572163:0:572165:2:committing:w:tx neworder
+572162:0:572165:3:commit:w:tx neworder
+574733:0:574734:1:beginning:w:tx neworder
+574735:0:574737:2:processing:w:tx neworder
+574737:0:574739:2:committing:w:tx neworder
+574733:0:574739:6:commit:w:tx neworder
+576657:0:576659:2:beginning:w:tx payment 02
+576659:0:576660:1:processing:w:tx payment 02
+576660:0:576661:1:committing:w:tx payment 02
+576657:0:576661:4:commit:w:tx payment 02
+576771:0:576771:0:beginning:r:tx orderstatus 02
+576771:0:576772:1:processing:r:tx orderstatus 02
+576772:0:576772:0:committing:r:tx orderstatus 02
+576771:0:576772:1:commit:r:tx orderstatus 02
+577101:0:577102:1:beginning:w:tx neworder
+577102:0:577103:1:processing:w:tx neworder
+577104:0:577105:1:committing:w:tx neworder
+577101:0:577105:4:commit:w:tx neworder
+577478:0:577478:0:beginning:w:tx payment 02
+577478:0:577479:1:processing:w:tx payment 02
+577479:0:577481:2:committing:w:tx payment 02
+577478:0:577481:3:commit:w:tx payment 02
+578057:0:578057:0:beginning:w:tx payment 02
+578057:0:578058:1:processing:w:tx payment 02
+578058:0:578059:1:committing:w:tx payment 02
+578057:0:578059:2:commit:w:tx payment 02
+578249:0:578250:1:beginning:w:tx payment 02
+578250:0:578250:0:processing:w:tx payment 02
+578250:0:578252:2:committing:w:tx payment 02
+578249:0:578252:3:commit:w:tx payment 02
+578262:0:578263:1:beginning:w:tx payment 02
+578263:0:578264:1:processing:w:tx payment 02
+578264:0:578265:1:committing:w:tx payment 02
+578262:0:578265:3:commit:w:tx payment 02
+579271:0:579272:1:beginning:w:tx neworder
+579272:0:579274:2:processing:w:tx neworder
+579274:0:579276:2:committing:w:tx neworder
+579271:0:579276:5:commit:w:tx neworder
+579721:0:579721:0:beginning:w:tx payment 02
+579721:0:579722:1:processing:w:tx payment 02
+579722:0:579724:2:committing:w:tx payment 02
+579721:0:579724:3:commit:w:tx payment 02
+580697:0:580697:0:beginning:w:tx neworder
+580698:0:580700:2:processing:w:tx neworder
+580700:0:580702:2:committing:w:tx neworder
+580697:0:580702:5:commit:w:tx neworder
+581668:0:581669:1:beginning:w:tx payment 02
+581669:0:581669:0:processing:w:tx payment 02
+581669:0:581671:2:committing:w:tx payment 02
+581668:0:581671:3:commit:w:tx payment 02
+582444:0:582444:0:beginning:w:tx neworder
+582444:0:582448:4:processing:w:tx neworder
+582448:0:582450:2:committing:w:tx neworder
+582444:0:582450:6:commit:w:tx neworder
+582624:0:582624:0:beginning:w:tx payment 02
+582624:0:582625:1:processing:w:tx payment 02
+582625:0:582627:2:committing:w:tx payment 02
+582624:0:582627:3:commit:w:tx payment 02
+582882:0:582882:0:beginning:w:tx payment 02
+582882:0:582883:1:processing:w:tx payment 02
+582883:0:582884:1:committing:w:tx payment 02
+582882:0:582884:2:commit:w:tx payment 02
+583373:0:583375:2:beginning:w:tx payment 02
+583375:0:583376:1:processing:w:tx payment 02
+583376:0:583377:1:committing:w:tx payment 02
+583373:0:583377:4:commit:w:tx payment 02
+583801:0:583802:1:beginning:w:tx neworder
+583802:0:583804:2:processing:w:tx neworder
+583804:0:583806:2:committing:w:tx neworder
+583801:0:583806:5:commit:w:tx neworder
+584016:0:584016:0:beginning:w:tx neworder
+584016:0:584019:3:processing:w:tx neworder
+584019:0:584021:2:committing:w:tx neworder
+584016:0:584021:5:commit:w:tx neworder
+584182:0:584183:1:beginning:w:tx neworder
+584183:0:584185:2:processing:w:tx neworder
+584185:0:584187:2:committing:w:tx neworder
+584182:0:584187:5:commit:w:tx neworder
+584193:0:584194:1:beginning:r:tx orderstatus 02
+584194:0:584194:0:processing:r:tx orderstatus 02
+584194:0:584194:0:committing:r:tx orderstatus 02
+584193:0:584194:1:commit:r:tx orderstatus 02
+584672:0:584673:1:beginning:w:tx payment 02
+584673:0:584674:1:processing:w:tx payment 02
+584674:0:584675:1:committing:w:tx payment 02
+584672:0:584675:3:commit:w:tx payment 02
+585026:0:585026:0:beginning:w:tx neworder
+585026:0:585028:2:processing:w:tx neworder
+585028:0:585030:2:committing:w:tx neworder
+585025:0:585030:5:commit:w:tx neworder
+585641:0:585641:0:beginning:w:tx payment 02
+585641:0:585642:1:processing:w:tx payment 02
+585642:0:585643:1:committing:w:tx payment 02
+585641:0:585643:2:commit:w:tx payment 02
+585676:0:585677:1:beginning:w:tx neworder
+585677:0:585679:2:processing:w:tx neworder
+585679:0:585680:1:committing:w:tx neworder
+585676:0:585681:5:commit:w:tx neworder
+586997:0:586997:0:beginning:w:tx payment 02
+586997:0:586998:1:processing:w:tx payment 02
+586998:0:587000:2:committing:w:tx payment 02
+586997:0:587000:3:commit:w:tx payment 02
+589295:0:589295:0:beginning:w:tx neworder
+589295:0:589298:3:processing:w:tx neworder
+589298:0:589299:1:committing:w:tx neworder
+589295:0:589299:4:commit:w:tx neworder
+589729:0:589730:1:beginning:w:tx neworder
+589730:0:589732:2:processing:w:tx neworder
+589732:0:589734:2:committing:w:tx neworder
+589729:0:589734:5:commit:w:tx neworder
+590164:0:590165:1:beginning:w:tx payment 02
+590165:0:590166:1:processing:w:tx payment 02
+590166:0:590167:1:committing:w:tx payment 02
+590164:0:590167:3:commit:w:tx payment 02
+590936:0:590936:0:beginning:w:tx neworder
+590936:0:590939:3:processing:w:tx neworder
+590939:0:590940:1:committing:w:tx neworder
+590936:0:590940:4:commit:w:tx neworder
+591118:0:591121:3:beginning:w:tx neworder
+591121:0:591123:2:processing:w:tx neworder
+591123:0:591124:1:committing:w:tx neworder
+591118:0:591125:7:commit:w:tx neworder
+591210:0:591210:0:beginning:w:tx payment 02
+591211:0:591211:0:processing:w:tx payment 02
+591211:0:591213:2:committing:w:tx payment 02
+591210:0:591213:3:commit:w:tx payment 02
+591930:0:591930:0:beginning:r:tx stocklevel
+591930:0:591932:2:processing:r:tx stocklevel
+591932:0:591932:0:committing:r:tx stocklevel
+591930:0:591932:2:commit:r:tx stocklevel
+592472:0:592472:0:beginning:w:tx payment 02
+592473:0:592475:2:processing:w:tx payment 02
+592475:0:592476:1:committing:w:tx payment 02
+592472:0:592476:4:commit:w:tx payment 02
+593654:0:593654:0:beginning:w:tx payment 02
+593654:0:593655:1:processing:w:tx payment 02
+593655:0:593656:1:committing:w:tx payment 02
+593654:0:593656:2:commit:w:tx payment 02
+594465:0:594465:0:beginning:w:tx payment 02
+594465:0:594466:1:processing:w:tx payment 02
+594466:0:594467:1:committing:w:tx payment 02
+594465:0:594467:2:commit:w:tx payment 02
+595850:0:595850:0:beginning:w:tx neworder
+595850:0:595852:2:processing:w:tx neworder
+595852:0:595854:2:committing:w:tx neworder
+595850:0:595854:4:commit:w:tx neworder
+596562:0:596563:1:beginning:w:tx neworder
+596563:0:596564:1:processing:w:tx neworder
+596564:0:596566:2:committing:w:tx neworder
+596562:0:596566:4:commit:w:tx neworder
+597019:0:597020:1:beginning:w:tx neworder
+597020:0:597022:2:processing:w:tx neworder
+597022:0:597024:2:committing:w:tx neworder
+597019:0:597024:5:commit:w:tx neworder
+597678:0:597679:1:beginning:w:tx neworder
+597680:0:597682:2:processing:w:tx neworder
+597682:0:597684:2:committing:w:tx neworder
+597678:0:597684:6:commit:w:tx neworder
+-------------------- SUMMARY ---------------------------
+Abort rate:0.0
+Average latency:4.805325987144169
+Measured tpmC:51.577797
