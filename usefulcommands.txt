@@ -29,7 +29,7 @@ gcloud compute scp --recurse ./scripts/ bench-joel:
 ./scripts/restoredb.sh -s server-joel -w 80 -b tpcc.dump
 
 # Correr o script de transações (run.sh) dado o numero de warehouses e clientes
-./scripts/runclients.sh -w 80 -c 20
+./scripts/runclients.sh -w 80 -c 100
 
 ##################################################################################
 #						     ENF OF COMANDOS SCRIPTS 							 #
@@ -37,6 +37,12 @@ gcloud compute scp --recurse ./scripts/ bench-joel:
 
 # Ver tamanho da BD
 SELECT pg_size_pretty( pg_database_size('tpcc') );
+
+# Iniciar postgres
+/usr/lib/postgresql/12/bin/postgres -D /mnt/disks/postgresql/data -k.
+
+# Parar postgres
+/usr/lib/postgresql/12/bin/pg_ctl -D /mnt/disks/postgresql/data stop
 
 # Backup da base de dados
 pg_dump -h server-joel -Fc tpcc > tpcc.dump
