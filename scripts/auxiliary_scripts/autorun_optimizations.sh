@@ -15,7 +15,10 @@ echo ">>>>>>>>>>>>> Restoring started."
 gcloud compute ssh --zone us-central1-a $1 --command '/usr/lib/postgresql/12/bin/pg_ctl stop -D /mnt/disks/postgresql/data'
 
 # Edit the postgresql.conf with the optimization
-gcloud compute ssh --zone us-central1-a $1 --command "sed -i.bak "s/^$6.*/$7/g" /mnt/disks/postgresql/data/postgresql.conf"
+gcloud compute ssh --zone us-central1-a $1 --command "sed -i.bak 's/^$6.*/$7/g' /mnt/disks/postgresql/data/postgresql.conf"
+
+# Save a log with the edited file
+gcloud compute ssh --zone us-central1-a $1 --command "mkdir -p ~/logs && cp /mnt/disks/postgresql/data/postgresql.conf ~/logs/$9.conf"
 
 # Start the postgresql server
 gcloud compute ssh --zone us-central1-a $1 --command '/usr/lib/postgresql/12/bin/postgres -D /mnt/disks/postgresql/data -k. </dev/null &>/dev/null &'

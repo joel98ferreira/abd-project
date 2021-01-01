@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ######################################################
-  #                   ARCHIVE MODE                   #
+#                   ARCHIVE MODE                     #
 ######################################################
 
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh server-archiving Joel 80 dump.file 100 "#archive_mode =" "archive_mode = off" ~/results/settings/archive_mode archive_mode_off
