@@ -46,15 +46,15 @@ nrClients=$5
 #            CHECKPOINT COMPLETION TARGET            #
 ######################################################
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.0" ~/results/checkpoint/checkpoint_completion_target checpoint_completion_target_00
+~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.0" ~/results/checkpoint/checkpoint_completion_target checkpoint_completion_target_00
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.2" ~/results/checkpoint/checkpoint_completion_target checpoint_completion_target_02
+~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.2" ~/results/checkpoint/checkpoint_completion_target checkpoint_completion_target_02
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.5" ~/results/checkpoint/checkpoint_completion_target checpoint_completion_target_05
+~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.5" ~/results/checkpoint/checkpoint_completion_target checkpoint_completion_target_05
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.8" ~/results/checkpoint/checkpoint_completion_target checpoint_completion_target_08
+~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 0.8" ~/results/checkpoint/checkpoint_completion_target checkpoint_completion_target_08
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 1.0" ~/results/checkpoint/checkpoint_completion_target checpoint_completion_target_10
+~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_completion_target =" "checkpoint_completion_target = 1.0" ~/results/checkpoint/checkpoint_completion_target checkpoint_completion_target_10
 
 ######################################################
 #                    CHECKPOINT WARNING              #
