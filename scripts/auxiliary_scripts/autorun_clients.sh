@@ -9,11 +9,11 @@ sleep 30s
 
 # Execute the restore script
 echo ">>>>>>>>>>>>> Restoring started."
-~/scripts/restoredb.sh -s $1 -w $4 -b $4
+~/scripts/restoredb.sh -s $1 -w $3 -b $4
 
 # Run the transaction script
 echo ">>>>>>>>>>>>> Run transactional script."
-~/scripts/runclients.sh -s $1 -u $2 -w $4 -c $5
+~/scripts/runclients.sh -s $1 -u $2 -w $3 -c $5
 
 echo ">>>>>>>>>>>>> Changing file name."
 mkdir -p $6
