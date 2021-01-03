@@ -33,6 +33,6 @@ nrClients=$5
 
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#archive_timeout =" "archive_timeout = 60" archiving/archive_timeout archive_timeout_60
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#archive_timeout =" "archive_timeout = $nrClients" archiving/archive_timeout archive_timeout_$nrClients
+~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#archive_timeout =" "archive_timeout = 100" archiving/archive_timeout archive_timeout_100
 
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh $dbServerName $dbUser $nrWarehouses $backupFile $nrClients "#archive_timeout =" "archive_timeout = 120" archiving/archive_timeout archive_timeout_120
