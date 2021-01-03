@@ -29,10 +29,10 @@ echo ">>>>>>>>>>>>> Run transactional script."
 
 # Create dat results directory and change file name
 echo ">>>>>>>>>>>>> Changing file name."
-mkdir -p "~/dat_results/$8"
-mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat "~/dat_results/$8/$9.dat"
+mkdir -p ~/dat_results/$8
+mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat ~/dat_results/$8/$9.dat
 
 # Run script
 echo ">>>>>>>>>>>>> Running showtpc.py"
-mkdir -p "~/results/$8"
-~/results/showtpc.py -bc "~/dat_results/$8/$9.dat" >> "~/results/$8/$9.txt"
+mkdir -p ~/results/$8
+~/results/showtpc.py -bc ~/dat_results/$8/$9.dat >> ~/results/$8/$9.txt
