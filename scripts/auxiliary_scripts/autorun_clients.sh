@@ -17,4 +17,4 @@ echo ">>>>>>>>>>>>> Run transactional script."
 
 echo ">>>>>>>>>>>>> Changing file name."
 mkdir -p $6
-mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat $7.dat && mv ~/tpc-c-0.1-SNAPSHOT/$7.dat $6
+mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat "$6/$7.dat"
