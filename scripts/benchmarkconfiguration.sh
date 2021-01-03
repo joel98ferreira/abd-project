@@ -32,16 +32,16 @@ then
 fi
 
 # Update packages
-sudo apt-get update
+yes | sudo apt-get update
 
 # Install Java
-sudo apt-get install openjdk-8-jdk
+yes | sudo apt-get install openjdk-8-jdk
 
 # Install pip
-sudo apt install python3-pip
+yes | sudo apt install python3-pip
 
 # Install scipy
-pip3 install scipy
+yes | pip3 install scipy
 
 # Move file showtpc.py to the directory results
 mkdir -p ~/results
@@ -64,7 +64,7 @@ sed -i.bak "s/^db.username=.*/db.username=${dbUser}/g" etc/database-config.prope
 sed -i.bak "s/^db.password=.*/db.password=/g" etc/database-config.properties
 
 # Install postgresql client
-sudo apt-get install postgresql-client-12
+yes | sudo apt-get install postgresql-client-12
 
 # Run the script to create a new db
 sh ~/scripts/auxiliary_scripts/createdb.sh $dbServerName $nrWarehouses

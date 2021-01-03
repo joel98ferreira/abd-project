@@ -40,10 +40,10 @@ fi
 if [ -n "$INITIAL_CONFIGURATION" ]
 then
    # Update packages
-   sudo apt-get update
+   yes | sudo apt-get update
 
    # Install postgres 12
-   sudo apt-get install postgresql-12
+   yes | sudo apt-get install postgresql-12
 
    # Stop postgres    
    sudo systemctl stop postgresql
@@ -77,4 +77,4 @@ sed -i.bak "s/^#listen_addresses =.*/listen_addresses ='localhost,$listenAddress
 echo -e "host    all             all             $localNetwork/24           trust" >> data/pg_hba.conf
 
 # Initialize the server 
-/usr/lib/postgresql/12/bin/postgres -D data -k.
+/usr/lib/postgresql/12/bin/postgres -D data -k. </dev/null &>/dev/null &
