@@ -5,11 +5,7 @@ dbUser=$2
 nrWarehouses=$3
 backupFile=$4
 
->>>>>>>>>>>>> Changing file name.
-mv: cannot stat '/home/Joel/tpc-c-0.1-SNAPSHOT/warehouses_10clients.dat': No such file or directory
-./scripts/autotest_clients.sh: line 10: nrWarehouses: command not found
-
-~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 10 ~/results/clients ""$nrWarehouseswarehouses_10clients"
+~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 10 ~/results/clients "$nrWarehouseswarehouses_10clients"
 
 ~/scripts/auxiliary_scripts/autorun_clients.sh $dbServerName $dbUser $nrWarehouses $backupFile 20 ~/results/clients "$nrWarehouseswarehouses_20clients"
 
