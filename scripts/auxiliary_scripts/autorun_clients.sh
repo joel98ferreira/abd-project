@@ -15,6 +15,12 @@ echo ">>>>>>>>>>>>> Restoring started."
 echo ">>>>>>>>>>>>> Run transactional script."
 ~/scripts/runclients.sh -s $1 -u $2 -w $3 -c $5
 
+# Create dat results directory and change file name
 echo ">>>>>>>>>>>>> Changing file name."
-mkdir -p $6
-mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat "$6/$7.dat"
+mkdir -p "~/dat_results/$6"
+mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat "~/dat_results/$6/$7.dat"
+
+# Run script
+echo ">>>>>>>>>>>>> Running showtpc.py"
+mkdir -p "~/results/$6"
+~/results/showtpc.py -bc "~/dat_results/$6/$7.dat" >> "~/results/$6/$7.txt"

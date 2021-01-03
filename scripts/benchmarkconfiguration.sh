@@ -37,6 +37,16 @@ sudo apt-get update
 # Install Java
 sudo apt-get install openjdk-8-jdk
 
+# Install pip
+sudo apt install python3-pip
+
+# Install scipy
+pip3 install scipy
+
+# Move file showtpc.py to the directory results
+mkdir -p ~/results
+cp ~/scripts/files/showtpc.py ~/results
+
 # Untar files
 tar xvf ~/scripts/files/tpc-c-0.1-SNAPSHOT-tpc-c.tar.gz -C ~/
 tar xvf ~/scripts/files/extra.tgz -C ~/

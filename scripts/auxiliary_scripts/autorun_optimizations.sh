@@ -27,7 +27,12 @@ gcloud compute ssh --zone us-central1-a $1 --command '/usr/lib/postgresql/12/bin
 echo ">>>>>>>>>>>>> Run transactional script."
 ~/scripts/runclients.sh -s $1 -u $2 -w $3 -c $5
 
-# Create results directory and change file name
+# Create dat results directory and change file name
 echo ">>>>>>>>>>>>> Changing file name."
-mkdir -p $8
-mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat "$8/$9.dat"
+mkdir -p "~/dat_results/$8"
+mv ~/tpc-c-0.1-SNAPSHOT/TPCC*.dat "~/dat_results/$8/$9.dat"
+
+# Run script
+echo ">>>>>>>>>>>>> Running showtpc.py"
+mkdir -p "~/results/$8"
+~/results/showtpc.py -bc "~/dat_results/$8/$9.dat" >> "~/results/$8/$9.txt"
