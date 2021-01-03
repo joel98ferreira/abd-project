@@ -9,16 +9,16 @@ gcloud compute scp --recurse ./scripts/ bench-joel:
 ----------------------------- Testes Automáticos (Bench Server Side)
 
 # Teste automático para os clientes (80 warehouses), dump.file precisa de ser o path completo 
-./scripts/autotest_clients.sh server-joel Joel 80 dump.file
+./scripts/autotest_clients.sh Joel 80 dump.file
 
 # Teste automático para as settings (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
-./scripts/autotest_settings.sh server-joel Joel 80 dump.file 100
+./scripts/autotest_settings.sh Joel 80 dump.file 100
 
 # Teste automático para o archiving (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
-./scripts/autotest_archiving.sh server-joel Joel 80 dump.file 100
+./scripts/autotest_archiving.sh Joel 80 dump.file 100
 
 # Teste automático para o checkpoint (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
-./scripts/autotest_checkpoint.sh server-joel Joel 80 dump.file 100
+./scripts/autotest_checkpoint.sh Joel 80 dump.file 100
 
 ----------------------------- Database Server Side Scripts
 
