@@ -71,10 +71,10 @@ fi
 /usr/lib/postgresql/12/bin/initdb -D data
 
 # Define the listening address
-sed -i.bak "s/^#listen_addresses =.*/listen_addresses ='localhost,$listenAddress'/g" data/postgresql.conf
+sed -i.bak "s/^#listen_addresses =.*/listen_addresses = 'localhost,$listenAddress'/g" data/postgresql.conf
 
 # Define the listening address
-echo -e "host    all             all             $localNetwork/20           trust" >> data/pg_hba.conf
+echo -e "host    all             all             $localNetwork/10           trust" >> data/pg_hba.conf
 
 # Initialize the server 
 /usr/lib/postgresql/12/bin/postgres -D data -k. </dev/null &>/dev/null &

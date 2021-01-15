@@ -33,7 +33,7 @@ gcloud compute ssh --zone us-central1-a $1 --command '/usr/lib/postgresql/12/bin
 gcloud compute ssh --zone us-central1-a $1 --command "mv ~/scripts/postgresqlconf_files/$6 /mnt/disks/postgresql/data/postgresql.conf"
 
 # Edit the postgresql.conf to change the listen address        
-gcloud compute ssh --zone us-central1-a $1 --command "sed -i.bak 's/^listen_addresses =.*/listen_addresses ='localhost,$1'/g' /mnt/disks/postgresql/data/postgresql.conf"
+gcloud compute ssh --zone us-central1-a $1 --command "sed -i.bak \"s|^listen_addresses =.*|listen_addresses = 'localhost,$1'|\" /mnt/disks/postgresql/data/postgresql.conf"
 
 # Save a log with the edited file
 gcloud compute ssh --zone us-central1-a $1 --command "mkdir -p ~/logs && cp /mnt/disks/postgresql/data/postgresql.conf ~/logs/$8.conf"
