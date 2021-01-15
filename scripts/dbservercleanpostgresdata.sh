@@ -61,7 +61,7 @@ sudo rm -rf data
 sed -i.bak "s/^#listen_addresses =.*/listen_addresses ='localhost,$listenAddress'/g" data/postgresql.conf
 
 # Define the listening address
-echo -e "host    all             all             $localNetwork/24           trust" >> data/pg_hba.conf
+echo -e "host    all             all             $localNetwork/20           trust" >> data/pg_hba.conf
 
 # Initialize the server 
 /usr/lib/postgresql/12/bin/postgres -D data -k. </dev/null &>/dev/null &

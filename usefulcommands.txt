@@ -23,6 +23,9 @@ gcloud compute scp --recurse ./scripts/ bench-joel:
 # Teste automatico para o isolation (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
 ./scripts/autotest_isolation.sh Joel 80 dump.file 100
 
+# Teste automatico para as combinações (80 warehouses, 100 cli), dump.file precisa de ser o path completo 
+./scripts/autotest_combinations.sh Joel 80 dump.file 100
+
 ----------------------------- Database Server Side Scripts
 
 # Opção -i é para configurar de início (clean install), -d é para usar discos locais da Google

@@ -15,9 +15,9 @@ nrClients=$4
 
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint-3 $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_timeout =" "checkpoint_timeout = 5min" checkpoint/checkpoint_timeout checkpoint_timeout_5min
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint-4 $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_timeout =" "checkpoint_timeout = 5min" checkpoint/checkpoint_timeout checkpoint_timeout_5min
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint-4 $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_timeout =" "checkpoint_timeout = 10min" checkpoint/checkpoint_timeout checkpoint_timeout_10min
 
-~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint-5 $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_timeout =" "checkpoint_timeout = 5min" checkpoint/checkpoint_timeout checkpoint_timeout_5min
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-checkpoint-5 $dbUser $nrWarehouses $backupFile $nrClients "#checkpoint_timeout =" "checkpoint_timeout = 15min" checkpoint/checkpoint_timeout checkpoint_timeout_15min
 
 ######################################################
 #                     MAX WAL SIZE                   #
