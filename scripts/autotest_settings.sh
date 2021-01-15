@@ -78,3 +78,41 @@ nrClients=$4
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-22 $dbUser $nrWarehouses $backupFile $nrClients "#commit_siblings =" "commit_siblings = 8" settings/commit_siblings commit_siblings_8
 
 ~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-23 $dbUser $nrWarehouses $backupFile $nrClients "#commit_siblings =" "commit_siblings = 16" settings/commit_siblings commit_siblings_16
+
+######################################################
+#                        WAL LEVEL                   #
+######################################################
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-24 $dbUser $nrWarehouses $backupFile $nrClients "#wal_level =" "wal_level = minimal" settings/wal_level wal_level_minimal
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-25 $dbUser $nrWarehouses $backupFile $nrClients "#wal_level =" "wal_level = logical" settings/wal_level wal_level_logical
+
+######################################################
+#                    WAL WRITER DELAY                #
+######################################################
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-26 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_delay =" "wal_writer_delay = 100ms" settings/wal_writer_delay wal_writer_delay_100
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-27 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_delay =" "wal_writer_delay = 500ms" settings/wal_writer_delay wal_writer_delay_500
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-28 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_delay =" "wal_writer_delay = 1000ms" settings/wal_writer_delay wal_writer_delay_1000
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-29 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_delay =" "wal_writer_delay = 2000ms" settings/wal_writer_delay wal_writer_delay_2000
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-30 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_delay =" "wal_writer_delay = 5000ms" settings/wal_writer_delay wal_writer_delay_5000
+
+######################################################
+#                 WAL WRITER FLUSH AFTER             #
+######################################################
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-31 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_flush_after =" "wal_writer_flush_after = 2MB" settings/wal_writer_flush_after wal_writer_flush_after_2MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-32 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_flush_after =" "wal_writer_flush_after = 4MB" settings/wal_writer_flush_after wal_writer_flush_after_4MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-33 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_flush_after =" "wal_writer_flush_after = 8MB" settings/wal_writer_flush_after wal_writer_flush_after_8MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-34 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_flush_after =" "wal_writer_flush_after = 16MB" settings/wal_writer_flush_after wal_writer_flush_after_16MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-35 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_flush_after =" "wal_writer_flush_after = 32MB" settings/wal_writer_flush_after wal_writer_flush_after_32MB
+
+~/scripts/auxiliary_scripts/autorun_optimizations.sh server-settings-36 $dbUser $nrWarehouses $backupFile $nrClients "#wal_writer_flush_after =" "wal_writer_flush_after = 64MB" settings/wal_writer_flush_after wal_writer_flush_after_64MB
